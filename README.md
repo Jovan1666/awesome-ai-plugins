@@ -6,7 +6,7 @@
 
 <h1 align="center">Awesome AI Plugins</h1>
 
-<p align="center">A curated list of awesome extensions, plugins, skills, and MCP servers for AI assistants.</p>
+<p align="center">A curated list of awesome extensions, plugins, and skills, and MCP servers for AI assistants.</p>
 
 <p align="center">
   <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
