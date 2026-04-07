@@ -4,7 +4,7 @@
   <br>
 </p>
 
-<h1 align="center">Awesome AI Assistant Extensions</h1>
+<h1 align="center">Awesome AI Plugins</h1>
 
 <p align="center">A curated list of awesome extensions, plugins, skills, and MCP servers for AI assistants.</p>
 
