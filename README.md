@@ -6,16 +6,16 @@
 
 <h1 align="center">Awesome AI Plugins</h1>
 
-<p align="center">A curated list of awesome extensions, plugins, and skills, and MCP servers for AI assistants.</p>
+<p align="center">A curated list of awesome plugins for AI assistants.</p>
 
 <p align="center">
   <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
   <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a>
-  <a href="https://hol.org/registry/extensions"><img src="https://img.shields.io/badge/Browse-Registry-green" alt="Browse Registry"></a>
+  <a href="https://hol.org/registry/plugins"><img src="https://img.shields.io/badge/Browse-Registry-green" alt="Browse Registry"></a>
 </p>
 
 <p align="center">
-  This list covers extensions for <strong>OpenAI Codex</strong>, <strong>Claude Code</strong>, <strong>Google Gemini CLI</strong>, and cross-platform <strong>MCP servers</strong> that work across multiple AI assistants.
+  This list covers plugins for <strong>OpenAI Codex</strong>, <strong>Claude Code</strong>, <strong>OpenCode</strong>, <strong>Google Gemini CLI</strong>, and cross-platform <strong>MCP servers</strong> that work across multiple AI assistants.
 </p>
 
 <br>
@@ -24,29 +24,30 @@
 
 - [Start Here](#start-here)
 - [OpenAI Codex Plugins](#openai-codex-plugins)
-- [Claude Code Extensions](#claude-code-extensions)
-- [Google Gemini CLI Extensions](#google-gemini-cli-extensions)
+- [Claude Code Plugins](#claude-code-plugins)
+- [OpenCode Plugins](#opencode-plugins)
+- [Google Gemini CLI Plugins](#google-gemini-cli-plugins)
 - [MCP Servers (Cross-Platform)](#mcp-servers-cross-platform)
-- [Cross-AI Tools](#cross-ai-tools)
-- [Development Resources](#development-resources)
 - [Related Projects](#related-projects)
+- [Contributing](#contributing)
 
 ---
 
 ## Start Here
 
-This list covers the emerging ecosystem of AI assistant extensions. Each platform has its own extension format:
+This list covers the ecosystem of AI assistant plugins. Each platform has its own format:
 
 | Platform | Format | Repository |
 |----------|--------|------------|
 | OpenAI Codex | `.codex-plugin/plugin.json` + skills | [awesome-codex-plugins](https://github.com/hashgraph-online/awesome-codex-plugins) |
 | Claude Code | Skills (`SKILL.md` + tools) | [anthropics/skills](https://github.com/anthropics/skills) |
+| OpenCode | Plugins (`.opencode/`) | [awesome-opencode-plugins](https://github.com/awesome-opencode/awesome-opencode-plugins) |
 | Gemini CLI | Extensions (`.gemini/`) | [Piebald-AI/awesome-gemini-cli-extensions](https://github.com/Piebald-AI/awesome-gemini-cli-extensions) |
-| Cross-AI | MCP servers (`mcp.json`) | [punkye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) |
+| Cross-AI | MCP servers (`mcp.json`) | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) |
 
 ### Quick Validation
 
-Before publishing extensions, validate them:
+Before publishing plugins, validate them:
 
 ```bash
 # Codex plugins
@@ -103,7 +104,7 @@ Third-party plugins built by the community.
 
 ---
 
-## Claude Code Extensions
+## Claude Code Plugins
 
 Claude Code extends Anthropic's CLI with custom skills and tools. The official skill repository: [anthropics/skills](https://github.com/anthropics/skills)
 
@@ -125,15 +126,29 @@ Claude Code extends Anthropic's CLI with custom skills and tools. The official s
 
 ---
 
-## Google Gemini CLI Extensions
+## OpenCode Plugins
 
-Extensions for Google's Gemini CLI. See: [Piebald-AI/awesome-gemini-cli-extensions](https://github.com/Piebald-AI/awesome-gemini-cli-extensions)
+Plugins for OpenAI's OpenCode. See: [awesome-opencode-plugins](https://github.com/awesome-opencode/awesome-opencode-plugins)
 
-### Official Extensions
+### Official
 
-- [Gemini CLI Extensions](https://github.com/google/gemini-cli) - Official Gemini CLI and extension system.
+- [OpenCode](https://opencode.com) - OpenAI's AI coding CLI.
 
-### Community Extensions
+### Community Plugins
+
+_Contributions welcome - submit via PR_
+
+---
+
+## Google Gemini CLI Plugins
+
+Plugins for Google's Gemini CLI. See: [Piebald-AI/awesome-gemini-cli-extensions](https://github.com/Piebald-AI/awesome-gemini-cli-extensions)
+
+### Official
+
+- [Gemini CLI](https://github.com/google/gemini-cli) - Official Gemini CLI and extension system.
+
+### Community Plugins
 
 _Contributions welcome - submit via PR_
 
@@ -169,52 +184,6 @@ Model Context Protocol (MCP) servers work across multiple AI assistants that sup
 
 ---
 
-## Cross-AI Tools
-
-Tools and frameworks that work across multiple AI assistants.
-
-### Agent Frameworks
-
-- [OpenAgents](https://github.com/a16z-infra/openagents) - Open-source platform for building AI agents.
-- [AgentKit](https://github.com/agentkit/agentkit) - Multi-platform AI agent development kit.
-- [SuperAgent](https://github.com/superagent-ai/superagent) - Build and deploy AI agents.
-
-### Evaluation & Monitoring
-
-- [AgentOps](https://agentops.ai) - DevOps layer for AI agents with session tracking and analytics.
-- [Langfuse](https://langfuse.com) - Open-source LLM observability and analytics platform.
-- [Helicone](https://helicone.ai) - Open-source AI observability platform.
-- [Guardrails](https://github.com/guardrails-ai/guardrails) - Validate and correct LLM output.
-
-### Knowledge & Context
-
-- [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI agents.
-- [Letta](https://letta.com) - Stateful AI agents with memory management.
-- [Context7](https://context7.com) - Context-aware AI assistant platform.
-
----
-
-## Development Resources
-
-### Codex Plugin Development
-
-- [Official Docs: Agent Skills](https://developers.openai.com/codex/skills)
-- [Official Docs: Build Plugins](https://developers.openai.com/codex/plugins/build)
-- [codex-plugin-scanner](https://github.com/hashgraph-online/codex-plugin-scanner) - Quality gate for Codex plugins
-
-### Claude Code Development
-
-- [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code/overview)
-- [Skill Authoring Guide](https://docs.anthropic.com/en/docs/claude-code/writing-skills)
-
-### MCP Development
-
-- [MCP Specification](https://spec.modelcontextprotocol.io)
-- [MCP SDK](https://github.com/modelcontextprotocol/python-sdk)
-- [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk)
-
----
-
 ## Related Projects
 
 - [awesome-codex-plugins](https://github.com/hashgraph-online/awesome-codex-plugins) - Codex-specific plugin list
@@ -223,13 +192,13 @@ Tools and frameworks that work across multiple AI assistants.
 - [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) - AI agent frameworks and tools (27k stars)
 - [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - LLM app examples (104k stars)
 - [codex-plugin-scanner](https://github.com/hashgraph-online/codex-plugin-scanner) - Codex plugin quality gate
-- [HOL Registry](https://hol.org/registry) - Discover and install extensions
+- [HOL Registry](https://hol.org/registry) - Discover and install plugins
 
 ---
 
 ## Contributing
 
-PRs welcome! Please follow the contribution guidelines and ensure extensions are validated before submitting.
+PRs welcome! Please follow the contribution guidelines and ensure plugins are validated before submitting.
 
 ```bash
 # Validate Codex plugins
