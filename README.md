@@ -184,10 +184,10 @@ _Contributions welcome - submit via PR_
 - [Flutter](https://github.com/gemini-cli-extensions/flutter) - Help create, build, test, and run Flutter apps.
 - [gcloud](https://github.com/gemini-cli-extensions/gcloud) - Google Cloud CLI integration.
 - [gemini-beads](https://github.com/thoreinstein/gemini-beads) - Git-backed persistent memory and task management.
-- [GitLab](https://github.com/GitLab-Ecosystem/GitLab-CLI-Extensions) - Exposes custom `/gitlab:*` commands for issues, MRs, pipelines.
+- [GitLab](https://github.com/GitLab-Ecosystem/Gemini-CLI-Extensions) - Exposes custom `/gitlab:*` commands for issues, MRs, pipelines.
 - [Google Fonts](https://github.com/rodydavis/google-fonts-gemini-cli-extension) - Google Fonts + Material Icons.
 - [Jules](https://github.com/gemini-cli-extensions/jules) - Orchestrate the Jules asynchronous agent for bug fixing and refactoring.
-- [Maestro](https://github.com/josstei/maestro-gemini) - Turn Gemini CLI into a multi-agent platform with 12 specialized subagents.
+- [Maestro](https://github.com/josstei/maestro-orchestrate) - Turn Gemini CLI into a multi-agent platform with 12 specialized subagents.
 - [MCP Toolbox](https://github.com/gemini-cli-extensions/mcp-toolbox) - Develop and query custom tools using natural language.
 - [MySQL](https://github.com/gemini-cli-extensions/mysql) - Tools to interact with MySQL instances.
 - [Nanobanana](https://github.com/gemini-cli-extensions/nanobanana) - Generate and manipulate images using Gemini 2.5 Flash Image model.
