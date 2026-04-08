@@ -527,9 +527,9 @@
     },
     {
       "name": "GitLab",
-      "url": "https://github.com/GitLab-Ecosystem/GitLab-CLI-Extensions",
+      "url": "https://github.com/GitLab-Ecosystem/Gemini-CLI-Extensions",
       "owner": "GitLab-Ecosystem",
-      "repo": "GitLab-CLI-Extensions",
+      "repo": "Gemini-CLI-Extensions",
       "description": "Exposes custom `/gitlab:*` commands for issues, MRs, pipelines",
       "platform": "gemini-cli",
       "source": "awesome-ai-plugins"
@@ -554,9 +554,9 @@
     },
     {
       "name": "Maestro",
-      "url": "https://github.com/josstei/maestro-gemini",
+      "url": "https://github.com/josstei/maestro-orchestrate",
       "owner": "josstei",
-      "repo": "maestro-gemini",
+      "repo": "maestro-orchestrate",
       "description": "Turn Gemini CLI into a multi-agent platform with 12 specialized subagents",
       "platform": "gemini-cli",
       "source": "awesome-ai-plugins"
