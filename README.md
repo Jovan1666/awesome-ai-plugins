@@ -213,6 +213,7 @@ Model Context Protocol (MCP) servers work across multiple AI assistants that sup
 - [Codex MCP](https://github.com/openai/mcp-codex) - Official MCP server for Codex.
 - [Filesystem](https://github.com/modelcontextprotocol/server-filesystem) - Read and write to local filesystem.
 - [GitHub](https://github.com/modelcontextprotocol/server-github) - Manage GitHub repos, issues, PRs.
+- [Sverklo](https://github.com/sverklo/sverklo) - Local-first code intelligence with hybrid BM25+vector search, symbol-level impact analysis, diff-aware review, and git-tied memory.
 
 #### Data & APIs
 
