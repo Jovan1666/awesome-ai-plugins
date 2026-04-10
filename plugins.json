@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-04-10",
-  "total": 75,
+  "total": 78,
   "platforms": [
     "codex",
     "claude-code",
@@ -246,6 +246,15 @@
       "source": "awesome-ai-plugins"
     },
     {
+      "name": "Paper Pilot",
+      "url": "https://github.com/aytzey/paper-pilot",
+      "owner": "aytzey",
+      "repo": "paper-pilot",
+      "description": "Academic research copilot that searches 6 databases, downloads real PDFs, extracts evidence, renders figures, and syncs to Zotero",
+      "platform": "codex",
+      "source": "awesome-ai-plugins"
+    },
+    {
       "name": "Project Autopilot",
       "url": "https://github.com/AlexMi64/codex-project-autopilot",
       "owner": "AlexMi64",
@@ -345,6 +354,15 @@
       "source": "awesome-ai-plugins"
     },
     {
+      "name": "Zotero Fulltext",
+      "url": "https://github.com/statzhero/zotero-fulltext",
+      "owner": "statzhero",
+      "repo": "zotero-fulltext",
+      "description": "Search and read your Zotero library with citekey lookup and fulltext access",
+      "platform": "codex",
+      "source": "awesome-ai-plugins"
+    },
+    {
       "name": "code-review",
       "url": "https://github.com/anthropics/claude-code/tree/main/plugins/code-review",
       "owner": "anthropics",
@@ -372,10 +390,19 @@
       "source": "awesome-ai-plugins"
     },
     {
+      "name": "Zotero Fulltext",
+      "url": "https://github.com/statzhero/zotero-fulltext",
+      "owner": "statzhero",
+      "repo": "zotero-fulltext",
+      "description": "Search and read your Zotero library with citekey lookup and fulltext access",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins"
+    },
+    {
       "name": "OpenCode",
       "url": "https://opencode.com",
-      "owner": "anthropics",
-      "repo": "claude-code",
+      "owner": "statzhero",
+      "repo": "zotero-fulltext",
       "description": "OpenAI's AI coding CLI",
       "platform": "opencode",
       "source": "awesome-ai-plugins"
