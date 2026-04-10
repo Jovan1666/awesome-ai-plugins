@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-04-10",
-  "total": 77,
+  "total": 75,
   "platforms": [
     "codex",
     "claude-code",
@@ -345,55 +345,37 @@
       "source": "awesome-ai-plugins"
     },
     {
-      "name": "Agent Skills",
-      "url": "https://github.com/anthropics/skills",
+      "name": "code-review",
+      "url": "https://github.com/anthropics/claude-code/tree/main/plugins/code-review",
       "owner": "anthropics",
-      "repo": "skills",
-      "description": "Public repository for Claude Code agent skills",
+      "repo": "claude-code",
+      "description": "Automated PR code review using multiple specialized agents with confidence-based scoring to filter false positives",
       "platform": "claude-code",
       "source": "awesome-ai-plugins"
     },
     {
-      "name": "Claude Code Harness",
-      "url": "https://github.com/dadwadw233/claude-code-harness",
-      "owner": "dadwadw233",
-      "repo": "claude-code-harness",
-      "description": "Blueprint skill for turning vague agent ideas into concrete designs",
+      "name": "commit-commands",
+      "url": "https://github.com/anthropics/claude-code/tree/main/plugins/commit-commands",
+      "owner": "anthropics",
+      "repo": "claude-code",
+      "description": "Git workflow automation for committing, pushing, and creating pull requests",
       "platform": "claude-code",
       "source": "awesome-ai-plugins"
     },
     {
-      "name": "Claude Code Skills",
-      "url": "https://github.com/alirezarezvani/claude-skills",
-      "owner": "alirezarezvani",
-      "repo": "claude-skills",
-      "description": "223 production-ready skills, 23 agents, and 298 Python tools",
-      "platform": "claude-code",
-      "source": "awesome-ai-plugins"
-    },
-    {
-      "name": "Claude Octopus",
-      "url": "https://github.com/nyldn/claude-octopus",
-      "owner": "nyldn",
-      "repo": "claude-octopus",
-      "description": "Multi-LLM orchestration dispatching to Codex, Gemini, Copilot, Qwen, Perplexity, OpenRouter, Ollama, OpenCode",
-      "platform": "claude-code",
-      "source": "awesome-ai-plugins"
-    },
-    {
-      "name": "Oh My Claude",
-      "url": "https://github.com/2lab-ai/oh-my-claude",
-      "owner": "2lab-ai",
-      "repo": "oh-my-claude",
-      "description": "Claude Code plugin for AI-powered iterative development loops",
+      "name": "feature-dev",
+      "url": "https://github.com/anthropics/claude-code/tree/main/plugins/feature-dev",
+      "owner": "anthropics",
+      "repo": "claude-code",
+      "description": "Comprehensive feature development workflow with a structured 7-phase approach",
       "platform": "claude-code",
       "source": "awesome-ai-plugins"
     },
     {
       "name": "OpenCode",
       "url": "https://opencode.com",
-      "owner": "2lab-ai",
-      "repo": "oh-my-claude",
+      "owner": "anthropics",
+      "repo": "claude-code",
       "description": "OpenAI's AI coding CLI",
       "platform": "opencode",
       "source": "awesome-ai-plugins"
