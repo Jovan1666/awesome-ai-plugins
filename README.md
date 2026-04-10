@@ -125,18 +125,11 @@ Third-party plugins built by the community.
 
 ## Claude Code Plugins
 
-Claude Code extends Anthropic's CLI with custom skills and tools. The official skill repository: [anthropics/skills](https://github.com/anthropics/skills)
+Claude Code extends Anthropic's CLI with custom plugins. Official plugins: [anthropics/claude-code](https://github.com/anthropics/claude-code)
 
-### Official Skills
-
-- [Agent Skills](https://github.com/anthropics/skills) - Public repository for Claude Code agent skills.
-
-### Community Skills
-
-- [Claude Code Harness](https://github.com/dadwadw233/claude-code-harness) - Blueprint skill for turning vague agent ideas into concrete designs.
-- [Claude Code Skills](https://github.com/alirezarezvani/claude-skills) - 223 production-ready skills, 23 agents, and 298 Python tools.
-- [Claude Octopus](https://github.com/nyldn/claude-octopus) - Multi-LLM orchestration dispatching to Codex, Gemini, Copilot, Qwen, Perplexity, OpenRouter, Ollama, OpenCode.
-- [Oh My Claude](https://github.com/2lab-ai/oh-my-claude) - Claude Code plugin for AI-powered iterative development loops.
+- [code-review](https://github.com/anthropics/claude-code/tree/main/plugins/code-review) - Automated PR code review using multiple specialized agents with confidence-based scoring to filter false positives.
+- [commit-commands](https://github.com/anthropics/claude-code/tree/main/plugins/commit-commands) - Git workflow automation for committing, pushing, and creating pull requests.
+- [feature-dev](https://github.com/anthropics/claude-code/tree/main/plugins/feature-dev) - Comprehensive feature development workflow with a structured 7-phase approach.
 
 ---
 
