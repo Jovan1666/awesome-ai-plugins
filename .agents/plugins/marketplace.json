@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-04-09T11:36:48.057498+00:00",
+  "last_updated": "2026-04-10T04:24:30.841863+00:00",
   "plugins": [
     {
       "name": "Agent Message Queue",
@@ -634,156 +634,12 @@
       "source": "awesome-ai-plugins"
     },
     {
-      "name": "Brave Search",
-      "url": "https://github.com/modelcontextprotocol/server-brave-search",
-      "owner": "modelcontextprotocol",
-      "repo": "server-brave-search",
-      "description": "Web search via Brave API",
-      "platform": "mcp",
-      "source": "awesome-ai-plugins"
-    },
-    {
-      "name": "Claude Code MCP",
-      "url": "https://github.com/anthropics/mcp-claude-code",
-      "owner": "anthropics",
-      "repo": "mcp-claude-code",
-      "description": "Official MCP server for Claude Code",
-      "platform": "mcp",
-      "source": "awesome-ai-plugins"
-    },
-    {
-      "name": "Codex MCP",
-      "url": "https://github.com/openai/mcp-codex",
-      "owner": "openai",
-      "repo": "mcp-codex",
-      "description": "Official MCP server for Codex",
-      "platform": "mcp",
-      "source": "awesome-ai-plugins"
-    },
-    {
-      "name": "Filesystem",
-      "url": "https://github.com/modelcontextprotocol/server-filesystem",
-      "owner": "modelcontextprotocol",
-      "repo": "server-filesystem",
-      "description": "Read and write to local filesystem",
-      "platform": "mcp",
-      "source": "awesome-ai-plugins"
-    },
-    {
-      "name": "GitHub",
-      "url": "https://github.com/modelcontextprotocol/server-github",
-      "owner": "modelcontextprotocol",
-      "repo": "server-github",
-      "description": "Manage GitHub repos, issues, PRs",
-      "platform": "mcp",
-      "source": "awesome-ai-plugins"
-    },
-    {
-      "name": "Sverklo",
-      "url": "https://github.com/sverklo/sverklo",
-      "owner": "sverklo",
-      "repo": "sverklo",
-      "description": "Local-first code intelligence with hybrid BM25+vector search, symbol-level impact analysis, diff-aware review, and git-tied memory",
-      "platform": "mcp",
-      "source": "awesome-ai-plugins"
-    },
-    {
-      "name": "EnvCP",
-      "url": "https://github.com/fentz26/EnvCP",
-      "owner": "fentz26",
-      "repo": "EnvCP",
-      "description": "Encrypted environment variable vault with AI access policies, keeping secrets safe from AI agents",
-      "platform": "mcp",
-      "source": "awesome-ai-plugins"
-    },
-    {
-      "name": "Google Maps",
-      "url": "https://github.com/modelcontextprotocol/server-google-maps",
-      "owner": "modelcontextprotocol",
-      "repo": "server-google-maps",
-      "description": "Location and mapping services",
-      "platform": "mcp",
-      "source": "awesome-ai-plugins"
-    },
-    {
-      "name": "PostgreSQL",
-      "url": "https://github.com/modelcontextprotocol/server-postgres",
-      "owner": "modelcontextprotocol",
-      "repo": "server-postgres",
-      "description": "Database queries and operations",
-      "platform": "mcp",
-      "source": "awesome-ai-plugins"
-    },
-    {
-      "name": "Puppeteer",
-      "url": "https://github.com/modelcontextprotocol/server-puppeteer",
-      "owner": "modelcontextprotocol",
-      "repo": "server-puppeteer",
-      "description": "Browser automation",
-      "platform": "mcp",
-      "source": "awesome-ai-plugins"
-    },
-    {
-      "name": "Slack",
-      "url": "https://github.com/modelcontextprotocol/server-slack",
-      "owner": "modelcontextprotocol",
-      "repo": "server-slack",
-      "description": "Slack workspace interactions",
-      "platform": "mcp",
-      "source": "awesome-ai-plugins"
-    },
-    {
-      "name": "MCP EU AI Act",
-      "url": "https://github.com/ark-forge/mcp-eu-ai-act",
-      "owner": "ark-forge",
-      "repo": "mcp-eu-ai-act",
-      "description": "EU AI Act and GDPR compliance scanner for AI projects with risk classification, audit reports, and remediation templates",
-      "platform": "mcp",
-      "source": "awesome-ai-plugins"
-    },
-    {
-      "name": "Claude Desktop",
-      "url": "https://claude.ai/download",
-      "owner": "ark-forge",
-      "repo": "mcp-eu-ai-act",
-      "description": "Anthropic's desktop app with MCP integration",
-      "platform": "mcp",
-      "source": "awesome-ai-plugins"
-    },
-    {
-      "name": "Codex",
-      "url": "https://openai.com/codex",
-      "owner": "ark-forge",
-      "repo": "mcp-eu-ai-act",
-      "description": "OpenAI's CLI with MCP support",
-      "platform": "mcp",
-      "source": "awesome-ai-plugins"
-    },
-    {
-      "name": "Cursor",
-      "url": "https://cursor.sh",
-      "owner": "ark-forge",
-      "repo": "mcp-eu-ai-act",
-      "description": "AI-powered code editor with MCP support",
-      "platform": "mcp",
-      "source": "awesome-ai-plugins"
-    },
-    {
-      "name": "Windsurf",
-      "url": "https://windsurf.ai",
-      "owner": "ark-forge",
-      "repo": "mcp-eu-ai-act",
-      "description": "Codeium's AI agent with MCP support",
-      "platform": "mcp",
-      "source": "awesome-ai-plugins"
-    },
-    {
       "name": "awesome-ai-agents",
       "url": "https://github.com/e2b-dev/awesome-ai-agents",
       "owner": "e2b-dev",
       "repo": "awesome-ai-agents",
       "description": "AI agent frameworks and tools (27k stars)",
-      "platform": "mcp",
+      "platform": "gemini-cli",
       "source": "awesome-ai-plugins"
     },
     {
@@ -792,7 +648,7 @@
       "owner": "hashgraph-online",
       "repo": "awesome-codex-plugins",
       "description": "Codex-specific plugin list",
-      "platform": "mcp",
+      "platform": "gemini-cli",
       "source": "awesome-ai-plugins"
     },
     {
@@ -801,7 +657,7 @@
       "owner": "Shubhamsaboo",
       "repo": "awesome-llm-apps",
       "description": "LLM app examples (104k stars)",
-      "platform": "mcp",
+      "platform": "gemini-cli",
       "source": "awesome-ai-plugins"
     },
     {
@@ -810,7 +666,7 @@
       "owner": "punkpeye",
       "repo": "awesome-mcp-clients",
       "description": "MCP client applications",
-      "platform": "mcp",
+      "platform": "gemini-cli",
       "source": "awesome-ai-plugins"
     },
     {
@@ -819,7 +675,7 @@
       "owner": "punkpeye",
       "repo": "awesome-mcp-servers",
       "description": "Comprehensive MCP server list (84k stars)",
-      "platform": "mcp",
+      "platform": "gemini-cli",
       "source": "awesome-ai-plugins"
     },
     {
@@ -828,7 +684,7 @@
       "owner": "hashgraph-online",
       "repo": "codex-plugin-scanner",
       "description": "Codex plugin quality gate",
-      "platform": "mcp",
+      "platform": "gemini-cli",
       "source": "awesome-ai-plugins"
     },
     {
@@ -837,7 +693,7 @@
       "owner": "hashgraph-online",
       "repo": "codex-plugin-scanner",
       "description": "Discover and install plugins",
-      "platform": "mcp",
+      "platform": "gemini-cli",
       "source": "awesome-ai-plugins"
     }
   ]
