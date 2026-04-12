@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-04-10T19:23:51.715587+00:00",
+  "last_updated": "2026-04-12T01:54:19.769322+00:00",
   "plugins": [
     {
       "name": "Agent Message Queue",
@@ -27,6 +27,15 @@
       "owner": "matk0shub",
       "repo": "apple-productivity-mcp",
       "description": "Local Apple Calendar and Reminders for macOS",
+      "platform": "codex",
+      "source": "awesome-ai-plugins"
+    },
+    {
+      "name": "BikeScout",
+      "url": "https://github.com/hifly81/bikescout",
+      "owner": "hifly81",
+      "repo": "bikescout",
+      "description": "Specialized MCP server for technical cycling providing terrain-aware routing, predictive mud-risk analysis, and UCI-standard climb categorization",
       "platform": "codex",
       "source": "awesome-ai-plugins"
     },
@@ -378,6 +387,15 @@
       "owner": "anthropics",
       "repo": "claude-code",
       "description": "Comprehensive feature development workflow with a structured 7-phase approach",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins"
+    },
+    {
+      "name": "immich-photo-manager",
+      "url": "https://github.com/drolosoft/immich-photo-manager",
+      "owner": "drolosoft",
+      "repo": "immich-photo-manager",
+      "description": "MCP server for intelligent photo management with Immich \u2014 search, geographic album curation, library cleanup, duplicate detection, and interactive HTML galleries",
       "platform": "claude-code",
       "source": "awesome-ai-plugins"
     },
