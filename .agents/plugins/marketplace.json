@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-04-12T01:54:19.769322+00:00",
+  "last_updated": "2026-04-12T02:08:58.240204+00:00",
   "plugins": [
     {
       "name": "Agent Message Queue",
@@ -396,6 +396,15 @@
       "owner": "drolosoft",
       "repo": "immich-photo-manager",
       "description": "MCP server for intelligent photo management with Immich \u2014 search, geographic album curation, library cleanup, duplicate detection, and interactive HTML galleries",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins"
+    },
+    {
+      "name": "oh-my-forge",
+      "url": "https://github.com/rlagycks/oh-my-forge",
+      "owner": "rlagycks",
+      "repo": "oh-my-forge",
+      "description": "Claude Code plugin with ontology-driven guardrails and harness-engineered agent workflows for TDD, planning, code review, and CI automation",
       "platform": "claude-code",
       "source": "awesome-ai-plugins"
     },
