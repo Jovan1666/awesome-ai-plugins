@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-05-02T13:09:41.403612+00:00",
+  "last_updated": "2026-05-02T13:11:06.274683+00:00",
   "plugins": [
     {
       "name": "Agent Message Queue",
@@ -269,7 +269,7 @@
       "url": "https://github.com/MohamedAbdallah-14/prompt-to-asset",
       "owner": "MohamedAbdallah-14",
       "repo": "prompt-to-asset",
-      "description": "Route image-generation prompts to 30+ models \u2014 DALL-E, Stable Diffusion, Flux, Midjourney, and more \u2014 through a single MCP interface. `npm install -g prompt-to-asset`",
+      "description": "Route image-generation prompts to 30+ models \u2014 DALL-E, Stable Diffusion, Flux, Midjourney, and more \u2014 through a single MCP interface",
       "platform": "codex",
       "source": "awesome-ai-plugins"
     },
@@ -350,7 +350,7 @@
       "url": "https://github.com/MohamedAbdallah-14/unslop",
       "owner": "MohamedAbdallah-14",
       "repo": "unslop",
-      "description": "Strip AI writing patterns from text \u2014 removes filler phrases, hedging language, and generic constructs to produce cleaner written content. `npm install -g unslop`",
+      "description": "Strip AI writing patterns from text \u2014 removes filler phrases, hedging language, and generic constructs to produce cleaner written content",
       "platform": "codex",
       "source": "awesome-ai-plugins"
     },
@@ -467,7 +467,7 @@
       "url": "https://github.com/MohamedAbdallah-14/prompt-to-asset",
       "owner": "MohamedAbdallah-14",
       "repo": "prompt-to-asset",
-      "description": "Route image-generation prompts to 30+ models \u2014 DALL-E, Stable Diffusion, Flux, Midjourney, and more \u2014 through a single MCP interface. `npm install -g prompt-to-asset`",
+      "description": "Route image-generation prompts to 30+ models \u2014 DALL-E, Stable Diffusion, Flux, Midjourney, and more \u2014 through a single MCP interface",
       "platform": "claude-code",
       "source": "awesome-ai-plugins"
     },
@@ -485,7 +485,7 @@
       "url": "https://github.com/MohamedAbdallah-14/unslop",
       "owner": "MohamedAbdallah-14",
       "repo": "unslop",
-      "description": "Strip AI writing patterns from text \u2014 removes filler phrases, hedging language, and generic constructs to produce cleaner written content. `npm install -g unslop`",
+      "description": "Strip AI writing patterns from text \u2014 removes filler phrases, hedging language, and generic constructs to produce cleaner written content",
       "platform": "claude-code",
       "source": "awesome-ai-plugins"
     },
