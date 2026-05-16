@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-05-16",
-  "total": 76,
+  "total": 77,
   "platforms": [
     "codex"
   ],
@@ -276,6 +276,20 @@
       ]
     },
     {
+      "name": "HOL Guard Plugin",
+      "url": "https://github.com/hashgraph-online/hol-guard-plugin",
+      "owner": "hashgraph-online",
+      "repo": "hol-guard-plugin",
+      "description": "AI antivirus workflow for Codex, Claude Code, Cursor, Gemini, OpenCode, MCP servers, skills, and plugin release checks with local approvals and receipts.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/hashgraph-online/hol-guard-plugin/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "HOTL Plugin",
       "url": "https://github.com/yimwoo/hotl-plugin",
       "owner": "yimwoo",
@@ -308,7 +322,7 @@
       "url": "https://github.com/ouonet/praxis",
       "owner": "ouonet",
       "repo": "praxis",
-      "description": "Token-lean triage-driven workflow skills for coding agents: design, planning, TDD, debugging, review, worktree, subagents, and release. 10\u201340\u00d7 cheaper per skill than comparable frameworks while preserving full workflow discipline.",
+      "description": "Intent-driven workflow skills for coding agents: describe what done looks like, not the steps. Triage-first design keeps token costs low across design, TDD, debug, review, and release.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/ouonet/praxis/HEAD/.codex-plugin/plugin.json",
