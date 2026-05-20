@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-05-20",
-  "total": 83,
+  "total": 82,
   "platforms": [
     "codex"
   ],
@@ -66,20 +66,6 @@
       ]
     },
     {
-      "name": "agenttrace",
-      "url": "https://github.com/luoyuctl/agenttrace",
-      "owner": "luoyuctl",
-      "repo": "agenttrace",
-      "description": "Audit local AI coding-agent sessions for costs, token waste, failures, latency, anomalies, health, diffs, and CI gate signals.",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/luoyuctl/agenttrace/HEAD/.codex-plugin/plugin.json",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
       "name": "Antigravity Workspace Template",
       "url": "https://github.com/study8677/antigravity-workspace-template",
       "owner": "study8677",
@@ -102,20 +88,6 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/archcore-ai/plugin/HEAD/.codex-plugin/plugin.json",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "Atelier Arith Julia Development Skills",
-      "url": "https://github.com/AtelierArith/atelier-arith-julia-development-skills",
-      "owner": "AtelierArith",
-      "repo": "atelier-arith-julia-development-skills",
-      "description": "Codex skills for Julia installation, package creation, app creation, and test workflows.",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/AtelierArith/atelier-arith-julia-development-skills/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -304,14 +276,14 @@
       ]
     },
     {
-      "name": "Everything OpenAI Codex",
-      "url": "https://github.com/mturac/everything-openai-codex",
-      "owner": "mturac",
-      "repo": "everything-openai-codex",
-      "description": "EOC is an open-source operating system for Codex workflows with 200+ skills, agents, hooks, rules, memory, safety gates, install profiles, and cross-harness adapters.",
+      "name": "Espresso",
+      "url": "https://github.com/mirkobozzetto/espresso",
+      "owner": "mirkobozzetto",
+      "repo": "espresso",
+      "description": "Full token-saving stack in one plugin - output compression, global rules, RTK hook, Caveman ultra, GitNexus config. Detects existing setup, installs only what's missing. Works on Claude Code and Codex.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/mturac/everything-openai-codex/HEAD/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/mirkobozzetto/espresso/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -578,6 +550,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/xxsang/writers-loop/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Zagrosi Forge",
+      "url": "https://github.com/zagrosi-code/zagrosi-forge",
+      "owner": "zagrosi-code",
+      "repo": "zagrosi-forge",
+      "description": "Decompose broad project briefs into researched plans and implement sectioned work with TDD, quality gates, and traceability.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/zagrosi-code/zagrosi-forge/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"

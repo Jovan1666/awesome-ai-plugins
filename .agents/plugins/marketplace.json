@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-05-20T14:47:25.468598+00:00",
+  "last_updated": "2026-05-20T14:53:53.169124+00:00",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -65,21 +65,6 @@
       "install_url": "https://raw.githubusercontent.com/boshu2/agentops/HEAD/.codex-plugin/plugin.json"
     },
     {
-      "name": "agenttrace",
-      "displayName": "agenttrace",
-      "description": "Audit local AI coding-agent sessions for costs, token waste, failures, latency, anomalies, health, diffs, and CI gate signals.",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "luoyuctl",
-      "repo": "agenttrace",
-      "url": "https://github.com/luoyuctl/agenttrace",
-      "install_url": "https://raw.githubusercontent.com/luoyuctl/agenttrace/HEAD/.codex-plugin/plugin.json"
-    },
-    {
       "name": "Antigravity Workspace Template",
       "displayName": "Antigravity Workspace Template",
       "description": "Multi-agent codebase knowledge graph generator with context-aware planning and automatic scope management \u2014 turns codebases into coherent agent workspaces.",
@@ -108,21 +93,6 @@
       "repo": "plugin",
       "url": "https://github.com/archcore-ai/plugin",
       "install_url": "https://raw.githubusercontent.com/archcore-ai/plugin/HEAD/.codex-plugin/plugin.json"
-    },
-    {
-      "name": "Atelier Arith Julia Development Skills",
-      "displayName": "Atelier Arith Julia Development Skills",
-      "description": "Codex skills for Julia installation, package creation, app creation, and test workflows.",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "AtelierArith",
-      "repo": "atelier-arith-julia-development-skills",
-      "url": "https://github.com/AtelierArith/atelier-arith-julia-development-skills",
-      "install_url": "https://raw.githubusercontent.com/AtelierArith/atelier-arith-julia-development-skills/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Bring Your AI Migration Auditor",
@@ -320,19 +290,19 @@
       "install_url": "https://raw.githubusercontent.com/ejentum/ejentum-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
-      "name": "Everything OpenAI Codex",
-      "displayName": "Everything OpenAI Codex",
-      "description": "EOC is an open-source operating system for Codex workflows with 200+ skills, agents, hooks, rules, memory, safety gates, install profiles, and cross-harness adapters.",
+      "name": "Espresso",
+      "displayName": "Espresso",
+      "description": "Full token-saving stack in one plugin - output compression, global rules, RTK hook, Caveman ultra, GitNexus config. Detects existing setup, installs only what's missing. Works on Claude Code and Codex.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "platform": "codex",
       "ecosystems": [
         "codex"
       ],
-      "owner": "mturac",
-      "repo": "everything-openai-codex",
-      "url": "https://github.com/mturac/everything-openai-codex",
-      "install_url": "https://raw.githubusercontent.com/mturac/everything-openai-codex/HEAD/.codex-plugin/plugin.json"
+      "owner": "mirkobozzetto",
+      "repo": "espresso",
+      "url": "https://github.com/mirkobozzetto/espresso",
+      "install_url": "https://raw.githubusercontent.com/mirkobozzetto/espresso/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Frappe Agent",
@@ -618,6 +588,21 @@
       "repo": "writers-loop",
       "url": "https://github.com/xxsang/writers-loop",
       "install_url": "https://raw.githubusercontent.com/xxsang/writers-loop/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Zagrosi Forge",
+      "displayName": "Zagrosi Forge",
+      "description": "Decompose broad project briefs into researched plans and implement sectioned work with TDD, quality gates, and traceability.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "zagrosi-code",
+      "repo": "zagrosi-forge",
+      "url": "https://github.com/zagrosi-code/zagrosi-forge",
+      "install_url": "https://raw.githubusercontent.com/zagrosi-code/zagrosi-forge/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Agent Message Queue",
