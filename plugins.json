@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-05-25",
+  "last_updated": "2026-05-27",
   "total": 92,
   "platforms": [
     "codex"
@@ -60,6 +60,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/boshu2/agentops/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Alcove",
+      "url": "https://github.com/epicsagas/alcove",
+      "owner": "epicsagas",
+      "repo": "alcove",
+      "description": "Local-first MCP server for private project docs with hybrid BM25+vector search, tree-sitter code indexing, and automated linting for team-wide documentation standards.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/epicsagas/alcove/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -1228,6 +1242,20 @@
       ]
     },
     {
+      "name": "VidSeeds.ai",
+      "url": "https://github.com/CarrotGamesStudios/vidseeds-mcp",
+      "owner": "CarrotGamesStudios",
+      "repo": "vidseeds-mcp",
+      "description": "Hosted MCP connector for pre-upload video SEO, metadata optimization, AI thumbnails, and multi-platform publishing with workflow skills for Codex agents.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/CarrotGamesStudios/vidseeds-mcp/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Yandex Direct",
       "url": "https://github.com/nebelov/yandex-direct-for-all",
       "owner": "nebelov",
@@ -1242,57 +1270,29 @@
       ]
     },
     {
-      "name": "Spellbook Skills",
-      "url": "https://github.com/yyykf/spellbook-skills",
-      "owner": "yyykf",
-      "repo": "spellbook-skills",
-      "description": "Practical Claude Code and Codex skills for worktrees, PR/MR automation, review cleanup, YApi lookup, and Java DDD guidance",
+      "name": "Epic Harness",
+      "url": "https://github.com/epicsagas/epic-harness",
+      "owner": "epicsagas",
+      "repo": "epic-harness",
+      "description": "Auto-trigger quality skills + self-evolving agent harness \u2014 orbit (spec-to-ship), evolve (skill mutation), team (multi-agent), TDD, check, ship, simplify, debug, perf, secure",
       "category": "Development & Workflow",
       "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/yyykf/spellbook-skills/HEAD/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/epicsagas/epic-harness/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
     },
     {
-      "name": "Allscreenshots",
-      "url": "https://github.com/allscreenshots/allscreenshots-plugin",
-      "owner": "allscreenshots",
-      "repo": "allscreenshots-plugin",
-      "description": "Capture website screenshots from Codex with viewport sizing, full-page capture, dark mode, and ad or cookie banner blocking",
-      "category": "Tools & Integrations",
+      "name": "Runtype Skills",
+      "url": "https://github.com/runtypelabs/skills",
+      "owner": "runtypelabs",
+      "repo": "skills",
+      "description": "Supercharge your coding agent for AI product development \u2014 build, deploy, and operate agents, flows, tools, and surfaces on Runtype's managed edge runtime",
+      "category": "Development & Workflow",
       "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/allscreenshots/allscreenshots-plugin/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "File Organizer MCP",
-      "url": "https://github.com/kridaydave/File-Organizer-MCP",
-      "owner": "kridaydave",
-      "repo": "File-Organizer-MCP",
-      "description": "Security-hardened MCP server for intelligent file organization with categorization, duplicate detection, metadata extraction, and smart scheduling",
-      "category": "Tools & Integrations",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/kridaydave/File-Organizer-MCP/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "Mantis",
-      "url": "https://github.com/deonmenezes/mantishack",
-      "owner": "deonmenezes",
-      "repo": "mantishack",
-      "description": "Autonomous bug bounty hunter for authorized engagements \u2014 7-phase FSM (RECON \u2192 AUTH \u2192 HUNT \u2192 CHAIN \u2192 VERIFY \u2192 GRADE \u2192 REPORT), parallel hunter sub-agents, cryptographic scope enforcement, and BLAKE3/Ed25519 Merkle event logs",
-      "category": "Tools & Integrations",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/deonmenezes/mantishack/HEAD/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/runtypelabs/skills/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
