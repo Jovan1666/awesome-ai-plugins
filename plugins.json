@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-05-31",
-  "total": 94,
+  "last_updated": "2026-06-04",
+  "total": 95,
   "platforms": [
     "codex"
   ],
@@ -60,6 +60,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/boshu2/agentops/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "AgiFlow",
+      "url": "https://github.com/AgiFlow/ai-plugin",
+      "owner": "AgiFlow",
+      "repo": "ai-plugin",
+      "description": "Project management workflows for AI coding agents with planning, grooming, task execution, review, and AgiFlow MCP integration.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/AgiFlow/ai-plugin/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -1242,6 +1256,20 @@
       ]
     },
     {
+      "name": "Thermal-Fluid Research Workflow",
+      "url": "https://github.com/hanhuark/mechanical-engineering-research-skill",
+      "owner": "hanhuark",
+      "repo": "mechanical-engineering-research-skill",
+      "description": "Thermal-fluid mechanical engineering research workflow for literature review, technical writing, data analysis, presentations, proposals, coding, and AI/ML tools.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/hanhuark/mechanical-engineering-research-skill/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "TokRepo Search",
       "url": "https://github.com/henu-wang/tokrepo-codex-plugin",
       "owner": "henu-wang",
@@ -1307,20 +1335,6 @@
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/nebelov/yandex-direct-for-all/HEAD/plugins/yandex-direct-for-all/.codex-plugin/plugin.json",
       "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "Thermal-Fluid Research Workflow",
-      "url": "https://github.com/hanhuark/mechanical-engineering-research-skill",
-      "owner": "hanhuark",
-      "repo": "mechanical-engineering-research-skill",
-      "description": "Thermal-fluid mechanical engineering research workflow for literature review, technical writing, data analysis, presentations, proposals, coding, and AI/ML tools",
-      "category": "Tools & Integrations",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/hanhuark/mechanical-engineering-research-skill/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
