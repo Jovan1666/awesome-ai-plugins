@@ -37,7 +37,7 @@ plugin-scanner verify /path/to/plugin --format text
 
 ## Scoring System
 
-The scanner checks 7 categories totaling 130 points:
+The scanner checks 7 categories totaling 142 points:
 
 | Category | Points | Key Checks |
 |----------|--------|------------|
@@ -49,7 +49,7 @@ The scanner checks 7 categories totaling 130 points:
 | Skill Security | 15 | Hooks, env vars, validation, no hardcoded paths |
 | Code Quality | 10 | No TODOs, no debug code, consistent style |
 
-**Passing criteria:** Score ≥ 80/130, with no critical or high severity findings.
+**Passing criteria:** Score ≥ 80/142, with no critical or high severity findings.
 
 ## CI/CD Integration
 
@@ -73,7 +73,7 @@ jobs:
 
 All plugins submitted to this list must:
 
-1. **Score ≥ 80/130** in the scanner
+1. **Score ≥ 80/142** in the scanner
 2. **Have zero critical or high findings**
 3. **Run the scanner in CI/CD** (GitHub Actions preferred)
 

@@ -28,12 +28,11 @@ All plugins submitted to **Awesome AI Plugins** must pass the HOL AI Plugin Scan
 
 | Requirement | Threshold |
 |-------------|-----------|
-| **Score** | ≥ 80 / 130 |
+| **Score** | ≥ 80 / 142 |
 | **Severity** | No critical or high findings |
 | **CI** | Scanner must run in your repo's GitHub Actions |
 
-See the full guide: [`SCANNER_GUIDE.md`](./SCANNER_GUIDE.md)  
-See contributing requirements: [`CONTRIBUTING.md`](./CONTRIBUTING.md)
+See the full guide: [`SCANNER_GUIDE.md`](./SCANNER_GUIDE.md)
 
 Use scanner outputs as evidence for maintainers/reviewers:
 - Structural lint results
