@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-06-15",
-  "total": 108,
+  "total": 109,
   "platforms": [
     "codex"
   ],
@@ -200,6 +200,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/hyhmrright/brooks-lint/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Casefile",
+      "url": "https://github.com/x4cc3/casefile",
+      "owner": "x4cc3",
+      "repo": "casefile",
+      "description": "Persistent security case tracking for bug bounties, CTFs, and security audits.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/x4cc3/casefile/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"

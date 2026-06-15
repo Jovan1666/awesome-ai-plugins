@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-06-15T03:49:38.767536+00:00",
+  "last_updated": "2026-06-15T03:50:21.590211+00:00",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -213,6 +213,21 @@
       "repo": "brooks-lint",
       "url": "https://github.com/hyhmrright/brooks-lint",
       "install_url": "https://raw.githubusercontent.com/hyhmrright/brooks-lint/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Casefile",
+      "displayName": "Casefile",
+      "description": "Persistent security case tracking for bug bounties, CTFs, and security audits.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "x4cc3",
+      "repo": "casefile",
+      "url": "https://github.com/x4cc3/casefile",
+      "install_url": "https://raw.githubusercontent.com/x4cc3/casefile/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Claude Code for Codex",
