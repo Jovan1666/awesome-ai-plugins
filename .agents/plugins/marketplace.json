@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-06-16T15:56:53.173023+00:00",
+  "last_updated": "2026-06-16T16:00:10.180810+00:00",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -1653,6 +1653,21 @@
       "repo": "yandex-direct-for-all",
       "url": "https://github.com/nebelov/yandex-direct-for-all",
       "install_url": "https://raw.githubusercontent.com/nebelov/yandex-direct-for-all/HEAD/plugins/yandex-direct-for-all/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "ScrapeGraph AI",
+      "displayName": "ScrapeGraph AI",
+      "description": "AI-powered web scraping CLI to search, scrape, extract structured JSON, crawl, and monitor web pages via the ScrapeGraph AI API",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ScrapeGraphAI",
+      "repo": "just-scrape",
+      "url": "https://github.com/ScrapeGraphAI/just-scrape",
+      "install_url": "https://raw.githubusercontent.com/ScrapeGraphAI/just-scrape/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Val Town",
