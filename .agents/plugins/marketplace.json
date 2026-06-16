@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-06-15T03:50:21.590211+00:00",
+  "last_updated": "2026-06-16T15:54:09.971366+00:00",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -82,7 +82,7 @@
     {
       "name": "Agent Workflow System",
       "displayName": "Agent Workflow System",
-      "description": "\u4e00\u5957\u4e2d\u6587AI\u5de5\u4f5c\u6d41\u7cfb\u7edf\uff1a7\u4e2a\u534f\u4f5c\u6280\u80fd + \u884c\u4e3a\u89c4\u8303\u5baa\u6cd5 + \u4f1a\u8bdd\u6062\u590d\u673a\u5236\u3002\u6a21\u7cca\u76ee\u6807\u2192\u53ef\u6267\u884c\u4efb\u52a1\uff0c\u5168\u751f\u547d\u5468\u671f\u5f15\u5bfc\u3002Codex & Claude Code \u53cc\u5e73\u53f0\uff0c\u65b0\u624b\u53cb\u597d\u3002",
+      "description": "\u4e00\u5957\u4e2d\u6587AI\u5de5\u4f5c\u6d41\u7cfb\u7edf\uff1a7\u4e2a\u534f\u4f5c\u6280\u80fd + \u884c\u4e3a\u89c4\u8303\u5baa\u6cd5 + \u4f1a\u8bdd\u6062\u590d\u673a\u5236\uff0c\u6a21\u7cca\u76ee\u6807\u2192\u53ef\u6267\u884c\u4efb\u52a1\uff0c\u5168\u751f\u547d\u5468\u671f\u5f15\u5bfc\u3002Codex & Claude Code \u53cc\u5e73\u53f0\uff0c\u65b0\u624b\u53cb\u597d\u3002",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "platform": "codex",
@@ -182,7 +182,7 @@
       "owner": "archcore-ai",
       "repo": "plugin",
       "url": "https://github.com/archcore-ai/plugin",
-      "install_url": "https://raw.githubusercontent.com/archcore-ai/plugin/HEAD/.codex-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/archcore-ai/plugin/HEAD/plugins/archcore/.codex-plugin/plugin.json"
     },
     {
       "name": "Bring Your AI Migration Auditor",
@@ -213,21 +213,6 @@
       "repo": "brooks-lint",
       "url": "https://github.com/hyhmrright/brooks-lint",
       "install_url": "https://raw.githubusercontent.com/hyhmrright/brooks-lint/HEAD/.codex-plugin/plugin.json"
-    },
-    {
-      "name": "Casefile",
-      "displayName": "Casefile",
-      "description": "Persistent security case tracking for bug bounties, CTFs, and security audits.",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "x4cc3",
-      "repo": "casefile",
-      "url": "https://github.com/x4cc3/casefile",
-      "install_url": "https://raw.githubusercontent.com/x4cc3/casefile/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Claude Code for Codex",
@@ -453,6 +438,21 @@
       "repo": "frappe-agent",
       "url": "https://github.com/Dkm0315/frappe-agent",
       "install_url": "https://raw.githubusercontent.com/Dkm0315/frappe-agent/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "GCF Proxy",
+      "displayName": "GCF Proxy",
+      "description": "Save 71% on MCP tool call tokens by wrapping any server with GCF encoding, with session stats hook and setup skill.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "blackwell-systems",
+      "repo": "gcf-codex-plugin",
+      "url": "https://github.com/blackwell-systems/gcf-codex-plugin",
+      "install_url": "https://raw.githubusercontent.com/blackwell-systems/gcf-codex-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "GrayMatter",
@@ -1625,19 +1625,19 @@
       "install_url": "https://raw.githubusercontent.com/nebelov/yandex-direct-for-all/HEAD/plugins/yandex-direct-for-all/.codex-plugin/plugin.json"
     },
     {
-      "name": "GCF Proxy",
-      "displayName": "GCF Proxy",
-      "description": "Save 71% on MCP tool call tokens by wrapping any server with GCF encoding, with session stats hook and setup skill",
+      "name": "Casefile",
+      "displayName": "Casefile",
+      "description": "Persistent security case tracking for bug bounties, CTFs, and security audits",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "platform": "codex",
       "ecosystems": [
         "codex"
       ],
-      "owner": "blackwell-systems",
-      "repo": "gcf-codex-plugin",
-      "url": "https://github.com/blackwell-systems/gcf-codex-plugin",
-      "install_url": "https://raw.githubusercontent.com/blackwell-systems/gcf-codex-plugin/HEAD/.codex-plugin/plugin.json"
+      "owner": "x4cc3",
+      "repo": "casefile",
+      "url": "https://github.com/x4cc3/casefile",
+      "install_url": "https://raw.githubusercontent.com/x4cc3/casefile/HEAD/.codex-plugin/plugin.json"
     }
   ]
 }
