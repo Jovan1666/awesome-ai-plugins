@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-06-24",
-  "total": 128,
+  "total": 129,
   "platforms": [
     "codex"
   ],
@@ -1797,6 +1797,20 @@
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/nebelov/yandex-direct-for-all/HEAD/plugins/yandex-direct-for-all/.codex-plugin/plugin.json",
       "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Changelog Forge",
+      "url": "https://github.com/hashgraph-online/awesome-codex-plugins/tree/main/plugins/mturac/changelog-forge",
+      "owner": "hashgraph-online",
+      "repo": "awesome-codex-plugins",
+      "description": "Conventional commits \u2192 CHANGELOG section + semver bump",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/hashgraph-online/awesome-codex-plugins/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
