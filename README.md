@@ -4,11 +4,15 @@
   <br>
 </p>
 
-<h1 align="center">Awesome AI Plugins</h1>
+<h1 align="center">Awesome Codex Plugins</h1>
 
-<p align="center">A curated list of awesome AI assistant plugins, skills, and resources.</p>
+<p align="center">A curated list of awesome OpenAI Codex plugins, skills, and resources.</p>
 
-
+<p align="center">
+  <a href="https://hol.org/registry/plugins">
+    <img src="assets/awesome-codex-plugins-hol.png" alt="Awesome Codex Plugins by HOL" width="960" height="540">
+  </a>
+</p>
 
 <p align="center">
   <a href="#contributing"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
@@ -17,7 +21,7 @@
 </p>
 
 <p align="center">
-  AI coding agents — <a href="https://openai.com/academy/codex-plugins-and-skills/">Codex</a>, <a href="https://docs.anthropic.com/en/docs/claude-code">Claude Code</a>, <a href="https://cursor.com">Cursor</a>, <a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a>, and others — support plugins that package skills, MCP servers, hooks, and app integrations into shareable, installable bundles. This list catalogs the best community-built plugins across all major platforms.
+  OpenAI <a href="https://openai.com/academy/codex-plugins-and-skills/">documents plugins and skills for Codex</a>, packaging skills, MCP servers, and app integrations into shareable, installable bundles across the Codex app, CLI, and IDE extensions.
 </p>
 
 <br>
@@ -51,7 +55,7 @@ pipx run plugin-scanner verify .
 
 ### Scanner Requirements (Mandatory for This List)
 
-All plugins submitted to **Awesome AI Plugins** must pass the HOL AI Plugin Scanner:
+All plugins submitted to **Awesome Codex Plugins** must pass the HOL AI Plugin Scanner:
 
 | Requirement | Threshold |
 |-------------|-----------|
@@ -62,124 +66,52 @@ All plugins submitted to **Awesome AI Plugins** must pass the HOL AI Plugin Scan
 See the full guide: [`SCANNER_GUIDE.md`](./SCANNER_GUIDE.md)  
 See contributing requirements: [`CONTRIBUTING.md`](./CONTRIBUTING.md)
 
-This repo publishes a Codex-compatible marketplace at `.agents/plugins/marketplace.json` with generated plugin metadata and install URLs. The same catalog works with Claude Code, Cursor, Gemini CLI, and any agent that supports the `.codex-plugin/plugin.json` manifest format or the broader [agentskills.io](https://agentskills.io) standard.
+This repo publishes a Codex repo marketplace at `.agents/plugins/marketplace.json`. The marketplace points at mirrored installable plugin bundles under `./plugins/`, so a clone of this repo can act as a curated plugin source in Codex.
 
-### Use this marketplace
+### Use this marketplace in Codex
 
-This repo publishes a Codex-compatible marketplace at `.agents/plugins/marketplace.json`. Each plugin entry includes an `install_url` pointing at the upstream `.codex-plugin/plugin.json` manifest. Pick your agent below.
+Install plugins directly from this curated list by pointing Codex at the repo marketplace:
 
-#### Codex (CLI)
+**CLI:**
 
 ```bash
 # Add this repo as a marketplace source (one-time setup)
 codex plugin marketplace add \
-  'https://github.com/hashgraph-online/awesome-ai-plugins.git' \
+  'https://github.com/hashgraph-online/awesome-codex-plugins.git' \
   --ref 'main' \
-  --sparse '.agents/plugins'
+  --sparse '.agents/plugins' \
+  --sparse 'plugins'
 
-# Browse and install
-codex plugin list --source awesome-ai-plugins
-codex plugin install <plugin-name> --source awesome-ai-plugins
+# Then browse and install (the marketplace name is derived from the repo name)
+codex plugin list --source awesome-codex-plugins
+codex plugin install <plugin-name> --source awesome-codex-plugins
 ```
 
 Do not use the raw `marketplace.json` URL with `codex plugin marketplace add`.
 The Codex marketplace command clones a Git repository, so a raw GitHub file URL is
 treated like a repo URL and fails with `remote: 404: Not Found`.
 
-#### Codex (Desktop App / IDE Extension)
+**Desktop App / IDE Extension:**
 
-1. Open Codex settings → Plugins → click the menu next to search → `+Add More...`
+1. Open Codex settings → Plugins → Next to search plugins input click on menu and select → `+Add More...`
    <img width="1462" height="466" alt="image" src="https://github.com/user-attachments/assets/ae15f505-58a8-4199-bb7b-56a07b670b10" />
 
 2. Add this URL:
 
    ```
-   https://github.com/hashgraph-online/awesome-ai-plugins.git
+   https://github.com/hashgraph-online/awesome-codex-plugins.git
    ```
 
    <img width="1974" height="1064" alt="image" src="https://github.com/user-attachments/assets/ffbae59f-41ae-4ee3-9d52-864273ecdcb3" />
 
 3. The curated plugin list appears as an available marketplace source.
 
-#### Claude Code
-
-Claude Code has its own plugin system. Install a plugin from its upstream repo:
-
-```bash
-# Add the plugin's GitHub repo as a marketplace source
-/plugin marketplace add <owner>/<repo>
-
-# Install the plugin
-/plugin install <plugin-name>@<owner>
-
-# Reload to activate
-/reload-plugins
-```
-
-For MCP-only plugins (no `.codex-plugin` or `.claude-plugin` manifest), add the server directly:
-
-```bash
-claude mcp add <server-name> npx -- -y @<owner>/<package>
-```
-
-Or edit `.claude/plugins.json` in your project to point at a plugin repo.
-
-#### Cursor
-
-Cursor supports MCP servers via project-level or global config. Add a plugin's MCP server to `.cursor/mcp.json` in your project root:
-
-```json
-{
-  "mcpServers": {
-    "<plugin-name>": {
-      "command": "npx",
-      "args": ["-y", "@<owner>/<package>"]
-    }
-  }
-}
-```
-
-For plugins that bundle skills or slash commands (not just MCP), clone the repo into your project and reference it from Cursor's rules.
-
-#### Gemini CLI
-
-Gemini CLI supports MCP servers via `settings.json`. Add a plugin's server:
-
-```json
-{
-  "mcpServers": {
-    "<server-name>": {
-      "command": "npx",
-      "args": ["-y", "@<owner>/<package>"]
-    }
-  }
-}
-```
-
-Antigravity (Gemini desktop) also supports direct plugin installation:
-
-```bash
-agy plugins install https://github.com/<owner>/<repo>
-```
-
-#### OpenCode
-
-OpenCode loads plugins from `opencode.json`. Add a plugin by its Git URL:
-
-```json
-{
-  "plugin": ["<plugin-name>@git+https://github.com/<owner>/<repo>.git"]
-}
-```
-
-#### Other agents (Cline, GitHub Copilot CLI, etc.)
-
-Most agents that support MCP can use the MCP servers bundled in these plugins. Find the plugin's `.mcp.json` or MCP config in its repo and point your agent's MCP settings at it. The `.codex-plugin/plugin.json` manifest format is increasingly adopted as a cross-agent standard via [agentskills.io](https://agentskills.io).
+Each plugin entry includes a `source.path` pointing at a mirrored bundle under `./plugins/` in this repo, so installations are fast and reproducible without hitting upstream repos at install time.
 
 ## Official Plugins
 
 <details>
-<summary>Curated by OpenAI — built-in Codex Plugin Directory (other agents have their own)</summary>
+<summary>Curated by OpenAI — available in the built-in Codex Plugin Directory</summary>
 
 - Box - Access and manage files.
 - Cloudflare - Manage Workers, Pages, DNS, and infrastructure.
@@ -198,7 +130,7 @@ Most agents that support MCP can use the MCP servers bundled in these plugins. F
 
 ## Community Plugins
 
-Third-party plugins built by the community, compatible with Codex, Claude Code, Cursor, Gemini CLI, and other AI coding agents. [PRs welcome](#contributing)!
+Third-party plugins built by the community. [PRs welcome](#contributing)!
 
 ### Development & Workflow
 
@@ -222,7 +154,7 @@ Third-party plugins built by the community, compatible with Codex, Claude Code, 
 - [Bring Your AI Migration Auditor](https://github.com/unitedideas/bringyour-mcp) - Read-only Codex plugin for auditing Claude Code to Codex migrations before Codex edits code. Checks AGENTS.md/CLAUDE.md scope, hooks, MCP config, skills, secret references, and validation notes.
 - [Brooks Lint](https://github.com/hyhmrright/brooks-lint) - AI code reviews grounded in six classic engineering books — decay risk diagnostics with book citations, severity labels, and four analysis modes (PR review, architecture audit, tech debt, test quality).
 - [Casefile](https://github.com/x4cc3/casefile) - Persistent security case tracking for bug bounties, CTFs, and security audits.
-- [Changelog Forge](https://github.com/hashgraph-online/awesome-codex-plugins/tree/main/plugins/mturac/changelog-forge) - Conventional commits → CHANGELOG section + semver bump.
+- [Changelog Forge](./plugins/mturac/changelog-forge) - Conventional commits → CHANGELOG section + semver bump.
 - [Claude Code for Codex](https://github.com/sendbird/cc-plugin-codex) - Reverse of OpenAI's official Claude-hosted plugin: use Claude Code from Codex for reviews, rescue tasks, tracked background jobs, and hook-powered review gates.
 - [Claude Code Harness](https://github.com/dadwadw233/claude-code-harness) - Harness blueprint skill for turning vague agent ideas into concrete designs for request assembly, control loops, memory, permissions, recovery, and extension planes.
 - [Claude Code Skills](https://github.com/alirezarezvani/claude-skills) - 223 production-ready skills, 23 agents, and 298 Python tools across 9 domains — engineering, marketing, product, compliance, and more.
@@ -233,17 +165,17 @@ Third-party plugins built by the community, compatible with Codex, Claude Code, 
 - [Codex Multi Auth](https://github.com/ndycode/codex-multi-auth) - Multi-account OAuth manager for the official Codex CLI with switching, health checks, and recovery tools.
 - [Codex Reviewer](https://github.com/schuettc/codex-reviewer) - Second-pass review of Claude-driven plans and implementations.
 - [Codex rg Guard](https://github.com/Rycen7822/codex-rg-guard) - Budgeted `rg`/`grep` replacement for Codex that narrows broad searches before they waste model context.
-- [Commit Narrator](https://github.com/hashgraph-online/awesome-codex-plugins/tree/main/plugins/mturac/commit-narrator) - Generate semantic commit message from staged diff, including the _why_.
+- [Commit Narrator](./plugins/mturac/commit-narrator) - Generate semantic commit message from staged diff, including the _why_.
 - [debt-ops](https://github.com/bcanfield/agentic-tech-debt) - Catches AI-introduced tech debt at write-time: hooks log every deferral to a registry in your repo and a review skill ranks paydown by file churn.
-- [Deps Doctor](https://github.com/hashgraph-online/awesome-codex-plugins/tree/main/plugins/mturac/deps-doctor) - Multi-ecosystem dependency audit (npm, pip, cargo, go) in one report.
+- [Deps Doctor](./plugins/mturac/deps-doctor) - Multi-ecosystem dependency audit (npm, pip, cargo, go) in one report.
 - [Designer Skill](https://github.com/Pythoughts-labs/designer-skill) - Plug-and-play MCP that gives your agent UI superpowers. One install: design skill + MCP server, zero config.
 - [Dev Skills](https://github.com/Jason-chen-coder/dev-skills) - Team workflow skills for specs, plans, TDD, debugging, verification, review, branch finishing, and design context.
 - [Development Skills](https://github.com/reidemeister94/development-skills) - Three-tier triage (PASS_THROUGH / LIGHT / FULL 4-phase) development workflow for Codex and Claude Code with language auto-detection (Python, Java, TypeScript, Swift, frontend) and a staff-reviewer subagent for fresh-eyes review on every change.
 - [ejentum-mcp](https://github.com/ejentum/ejentum-mcp) - MCP server exposing reasoning, code, anti-deception, and memory harness tools for Codex.
-- [Env Lint](https://github.com/hashgraph-online/awesome-codex-plugins/tree/main/plugins/mturac/env-lint) - `.env` vs `.env.example` key parity — never prints values.
+- [Env Lint](./plugins/mturac/env-lint) - `.env` vs `.env.example` key parity — never prints values.
 - [Epic Harness](https://github.com/epicsagas/epic-harness) - Auto-trigger quality skills + self-evolving agent harness — orbit (spec-to-ship), evolve (skill mutation), team (multi-agent), TDD, check, ship, simplify, debug, perf, secure.
 - [Espresso](https://github.com/mirkobozzetto/espresso) - Full token-saving stack in one plugin - output compression, global rules, RTK hook, Caveman ultra, GitNexus config. Detects existing setup, installs only what's missing. Works on Claude Code and Codex.
-- [Flaky Detector](https://github.com/hashgraph-online/awesome-codex-plugins/tree/main/plugins/mturac/flaky-detector) - Run a test command N times, report per-test flakiness %.
+- [Flaky Detector](./plugins/mturac/flaky-detector) - Run a test command N times, report per-test flakiness %.
 - [Frappe Agent](https://github.com/Dkm0315/frappe-agent) - Frappe and ERPNext coding, customization, bench, and review intelligence for Codex.
 - [GCF Proxy](https://github.com/blackwell-systems/gcf-codex-plugin) - Save 71% on MCP tool call tokens by wrapping any server with GCF encoding, with session stats hook and setup skill.
 - [Generative Media Skills](https://github.com/SamurAIGPT/Generative-Media-Skills) - 13 skills for image, video, and audio generation using 100+ models - FLUX, Midjourney v7, Veo3, Kling 3.0, Suno, and HunyuanVideo via muapi.ai.
@@ -254,7 +186,7 @@ Third-party plugins built by the community, compatible with Codex, Claude Code, 
 - [LLM Transpile](https://github.com/epicsagas/llm-transpile) - Auto-compress .md, .html, and .txt files via PostToolUse hook, cutting context usage by up to 40% with zero workflow change.
 - [LVTD Skills](https://github.com/LVTD-LLC/skills) - Reusable Agent Skills for Codex, Claude Code, and compatible clients, covering Django, Rust, Cookiecutter, SEO, traction, product marketing, and nonfiction publishing workflows.
 - [Personal Data Protection](https://github.com/AltByteSG/personal-data-protection-skill) - Engineer-facing personal-data-protection compliance reference — Singapore PDPA, Thailand PDPA, Indonesia UU PDP, Malaysia PDPA (Act 709 + 2024 Amendments), Philippines DPA — organised by where in the stack each obligation lands, with checklists, breach-response runbook, and a developer-view divergence table across all five.
-- [PR Storyteller](https://github.com/hashgraph-online/awesome-codex-plugins/tree/main/plugins/mturac/pr-storyteller) - PR title + body + test plan from commits and diff vs base branch.
+- [PR Storyteller](./plugins/mturac/pr-storyteller) - PR title + body + test plan from commits and diff vs base branch.
 - [Praxis](https://github.com/ouonet/praxis) - Intent-driven workflow skills for coding agents: describe what done looks like, not the steps. Triage-first design keeps token costs low across design, TDD, debug, review, and release.
 - [Project Autopilot](https://github.com/AlexMi64/codex-project-autopilot) - Turn an idea into a structured project workflow with planning, execution, verification, and handoff.
 - [Registry Broker](https://github.com/hashgraph-online/registry-broker-codex-plugin) - Delegate tasks to specialist AI agents via the HOL Registry, plan, find, summon, and recover sessions.
@@ -262,19 +194,19 @@ Third-party plugins built by the community, compatible with Codex, Claude Code, 
 - [RoadmapSmith](https://github.com/PapiScholz/roadmapsmith) - Evidence-backed ROADMAP.md workflows for AI coding agents with validation, sync, and roadmap generation across any tech stack.
 - [Runtype Skills](https://github.com/runtypelabs/skills) - Supercharge your coding agent for AI product development — build, deploy, and operate agents, flows, tools, and surfaces on Runtype's managed edge runtime.
 - [Sealos](https://github.com/labring/sealos-skills) - Deploy apps to Sealos Cloud from Codex with readiness checks, Dockerfile generation, Compose conversion, image builds, and rollout updates.
-- [Secret Guard](https://github.com/hashgraph-online/awesome-codex-plugins/tree/main/plugins/mturac/secret-guard) - Pre-commit secret scanner using pattern and entropy detection.
+- [Secret Guard](./plugins/mturac/secret-guard) - Pre-commit secret scanner using pattern and entropy detection.
 - [Session Orchestrator](https://github.com/Kanevry/session-orchestrator) - Session orchestration for Claude Code, Codex, and Cursor IDE — structured planning, wave-based execution, VCS integration (GitLab + GitHub), quality gates, and clean session close-out with issue tracking.
 - [Simple Man](https://github.com/Maksim-Burtsev/simple-man) - High-compression communication mode for Codex agents that removes filler while preserving search, validation, and implementation effort.
 - [Spec-Driven Development](https://github.com/Habib0x0/spec-driven-plugin) - Three-phase Requirements → Design → Tasks workflow for Claude Code and Codex — EARS notation acceptance criteria, autonomous execution loop, cross-spec dependencies, and post-implementation acceptance testing.
 - [Staff Engineer Mode](https://github.com/sirmarkz/staff-engineer-mode) - Routes engineering design, delivery, reliability, security, operations, and maintenance prompts to focused staff-level specialist guidance for AI coding agents.
-- [Standup Generator](https://github.com/hashgraph-online/awesome-codex-plugins/tree/main/plugins/mturac/standup-gen) - Daily standup notes from git activity across repos.
+- [Standup Generator](./plugins/mturac/standup-gen) - Daily standup notes from git activity across repos.
 - [Stark](https://github.com/f0d010c/stark) - UI/UX design plugin for AI coding agents with product-flow routing, platform-native interface guidance, asset planning, and shipped-reference analysis before code.
 - [tailtest](https://github.com/avansaber/tailtest-codex) - Hook-powered test generation -- detects files changed during an agent turn and instructs Codex to write and run tests automatically. Zero config, 8 languages.
 - [Tandem Workflow Architect](https://github.com/frumu-ai/tandem-codex-plugin) - Plan Tandem workflows in Codex, then validate, preview, and run them through the governed Tandem engine.
 - [Tartiner Labs](https://github.com/tartinerlabs/skills) - Agent skills for git workflows, GitHub automation, security audits, code refactoring, and project tooling.
 - [Team Skills Platform](https://github.com/Colin4k1024/tsp) - Role-based team delivery framework — Tech Lead-orchestrated 8-role system with 195+ skills, 27 specialist agents, 80+ commands, hooks, and ECC harness for Claude Code, Codex, and OpenCode.
-- [Test Gap](https://github.com/hashgraph-online/awesome-codex-plugins/tree/main/plugins/mturac/test-gap) - Find lines in your diff lacking test coverage (Cobertura, lcov, coverage.json).
-- [TODO Harvest](https://github.com/hashgraph-online/awesome-codex-plugins/tree/main/plugins/mturac/todo-harvest) - TODO/FIXME/HACK scan with `git blame` author + age.
+- [Test Gap](./plugins/mturac/test-gap) - Find lines in your diff lacking test coverage (Cobertura, lcov, coverage.json).
+- [TODO Harvest](./plugins/mturac/todo-harvest) - TODO/FIXME/HACK scan with `git blame` author + age.
 - [Tool Advisor](https://github.com/dragon1086/claude-skills) - Read-only meta-skill that scans your MCP servers, skills, plugins, and CLI tools, then suggests up to three ranked approaches (Methodical / Fast / Deep) with a copy-paste Quick Action table.
 - [Unity Agent Workflows](https://github.com/AUN-PN/unity-agent-workflows) - Codex plugin and skill for Unity 2D agents that enforces "No proof, no edit" workflows with runtime-owner proof, Teach structure maps, and validation gates.
 - [Universal Design Principles](https://github.com/HDeibler/universal-design-principles) - Cross-agent UX and product-design marketplace with a root Codex collection plugin, five focused plugin bundles, and 137 Agent Skills for design review, accessibility, layout, interaction, cognition, and product polish.
@@ -320,7 +252,7 @@ Third-party plugins built by the community, compatible with Codex, Claude Code, 
 - [Langfuse Observability](https://github.com/avivsinai/langfuse-mcp) - Query traces, debug exceptions, analyze sessions, and manage prompts via MCP tools.
 - [Launch Fast](https://github.com/BlockchainHB/launchfast_codex_plugin) - Official Launch Fast plugin adapter for rapid SaaS deployment.
 - [Maestro: Costguard](https://github.com/mbanderas/costguard) - Cost auditor for Codex that flags CI/cron and cloud-spend waste via read-only provider checks, then previews and applies surgical CI workflow fixes locally without writing to provider accounts or pushing git.
-- [Mantis](https://github.com/hashgraph-online/awesome-codex-plugins/tree/main/plugins/deonmenezes/mantishack) - Autonomous bug bounty hunter for authorized engagements — 7-phase FSM (RECON → AUTH → HUNT → CHAIN → VERIFY → GRADE → REPORT), parallel hunter sub-agents, cryptographic scope enforcement, and BLAKE3/Ed25519 Merkle event logs.
+- [Mantis](./plugins/deonmenezes/mantishack) - Autonomous bug bounty hunter for authorized engagements — 7-phase FSM (RECON → AUTH → HUNT → CHAIN → VERIFY → GRADE → REPORT), parallel hunter sub-agents, cryptographic scope enforcement, and BLAKE3/Ed25519 Merkle event logs.
 - [Mobazha](https://github.com/mobazha/mobazha-skills) - Decentralized e-commerce skills — deploy self-hosted stores, import products from Shopify/Amazon, configure custom domains and Telegram bots, set up Tor privacy, and manage your store via MCP.
 - [MorningAI](https://github.com/octo-patch/MorningAI) - AI news tracking skill that monitors 80+ entities across 6 sources (Reddit, HN, GitHub, Hugging Face, arXiv, X) and generates scored daily reports with infographics and message digests.
 - [Nullcost](https://github.com/johnvouros/nullcost-plugin) - Catalog-backed free-tier, free-trial, and cheap developer-tool recommendations for Codex through bundled skills and MCP tools.
@@ -357,13 +289,10 @@ Third-party plugins built by the community, compatible with Codex, Claude Code, 
 
 ### Plugin Anatomy
 
-Most agents use a similar structure. The `.codex-plugin/plugin.json` manifest is the most widely supported format (Codex, Cursor, and others). Claude Code uses `.claude-plugin/` or `CLAUDE.md`-based skills. Many plugins ship both formats.
-
 ```
 my-plugin/
 ├── .codex-plugin/
-│   └── plugin.json          # Codex/Cursor/agentskills.io manifest
-├── .claude-plugin/          # Optional: Claude Code manifest
+│   └── plugin.json          # Required: name, version, description, skills path
 ├── skills/
 │   └── my-skill/
 │       ├── SKILL.md          # Required: skill instructions + metadata
@@ -383,15 +312,15 @@ $plugin-creator
 
 ### Publishing
 
-Each agent has its own distribution path: Codex uses local marketplaces (`~/.agents/plugins/marketplace.json`) and repo sources, Claude Code loads skills from `.claude/` directories, Cursor supports MCP servers and slash commands, and Gemini CLI reads from its own config. The `.codex-plugin/plugin.json` format is the most widely adopted and works across multiple agents.
+Currently no self-serve marketplace submission. Plugins are distributed via local marketplaces (`~/.agents/plugins/marketplace.json`), repo marketplaces (`$REPO_ROOT/.agents/plugins/marketplace.json`), or GitHub repos by pointing a marketplace source at a repo. OpenAI has stated third-party marketplace submissions are coming soon.
 
-For this curated list, the machine-readable source of truth is the generated marketplace at `.agents/plugins/marketplace.json`. We keep the README for humans and `plugins.json` as a compatibility export for existing automation.
+For this curated list, the machine-readable source of truth is the generated repo marketplace at `.agents/plugins/marketplace.json`. We keep the README for humans and `plugins.json` as a compatibility export for existing automation.
 
 ## Validate Before You Ship
 
 After scaffolding with `$plugin-creator`, use [`plugin-scanner`](https://github.com/hashgraph-online/hol-guard) as your quality gate before publishing, review, or distribution.
 
-For skill/plugin authoring workflows, [Codex SkillForge](https://github.com/f0d010c/skillforge) provides an ESLint-style CLI and GitHub Action for scaffolding, linting, smoke-testing, and packaging skills/plugins before publishing.
+For skill/plugin authoring workflows, [Codex SkillForge](https://github.com/f0d010c/skillforge) provides an ESLint-style CLI and GitHub Action for scaffolding, linting, smoke-testing, and packaging Codex skills/plugins before publishing.
 
 ### Local Preflight
 
@@ -421,9 +350,8 @@ The score is best used as a quick trust signal and triage summary (not the only 
 
 ## Guides & Articles
 
-- [agentskills.io](https://agentskills.io) - Open standard for cross-agent skills.
 - [Codex Plugins, Visually Explained](https://adithyan.io/blog/codex-plugins-visual-explainer) - Visual walkthrough by @adithyan.
-- [Codex Plugins: Slack, Figma, Google Drive](https://arstechnica.com/ai/2026/03/openai-brings-plugins-to-codex-closing-some-of-the-gap-with-claude-code/) - Ars Technica feature on the Codex plugin ecosystem.
+- [Codex Plugins: Slack, Figma, Google Drive](https://arstechnica.com/ai/2026/03/openai-brings-plugins-to-codex-closing-some-of-the-gap-with-claude-code/) - Ars Technica feature deep dive.
 - [Codex v0.117.0 Plugin Walkthrough](https://reddit.com/r/codex/) - Reddit explainer.
 - [OpenAI's Codex Gets Plugins](https://thenewstack.io/openais-codex-gets-plugins/) - The New Stack ecosystem overview.
 
@@ -431,6 +359,7 @@ The score is best used as a quick trust signal and triage summary (not the only 
 
 - [agentskills.io](https://agentskills.io) - Open agent skills standard.
 - [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills#readme) - Cross-agent skill library (Claude, Codex, Cursor, Gemini).
+- [awesome-ai-plugins](https://github.com/hashgraph-online/awesome-ai-plugins) - Umbrella list covering Codex, Claude Code, Gemini CLI, and MCP servers.
 - [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code#readme) - Claude Code resources.
 - [awesome-coding-agents](https://github.com/e2b-dev/awesome-ai-agents#readme) - Curated list of AI coding agents.
 - [awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers#readme) - MCP server directory.
@@ -469,12 +398,8 @@ Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md
 
 To add a plugin:
 
-1. Fork this repo
-2. Add your entry to the appropriate section following the existing format
-3. Submit a PR
+1. Set up the HOL Plugin Scanner in your plugin repo (see [CONTRIBUTING.md](CONTRIBUTING.md))
+2. Fork this repo and add a single line to the appropriate section in `README.md` (alphabetical order)
+3. Submit a PR with your scanner score and plugin repo URL
 
-**Requirements:**
-
-- Plugin must have a public GitHub repository
-- Must include `.codex-plugin/plugin.json`
-- Must be functional and well-documented
+**You do not need to copy plugin files into this repo.** A generator fetches your bundle from your source repo and regenerates catalog files automatically.

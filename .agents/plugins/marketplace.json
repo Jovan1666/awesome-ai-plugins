@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-06-24T18:09:37.482571+00:00",
+  "last_updated": "2026-06-26T21:32:32.105378+00:00",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -1923,21 +1923,6 @@
       "repo": "yandex-direct-for-all",
       "url": "https://github.com/nebelov/yandex-direct-for-all",
       "install_url": "https://raw.githubusercontent.com/nebelov/yandex-direct-for-all/HEAD/plugins/yandex-direct-for-all/.codex-plugin/plugin.json"
-    },
-    {
-      "name": "Changelog Forge",
-      "displayName": "Changelog Forge",
-      "description": "Conventional commits \u2192 CHANGELOG section + semver bump",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "hashgraph-online",
-      "repo": "awesome-codex-plugins",
-      "url": "https://github.com/hashgraph-online/awesome-codex-plugins/tree/main/plugins/mturac/changelog-forge",
-      "install_url": "https://raw.githubusercontent.com/hashgraph-online/awesome-codex-plugins/HEAD/.codex-plugin/plugin.json"
     }
   ]
 }
