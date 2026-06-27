@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-06-26T21:32:32.105378+00:00",
+  "last_updated": "2026-06-27T02:17:01.902386+00:00",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -1923,6 +1923,21 @@
       "repo": "yandex-direct-for-all",
       "url": "https://github.com/nebelov/yandex-direct-for-all",
       "install_url": "https://raw.githubusercontent.com/nebelov/yandex-direct-for-all/HEAD/plugins/yandex-direct-for-all/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "ru-text",
+      "displayName": "ru-text",
+      "description": "Russian text quality \u2014 ~1,044 rules for typography, info-style, editorial, UX writing, and business correspondence",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "talkstream",
+      "repo": "ru-text",
+      "url": "https://github.com/talkstream/ru-text",
+      "install_url": "https://raw.githubusercontent.com/talkstream/ru-text/HEAD/.codex-plugin/plugin.json"
     }
   ]
 }
