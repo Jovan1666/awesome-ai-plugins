@@ -1375,7 +1375,7 @@
       "description": "Local document extraction for 91+ formats with skills for CLI usage, OCR, table extraction, output formats, and a local MCP server.",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/kreuzberg-dev/plugins/HEAD/plugins/kreuzberg/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/kreuzberg-dev/plugins/HEAD/plugins/crawlberg/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -1389,7 +1389,7 @@
       "description": "Managed document extraction for Codex with API-key setup, presigned uploads, job tracking, webhook workflows, and usage guidance.",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/kreuzberg-dev/plugins/HEAD/plugins/kreuzberg-cloud/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/kreuzberg-dev/plugins/HEAD/plugins/crawlberg/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -1403,7 +1403,7 @@
       "description": "Web crawling and scraping for Codex with skills for single-page scraping, site crawls, URL mapping, and headless browser fallback.",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/kreuzberg-dev/plugins/HEAD/plugins/kreuzcrawl/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/kreuzberg-dev/plugins/HEAD/plugins/crawlberg/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -1606,6 +1606,20 @@
       ]
     },
     {
+      "name": "ru-text",
+      "url": "https://github.com/talkstream/ru-text",
+      "owner": "talkstream",
+      "repo": "ru-text",
+      "description": "Russian text quality \u2014 ~1,044 rules for typography, info-style, editorial, UX writing, and business correspondence.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/talkstream/ru-text/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Rust Reverse Engineering",
       "url": "https://github.com/jingjing2222/rust-reverse-engineering-skill",
       "owner": "jingjing2222",
@@ -1642,20 +1656,6 @@
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/avalonreset/seo-dungeon/HEAD/.codex-plugin/plugin.json",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "sitemd",
-      "url": "https://github.com/sitemd-cc/sitemd",
-      "owner": "sitemd-cc",
-      "repo": "sitemd",
-      "description": "Build websites from Markdown via MCP \u2014 22 tools for creating pages, generating content, validating, running SEO audits, configuring settings, and deploying static sites to Cloudflare Pages.",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/sitemd-cc/sitemd/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -1802,15 +1802,15 @@
       ]
     },
     {
-      "name": "ru-text",
-      "url": "https://github.com/talkstream/ru-text",
-      "owner": "talkstream",
-      "repo": "ru-text",
-      "description": "Russian text quality \u2014 ~1,044 rules for typography, info-style, editorial, UX writing, and business correspondence",
+      "name": "sitemd",
+      "url": "https://github.com/sitemd-cc/sitemd",
+      "owner": "sitemd-cc",
+      "repo": "sitemd",
+      "description": "Build websites from Markdown via MCP \u2014 22 tools for creating pages, generating content, validating, running SEO audits, configuring settings, and deploying static sites to Cloudflare Pages",
       "category": "Tools & Integrations",
       "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/talkstream/ru-text/HEAD/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/sitemd-cc/sitemd/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

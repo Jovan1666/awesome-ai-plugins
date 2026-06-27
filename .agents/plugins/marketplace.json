@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-06-27T02:17:01.902386+00:00",
+  "last_updated": "2026-06-27T14:57:16.055958+00:00",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -1472,7 +1472,7 @@
       "owner": "kreuzberg-dev",
       "repo": "plugins",
       "url": "https://github.com/kreuzberg-dev/plugins",
-      "install_url": "https://raw.githubusercontent.com/kreuzberg-dev/plugins/HEAD/plugins/kreuzberg/.codex-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/kreuzberg-dev/plugins/HEAD/plugins/crawlberg/.codex-plugin/plugin.json"
     },
     {
       "name": "Kreuzberg Cloud",
@@ -1487,7 +1487,7 @@
       "owner": "kreuzberg-dev",
       "repo": "plugins",
       "url": "https://github.com/kreuzberg-dev/plugins",
-      "install_url": "https://raw.githubusercontent.com/kreuzberg-dev/plugins/HEAD/plugins/kreuzberg-cloud/.codex-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/kreuzberg-dev/plugins/HEAD/plugins/crawlberg/.codex-plugin/plugin.json"
     },
     {
       "name": "Kreuzcrawl",
@@ -1502,7 +1502,7 @@
       "owner": "kreuzberg-dev",
       "repo": "plugins",
       "url": "https://github.com/kreuzberg-dev/plugins",
-      "install_url": "https://raw.githubusercontent.com/kreuzberg-dev/plugins/HEAD/plugins/kreuzcrawl/.codex-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/kreuzberg-dev/plugins/HEAD/plugins/crawlberg/.codex-plugin/plugin.json"
     },
     {
       "name": "Langfuse Observability",
@@ -1715,6 +1715,21 @@
       "install_url": "https://raw.githubusercontent.com/tim-osterhus/codex-remotion-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "ru-text",
+      "displayName": "ru-text",
+      "description": "Russian text quality \u2014 ~1,044 rules for typography, info-style, editorial, UX writing, and business correspondence.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "talkstream",
+      "repo": "ru-text",
+      "url": "https://github.com/talkstream/ru-text",
+      "install_url": "https://raw.githubusercontent.com/talkstream/ru-text/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Rust Reverse Engineering",
       "displayName": "Rust Reverse Engineering",
       "description": "Reverse engineer Rust binaries and libraries: triage targets, demangle symbols, recover crate namespaces, and map panic, unwind, async, and FFI paths.",
@@ -1758,21 +1773,6 @@
       "repo": "seo-dungeon",
       "url": "https://github.com/avalonreset/seo-dungeon",
       "install_url": "https://raw.githubusercontent.com/avalonreset/seo-dungeon/HEAD/.codex-plugin/plugin.json"
-    },
-    {
-      "name": "sitemd",
-      "displayName": "sitemd",
-      "description": "Build websites from Markdown via MCP \u2014 22 tools for creating pages, generating content, validating, running SEO audits, configuring settings, and deploying static sites to Cloudflare Pages.",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "sitemd-cc",
-      "repo": "sitemd",
-      "url": "https://github.com/sitemd-cc/sitemd",
-      "install_url": "https://raw.githubusercontent.com/sitemd-cc/sitemd/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Synta MCP",
@@ -1925,19 +1925,19 @@
       "install_url": "https://raw.githubusercontent.com/nebelov/yandex-direct-for-all/HEAD/plugins/yandex-direct-for-all/.codex-plugin/plugin.json"
     },
     {
-      "name": "ru-text",
-      "displayName": "ru-text",
-      "description": "Russian text quality \u2014 ~1,044 rules for typography, info-style, editorial, UX writing, and business correspondence",
+      "name": "sitemd",
+      "displayName": "sitemd",
+      "description": "Build websites from Markdown via MCP \u2014 22 tools for creating pages, generating content, validating, running SEO audits, configuring settings, and deploying static sites to Cloudflare Pages",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "platform": "codex",
       "ecosystems": [
         "codex"
       ],
-      "owner": "talkstream",
-      "repo": "ru-text",
-      "url": "https://github.com/talkstream/ru-text",
-      "install_url": "https://raw.githubusercontent.com/talkstream/ru-text/HEAD/.codex-plugin/plugin.json"
+      "owner": "sitemd-cc",
+      "repo": "sitemd",
+      "url": "https://github.com/sitemd-cc/sitemd",
+      "install_url": "https://raw.githubusercontent.com/sitemd-cc/sitemd/HEAD/.codex-plugin/plugin.json"
     }
   ]
 }
