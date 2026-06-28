@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-06-27T14:57:16.055958+00:00",
+  "last_updated": "2026-06-28T10:32:26.581443+00:00",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -1923,6 +1923,36 @@
       "repo": "yandex-direct-for-all",
       "url": "https://github.com/nebelov/yandex-direct-for-all",
       "install_url": "https://raw.githubusercontent.com/nebelov/yandex-direct-for-all/HEAD/plugins/yandex-direct-for-all/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Boss",
+      "displayName": "Boss",
+      "description": "BMAD pipeline plugin that orchestrates a full requirements-to-deploy workflow across nine specialist agents with an auditable runtime DAG and quality gates, for Claude Code, Codex, OpenClaw, and Antigravity",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "echoVic",
+      "repo": "boss-skill",
+      "url": "https://github.com/echoVic/boss-skill",
+      "install_url": "https://raw.githubusercontent.com/echoVic/boss-skill/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Waggle",
+      "displayName": "Waggle",
+      "description": "Persistent graph-backed conversational memory for Codex that recalls project decisions, constraints, preferences, and outcomes across sessions",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Abhigyan-Shekhar",
+      "repo": "Waggle-mcp",
+      "url": "https://github.com/Abhigyan-Shekhar/Waggle-mcp",
+      "install_url": "https://raw.githubusercontent.com/Abhigyan-Shekhar/Waggle-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "sitemd",

@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-06-27",
-  "total": 129,
+  "last_updated": "2026-06-28",
+  "total": 131,
   "platforms": [
     "codex"
   ],
@@ -1797,6 +1797,34 @@
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/nebelov/yandex-direct-for-all/HEAD/plugins/yandex-direct-for-all/.codex-plugin/plugin.json",
       "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Boss",
+      "url": "https://github.com/echoVic/boss-skill",
+      "owner": "echoVic",
+      "repo": "boss-skill",
+      "description": "BMAD pipeline plugin that orchestrates a full requirements-to-deploy workflow across nine specialist agents with an auditable runtime DAG and quality gates, for Claude Code, Codex, OpenClaw, and Antigravity",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/echoVic/boss-skill/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Waggle",
+      "url": "https://github.com/Abhigyan-Shekhar/Waggle-mcp",
+      "owner": "Abhigyan-Shekhar",
+      "repo": "Waggle-mcp",
+      "description": "Persistent graph-backed conversational memory for Codex that recalls project decisions, constraints, preferences, and outcomes across sessions",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Abhigyan-Shekhar/Waggle-mcp/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
