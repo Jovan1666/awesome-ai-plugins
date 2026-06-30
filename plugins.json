@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-06-30",
-  "total": 134,
+  "total": 132,
   "platforms": [
     "codex"
   ],
@@ -1830,43 +1830,15 @@
       ]
     },
     {
-      "name": "Pencil Skill",
-      "url": "https://github.com/Nisus74/pencil-skill",
-      "owner": "Nisus74",
-      "repo": "pencil-skill",
-      "description": "AI coding skill plugin that teaches agents to design, edit, and validate pencil.dev (.pen) UIs through the Pencil MCP server, for Claude Code, Cursor, Codex, and Gemini CLI",
-      "category": "Development & Workflow",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/Nisus74/pencil-skill/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "Superloopy",
-      "url": "https://github.com/beefiker/superloopy",
-      "owner": "beefiker",
-      "repo": "superloopy",
-      "description": "Evidence-gated Codex loop harness with specialist skills, including near-pixel authorized website cloning backed by screenshots, assets, build output, and visual QA",
-      "category": "Development & Workflow",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/beefiker/superloopy/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "OpenProject Codex",
-      "url": "https://github.com/varaprasadreddy9676/openproject-codex-plugin",
-      "owner": "varaprasadreddy9676",
-      "repo": "openproject-codex-plugin",
-      "description": "OpenProject integration for Codex with project, team, work package, bulk workflow, boards, wiki, meeting, attachment, and reporting support",
+      "name": "Ophis",
+      "url": "https://github.com/ophis-fi/skills",
+      "owner": "ophis-fi",
+      "repo": "skills",
+      "description": "Onchain token swaps for Codex via the hosted Ophis MCP server, MEV-protected and gasless, built on CoW Protocol",
       "category": "Tools & Integrations",
       "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/varaprasadreddy9676/openproject-codex-plugin/HEAD/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/ophis-fi/skills/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
