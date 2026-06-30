@@ -57,11 +57,11 @@ pipx run plugin-scanner verify .
 
 All plugins submitted to **Awesome Codex Plugins** must pass the HOL AI Plugin Scanner:
 
-| Requirement | Threshold |
-|-------------|-----------|
-| **Score** | ≥ 80 / 130 |
-| **Severity** | No critical or high findings |
-| **CI** | Scanner must run in your repo's GitHub Actions |
+| Requirement  | Threshold                                      |
+| ------------ | ---------------------------------------------- |
+| **Score**    | ≥ 80 / 130                                     |
+| **Severity** | No critical or high findings                   |
+| **CI**       | Scanner must run in your repo's GitHub Actions |
 
 See the full guide: [`SCANNER_GUIDE.md`](./SCANNER_GUIDE.md)  
 See contributing requirements: [`CONTRIBUTING.md`](./CONTRIBUTING.md)
@@ -215,8 +215,8 @@ Third-party plugins built by the community. [PRs welcome](#contributing)!
 - [Velith](https://github.com/epicsagas/Velith) - AI-native publishing system with a 6-phase pipeline from ideation to EPUB/PDF across 8 genres.
 - [VibePortrait](https://github.com/dadwadw233/VibePortrait) - Developer personality portrait generator — analyzes AI conversation history to produce MBTI type (16 color themes), capability radar, developer rating, 3-dimension famous match, and a persona skill that lets any AI "think like you".
 - [VillageSQL Skills](https://github.com/villagesql/villagesql-skills) - Skills for VillageSQL including building extensions from scratch and porting PostgreSQL extensions to VillageSQL.
+- [Wingman](https://github.com/lsshym/wingman.ai) - Cross-platform AI coding-agent plugin for repo-local project memory, data-contract checks, and project-map discovery before agents edit code.
 - [Waggle](https://github.com/Abhigyan-Shekhar/Waggle-mcp) - Persistent graph-backed conversational memory for Codex that recalls project decisions, constraints, preferences, and outcomes across sessions.
-- [Wingman](https://github.com/lsshym/wingman.ai) - Cross-platform AI coding plugin for project memory, data-contract alignment, and project-map discovery across Codex, Claude Code, Cursor, and Gemini.
 - [Workflow Kit](https://github.com/Le-Xuan-Thang/workflow-kit) - Full product lifecycle plugin for Claude Code, Codex CLI, and OpenCode: define Vision/Mission/Core → generate workplan → execute with mandatory cross-provider reviewer agents → synthesize deliverables → maintain, with parallel task execution, crash recovery, and AgentOps metrics.
 - [Writer's Loop](https://github.com/xxsang/writers-loop) - Structured AI writing workflow for planning, critique, revision, translation, style distillation, and opt-in local preference learning.
 - [Zagrosi Forge](https://github.com/zagrosi-code/zagrosi-forge) - Decompose broad project briefs into researched plans and implement sectioned work with TDD, quality gates, and traceability.
