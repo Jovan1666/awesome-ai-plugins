@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-07-01",
-  "total": 135,
+  "total": 139,
   "platforms": [
     "codex"
   ],
@@ -1881,6 +1881,62 @@
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/nebelov/yandex-direct-for-all/HEAD/plugins/yandex-direct-for-all/.codex-plugin/plugin.json",
       "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "BABOK Analyst",
+      "url": "https://github.com/GSkuza/BABOK_ANALYST",
+      "owner": "GSkuza",
+      "repo": "BABOK_ANALYST",
+      "description": "BABOK v3 business analysis agent with 16 MCP tools, a 9-stage pipeline, and human-in-the-loop approval gates",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/GSkuza/BABOK_ANALYST/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Krypton",
+      "url": "https://github.com/jturntdev/krypton",
+      "owner": "jturntdev",
+      "repo": "krypton",
+      "description": "Goal-based planning and proof gate for Codex and Claude Code that turns requests into ownership, cutover, review-gate, and acceptance-evidence plans",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/jturntdev/krypton/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "RAG Reviewer",
+      "url": "https://github.com/mimfort/rag_for_git",
+      "owner": "mimfort",
+      "repo": "rag_for_git",
+      "description": "Agentic PR review: hybrid RAG + code graph via MCP, review skills for Codex",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/mimfort/rag_for_git/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "OpenProject Codex",
+      "url": "https://github.com/varaprasadreddy9676/openproject-codex-plugin",
+      "owner": "varaprasadreddy9676",
+      "repo": "openproject-codex-plugin",
+      "description": "OpenProject integration for Codex with project, team, work package, bulk workflow, boards, wiki, meeting, attachment, and reporting support",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/varaprasadreddy9676/openproject-codex-plugin/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
