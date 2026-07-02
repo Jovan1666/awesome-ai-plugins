@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-07-02T10:44:17.501144+00:00",
+  "last_updated": "2026-07-02T19:37:34.941121+00:00",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -243,6 +243,21 @@
       "repo": "armorCodex",
       "url": "https://github.com/armoriq/armorCodex",
       "install_url": "https://raw.githubusercontent.com/armoriq/armorCodex/HEAD/plugins/armorcodex/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "BGS Modding Superpowers",
+      "displayName": "BGS Modding Superpowers",
+      "description": "Agentic Bethesda Game Studio modpack curation toolkit with MCP-driven xEdit conflict audit, MO2 control plane, BA2/BSA and Papyrus tooling, and skills for setup, dev-log, and release-changelog workflows.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "BB-84C",
+      "repo": "bgs-modding-superpowers",
+      "url": "https://github.com/BB-84C/bgs-modding-superpowers",
+      "install_url": "https://raw.githubusercontent.com/BB-84C/bgs-modding-superpowers/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "BABOK Analyst",
@@ -2120,19 +2135,34 @@
       "install_url": "https://raw.githubusercontent.com/summer521521/Zotero_Research_plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
-      "name": "Chuzom",
-      "displayName": "Chuzom",
-      "description": "Routes every Codex/Claude task to the cheapest capable model across 20+ providers (Gemini Flash, Haiku, Ollama, Perplexity), tracking cross-session savings and enforcing routing policy",
+      "name": "AgentGuards",
+      "displayName": "AgentGuards",
+      "description": "LLM security guardrails for Codex with enforcing hooks and MCP tools: jailbreak and prompt-injection detection, web-content scanning, data-exfiltration blocking, and destructive-command authorization",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "platform": "codex",
       "ecosystems": [
         "codex"
       ],
-      "owner": "Chuzom",
-      "repo": "Chuzom",
-      "url": "https://github.com/Chuzom/Chuzom",
-      "install_url": "https://raw.githubusercontent.com/Chuzom/Chuzom/HEAD/.codex-plugin/plugin.json"
+      "owner": "alelaguard",
+      "repo": "agentguards-plugins",
+      "url": "https://github.com/alelaguard/agentguards-plugins",
+      "install_url": "https://raw.githubusercontent.com/alelaguard/agentguards-plugins/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "CarsXE",
+      "displayName": "CarsXE",
+      "description": "Decode VINs, license plates, market value, vehicle history, recalls, liens, OBD codes, and more via the CarsXE API",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "carsxe",
+      "repo": "carsxe-codex-plugin",
+      "url": "https://github.com/carsxe/carsxe-codex-plugin",
+      "install_url": "https://raw.githubusercontent.com/carsxe/carsxe-codex-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "sitemd",
