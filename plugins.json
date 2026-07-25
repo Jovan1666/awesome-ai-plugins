@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-07-22",
+  "last_updated": "2026-07-25",
   "total": 183,
   "platforms": [
     "codex",
@@ -1286,13 +1286,13 @@
     },
     {
       "name": "UIZZE",
-      "url": "https://github.com/samuelbushi/uizze",
-      "owner": "samuelbushi",
+      "url": "https://github.com/uizze/uizze",
+      "owner": "uizze",
       "repo": "uizze",
       "description": "STOP UI SLOP. Gives Codex 800,000+ real web and iOS screens, a product-specific design contract, and a hard finish gate before generic UI ships; connect it at https://uizze.com.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/samuelbushi/uizze/HEAD/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/uizze/uizze/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -1825,6 +1825,20 @@
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/GarethManning/education-agent-skills/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Exa Web Search",
+      "url": "https://github.com/zlsbksdxl/codex-exa",
+      "owner": "zlsbksdxl",
+      "repo": "codex-exa",
+      "description": "Search and fetch current web sources in Codex through the official Exa MCP server with browser OAuth.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/zlsbksdxl/codex-exa/HEAD/plugins/exa/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -2531,29 +2545,15 @@
       ]
     },
     {
-      "name": "UIZZE",
-      "url": "https://github.com/uizze/uizze",
-      "owner": "uizze",
-      "repo": "uizze",
-      "description": "STOP UI SLOP. Gives Codex 800,000+ real web and iOS screens, a product-specific design contract, and a hard finish gate before generic UI ships; connect it at https://uizze.com",
-      "category": "Development & Workflow",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/uizze/uizze/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "Exa Web Search",
-      "url": "https://github.com/zlsbksdxl/codex-exa",
-      "owner": "zlsbksdxl",
-      "repo": "codex-exa",
-      "description": "Search and fetch current web sources in Codex through the official Exa MCP server with browser OAuth",
+      "name": "Haunt",
+      "url": "https://github.com/Darko893/haunt-mcp-server",
+      "owner": "Darko893",
+      "repo": "haunt-mcp-server",
+      "description": "Web extraction for AI agents: any permitted public page to structured JSON or clean Markdown from a plain-English prompt, plus Reddit posts and comments with no Reddit app or OAuth, company profiles from a URL, and GitHub repo data. Login walls and CAPTCHAs return typed errors instead of fabricated data, and failed calls are not charged",
       "category": "Tools & Integrations",
       "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/zlsbksdxl/codex-exa/HEAD/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/Darko893/haunt-mcp-server/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
