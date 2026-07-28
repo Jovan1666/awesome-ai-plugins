@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-07-26",
+  "last_updated": "2026-07-28",
   "total": 184,
   "platforms": [
     "codex",
@@ -1733,6 +1733,20 @@
       ]
     },
     {
+      "name": "Computer Usage Summary",
+      "url": "https://github.com/liuyewang/computer-usage-summary-skill",
+      "owner": "liuyewang",
+      "repo": "computer-usage-summary-skill",
+      "description": "Privacy-first, local ActivityWatch reports for app time, AFK time, projects, billable work, and redacted timelines across macOS, Windows, and Linux.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/liuyewang/computer-usage-summary-skill/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "CONTAM Tools",
       "url": "https://github.com/summer521521/CONTAM_plugin",
       "owner": "summer521521",
@@ -2528,20 +2542,6 @@
       "platform": "grok",
       "ecosystems": [
         "grok"
-      ]
-    },
-    {
-      "name": "Computer Usage Summary",
-      "url": "https://github.com/liuyewang/computer-usage-summary-skill",
-      "owner": "liuyewang",
-      "repo": "computer-usage-summary-skill",
-      "description": "Privacy-first, local ActivityWatch reports for app time, AFK time, projects, billable work, and redacted timelines across macOS, Windows, and Linux",
-      "category": "Tools & Integrations",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/liuyewang/computer-usage-summary-skill/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
       ]
     },
     {

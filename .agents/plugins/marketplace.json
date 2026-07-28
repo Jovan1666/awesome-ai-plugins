@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-07-26T21:20:41.644633+00:00",
+  "last_updated": "2026-07-28T12:48:40.027723+00:00",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -1850,6 +1850,21 @@
       "install_url": "https://raw.githubusercontent.com/douglasmonsky/codex-usage-tracker/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Computer Usage Summary",
+      "displayName": "Computer Usage Summary",
+      "description": "Privacy-first, local ActivityWatch reports for app time, AFK time, projects, billable work, and redacted timelines across macOS, Windows, and Linux.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "liuyewang",
+      "repo": "computer-usage-summary-skill",
+      "url": "https://github.com/liuyewang/computer-usage-summary-skill",
+      "install_url": "https://raw.githubusercontent.com/liuyewang/computer-usage-summary-skill/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "CONTAM Tools",
       "displayName": "CONTAM Tools",
       "description": "Runs and inspects CONTAM airflow projects through a local MCP server with project guards, diagnostics, simulation helpers, and bridge workflows.",
@@ -2703,21 +2718,6 @@
       "repo": "hol-guard-grok-plugin",
       "url": "https://github.com/hashgraph-online/hol-guard-grok-plugin",
       "install_url": "https://raw.githubusercontent.com/hashgraph-online/hol-guard-grok-plugin/HEAD/.grok-plugin/plugin.json"
-    },
-    {
-      "name": "Computer Usage Summary",
-      "displayName": "Computer Usage Summary",
-      "description": "Privacy-first, local ActivityWatch reports for app time, AFK time, projects, billable work, and redacted timelines across macOS, Windows, and Linux",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "liuyewang",
-      "repo": "computer-usage-summary-skill",
-      "url": "https://github.com/liuyewang/computer-usage-summary-skill",
-      "install_url": "https://raw.githubusercontent.com/liuyewang/computer-usage-summary-skill/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "PDF Monster",
