@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-07-28",
-  "total": 184,
+  "total": 185,
   "platforms": [
     "codex",
     "grok"
@@ -2542,6 +2542,20 @@
       "platform": "grok",
       "ecosystems": [
         "grok"
+      ]
+    },
+    {
+      "name": "skill-sync-publisher",
+      "url": "https://github.com/liuyewang/skill-sync-publisher",
+      "owner": "liuyewang",
+      "repo": "skill-sync-publisher",
+      "description": "Safely synchronize this Codex skill across public agent-skill registries",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/liuyewang/skill-sync-publisher/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
