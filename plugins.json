@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-07-28",
-  "total": 185,
+  "last_updated": "2026-07-29",
+  "total": 186,
   "platforms": [
     "codex",
     "grok"
@@ -1089,6 +1089,20 @@
       ]
     },
     {
+      "name": "skill-sync-publisher",
+      "url": "https://github.com/liuyewang/skill-sync-publisher",
+      "owner": "liuyewang",
+      "repo": "skill-sync-publisher",
+      "description": "Safely synchronize this Codex skill across public agent-skill registries.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/liuyewang/skill-sync-publisher/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Spec-Driven Development",
       "url": "https://github.com/Habib0x0/spec-driven-plugin",
       "owner": "Habib0x0",
@@ -1107,7 +1121,7 @@
       "url": "https://github.com/MageByte-Zero/spec-superflow",
       "owner": "MageByte-Zero",
       "repo": "spec-superflow",
-      "description": "Spec-first workflow with nine skills, auditable recovery commands, guarded workflow-path recommendations, Node 20 support, and evidence-based review gates.",
+      "description": "Spec-first workflow with nine skills, user-controlled Quick / Hotfix / Tweak / Full paths, auditable recovery commands, hardened delta-spec sync, and guarded review gates.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/MageByte-Zero/spec-superflow/HEAD/.codex-plugin/plugin.json",
@@ -2545,15 +2559,15 @@
       ]
     },
     {
-      "name": "skill-sync-publisher",
-      "url": "https://github.com/liuyewang/skill-sync-publisher",
-      "owner": "liuyewang",
-      "repo": "skill-sync-publisher",
-      "description": "Safely synchronize this Codex skill across public agent-skill registries",
+      "name": "Codex Usage and Resets",
+      "url": "https://github.com/joelfarthing/codex-usage-and-resets",
+      "owner": "joelfarthing",
+      "repo": "codex-usage-and-resets",
+      "description": "Turns Codex usage into planning facts with linear pace, projected exhaustion, banked-reset expirations, and conservative unexpected-reset detection",
       "category": "Development & Workflow",
       "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/liuyewang/skill-sync-publisher/HEAD/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/joelfarthing/codex-usage-and-resets/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
