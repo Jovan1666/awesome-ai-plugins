@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-07-29T08:59:49.578044+00:00",
+  "last_updated": "2026-08-02T17:23:31.920149+00:00",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -2540,6 +2540,21 @@
       "install_url": "https://raw.githubusercontent.com/Synta-ai/n8n-mcp-codex-plugin-synta/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "SysKnife",
+      "displayName": "SysKnife",
+      "description": "Linux sysadmin co-pilot as an MCP server for Codex: plain-language requests become typed, risk-classified actions that a privileged daemon runs only after out-of-band terminal approval, with an Ed25519-signed audit chain and automatic rollback.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "lacs-project",
+      "repo": "sysknife",
+      "url": "https://github.com/lacs-project/sysknife",
+      "install_url": "https://raw.githubusercontent.com/lacs-project/sysknife/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Taisly Agent Kit",
       "displayName": "Taisly Agent Kit",
       "description": "Publish short-form videos to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook from Codex with the Taisly MCP server and bundled social media posting skill.",
@@ -2750,6 +2765,21 @@
       "install_url": "https://raw.githubusercontent.com/hashgraph-online/hol-guard-grok-plugin/HEAD/.grok-plugin/plugin.json"
     },
     {
+      "name": "falsegreen-skill",
+      "displayName": "falsegreen-skill",
+      "description": "Finds tests that stay green when the code they cover is broken, applying six ordered judgments over Python, TypeScript, JavaScript, and Robot Framework suites in Codex CLI and Claude Code",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "vinicq",
+      "repo": "falsegreen-skill",
+      "url": "https://github.com/vinicq/falsegreen-skill",
+      "install_url": "https://raw.githubusercontent.com/vinicq/falsegreen-skill/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "PDF Monster",
       "displayName": "PDF Monster",
       "description": "Analyzes PDFs as extracted text, OCR text, rendered page images, and embedded figures for coding agents",
@@ -2793,21 +2823,6 @@
       "repo": "sitemd",
       "url": "https://github.com/sitemd-cc/sitemd",
       "install_url": "https://raw.githubusercontent.com/sitemd-cc/sitemd/HEAD/.codex-plugin/plugin.json"
-    },
-    {
-      "name": "SysKnife",
-      "displayName": "SysKnife",
-      "description": "Linux sysadmin co-pilot as an MCP server for Codex: plain-language requests become typed, risk-classified actions that a privileged daemon runs only after out-of-band terminal approval, with an Ed25519-signed audit chain and automatic rollback",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "lacs-project",
-      "repo": "sysknife",
-      "url": "https://github.com/lacs-project/sysknife",
-      "install_url": "https://raw.githubusercontent.com/lacs-project/sysknife/HEAD/.codex-plugin/plugin.json"
     }
   ]
 }

@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-07-29",
-  "total": 187,
+  "last_updated": "2026-08-02",
+  "total": 188,
   "platforms": [
     "codex",
     "grok"
@@ -2377,6 +2377,20 @@
       ]
     },
     {
+      "name": "SysKnife",
+      "url": "https://github.com/lacs-project/sysknife",
+      "owner": "lacs-project",
+      "repo": "sysknife",
+      "description": "Linux sysadmin co-pilot as an MCP server for Codex: plain-language requests become typed, risk-classified actions that a privileged daemon runs only after out-of-band terminal approval, with an Ed25519-signed audit chain and automatic rollback.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/lacs-project/sysknife/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Taisly Agent Kit",
       "url": "https://github.com/taisly/agent",
       "owner": "taisly",
@@ -2573,6 +2587,20 @@
       ]
     },
     {
+      "name": "falsegreen-skill",
+      "url": "https://github.com/vinicq/falsegreen-skill",
+      "owner": "vinicq",
+      "repo": "falsegreen-skill",
+      "description": "Finds tests that stay green when the code they cover is broken, applying six ordered judgments over Python, TypeScript, JavaScript, and Robot Framework suites in Codex CLI and Claude Code",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/vinicq/falsegreen-skill/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "PDF Monster",
       "url": "https://github.com/jbaehova/pdf-monster",
       "owner": "jbaehova",
@@ -2610,20 +2638,6 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/sitemd-cc/sitemd/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "SysKnife",
-      "url": "https://github.com/lacs-project/sysknife",
-      "owner": "lacs-project",
-      "repo": "sysknife",
-      "description": "Linux sysadmin co-pilot as an MCP server for Codex: plain-language requests become typed, risk-classified actions that a privileged daemon runs only after out-of-band terminal approval, with an Ed25519-signed audit chain and automatic rollback",
-      "category": "Tools & Integrations",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/lacs-project/sysknife/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
