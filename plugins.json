@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-08-03",
-  "total": 190,
+  "total": 192,
   "platforms": [
     "codex",
     "grok"
@@ -2615,6 +2615,20 @@
       ]
     },
     {
+      "name": "X (Twitter) Skills",
+      "url": "https://github.com/sergebulaev/x-skills",
+      "owner": "sergebulaev",
+      "repo": "x-skills",
+      "description": "Codex-ready X (Twitter) marketing bundle with a native .codex-plugin manifest: tweet and thread writing with corpus-validated hook formulas (validated against ~450 top tweets), AI-tell humanizer, hook extraction, reply drafting, content planning, and audience insights; also works in Claude Code",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/sergebulaev/x-skills/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "PDF Monster",
       "url": "https://github.com/jbaehova/pdf-monster",
       "owner": "jbaehova",
@@ -2666,6 +2680,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/talivia-group/agent/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Unified AI System",
+      "url": "https://github.com/happy520ai/unified-ai-system",
+      "owner": "happy520ai",
+      "repo": "unified-ai-system",
+      "description": "Self-hosted AI gateway for Codex with provider-free prompt enhancement, nine governed MCP tools, and a credential-free Docker path",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/happy520ai/unified-ai-system/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
