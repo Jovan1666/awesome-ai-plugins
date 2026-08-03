@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-08-02T17:23:31.920149+00:00",
+  "last_updated": "2026-08-03T11:05:39.676489+00:00",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -738,6 +738,21 @@
       "repo": "espresso",
       "url": "https://github.com/mirkobozzetto/espresso",
       "install_url": "https://raw.githubusercontent.com/mirkobozzetto/espresso/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "falsegreen-skill",
+      "displayName": "falsegreen-skill",
+      "description": "Finds tests that stay green when the code they cover is broken, applying six ordered judgments over Python, TypeScript, JavaScript, and Robot Framework suites in Codex CLI and Claude Code.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "vinicq",
+      "repo": "falsegreen-skill",
+      "url": "https://github.com/vinicq/falsegreen-skill",
+      "install_url": "https://raw.githubusercontent.com/vinicq/falsegreen-skill/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Frappe Agent",
@@ -2765,19 +2780,19 @@
       "install_url": "https://raw.githubusercontent.com/hashgraph-online/hol-guard-grok-plugin/HEAD/.grok-plugin/plugin.json"
     },
     {
-      "name": "falsegreen-skill",
-      "displayName": "falsegreen-skill",
-      "description": "Finds tests that stay green when the code they cover is broken, applying six ordered judgments over Python, TypeScript, JavaScript, and Robot Framework suites in Codex CLI and Claude Code",
+      "name": "Codex How To",
+      "displayName": "Codex How To",
+      "description": "Engineering-first Codex curriculum and plugin with 9 skills, measured token-efficiency experiments, bounded orchestration, testing, review, and living knowledge maintenance",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "platform": "codex",
       "ecosystems": [
         "codex"
       ],
-      "owner": "vinicq",
-      "repo": "falsegreen-skill",
-      "url": "https://github.com/vinicq/falsegreen-skill",
-      "install_url": "https://raw.githubusercontent.com/vinicq/falsegreen-skill/HEAD/.codex-plugin/plugin.json"
+      "owner": "Phelan164",
+      "repo": "codex-howto",
+      "url": "https://github.com/Phelan164/codex-howto",
+      "install_url": "https://raw.githubusercontent.com/Phelan164/codex-howto/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "PDF Monster",
@@ -2823,6 +2838,21 @@
       "repo": "sitemd",
       "url": "https://github.com/sitemd-cc/sitemd",
       "install_url": "https://raw.githubusercontent.com/sitemd-cc/sitemd/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Talivia Agent Kit",
+      "displayName": "Talivia Agent Kit",
+      "description": "Install and verify revenue-first website analytics from Codex, connect payment attribution, and identify which traffic sources and customer journeys become revenue",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "talivia-group",
+      "repo": "agent",
+      "url": "https://github.com/talivia-group/agent",
+      "install_url": "https://raw.githubusercontent.com/talivia-group/agent/HEAD/.codex-plugin/plugin.json"
     }
   ]
 }
