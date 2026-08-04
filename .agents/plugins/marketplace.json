@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-08-04T13:26:50.645266+00:00",
+  "last_updated": "2026-08-04T13:29:51.871301+00:00",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -2090,21 +2090,6 @@
       "install_url": "https://raw.githubusercontent.com/zfifteen/gh-project-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
-      "name": "Haunt",
-      "displayName": "Haunt",
-      "description": "Web extraction for AI agents: any permitted public page to structured JSON or clean Markdown from a plain-English prompt, plus Reddit posts and comments with no Reddit app or OAuth, company profiles from a URL, and GitHub repo data. Login walls and CAPTCHAs return typed errors instead of fabricated data, and failed calls are not charged.",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "Darko893",
-      "repo": "haunt-mcp-server",
-      "url": "https://github.com/Darko893/haunt-mcp-server",
-      "install_url": "https://raw.githubusercontent.com/Darko893/haunt-mcp-server/HEAD/.codex-plugin/plugin.json"
-    },
-    {
       "name": "Hermes Tweet",
       "displayName": "Hermes Tweet",
       "description": "Hermes Agent X/Twitter plugin for read-first social research, monitoring, and approval-gated actions through Xquik.",
@@ -2570,6 +2555,21 @@
       "install_url": "https://raw.githubusercontent.com/Erfouni/solidworks-GPT-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Storyflo",
+      "displayName": "Storyflo",
+      "description": "Agentic newsroom over a hosted MCP server with narrated briefings, a news-versus-prediction-market Divergence Index, and a searchable declassified archive.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "droplinked",
+      "repo": "storyflo-codex-plugin",
+      "url": "https://github.com/droplinked/storyflo-codex-plugin",
+      "install_url": "https://raw.githubusercontent.com/droplinked/storyflo-codex-plugin/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Synta MCP",
       "displayName": "Synta MCP",
       "description": "Build, edit, validate, and self-heal n8n workflows with Synta MCP tools and Codex-ready workflow guidance.",
@@ -2883,21 +2883,6 @@
       "repo": "sitemd",
       "url": "https://github.com/sitemd-cc/sitemd",
       "install_url": "https://raw.githubusercontent.com/sitemd-cc/sitemd/HEAD/.codex-plugin/plugin.json"
-    },
-    {
-      "name": "Storyflo",
-      "displayName": "Storyflo",
-      "description": "Agentic newsroom over a hosted MCP server with narrated briefings, a news-versus-prediction-market Divergence Index, and a searchable declassified archive",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "droplinked",
-      "repo": "storyflo-codex-plugin",
-      "url": "https://github.com/droplinked/storyflo-codex-plugin",
-      "install_url": "https://raw.githubusercontent.com/droplinked/storyflo-codex-plugin/HEAD/.codex-plugin/plugin.json"
     }
   ]
 }
