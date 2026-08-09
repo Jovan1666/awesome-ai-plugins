@@ -189,6 +189,7 @@ Third-party plugins built by the community. [PRs welcome](#contributing)!
 - [Codex TUI Proof](https://github.com/bnc4vk/codex-tui-proof) - Visually validate real local terminal UIs in Codex's in-app browser with screenshots and session evidence.
 - [Codex Usage and Resets](https://github.com/joelfarthing/codex-usage-and-resets) - Turns Codex usage into planning facts with linear pace, projected exhaustion, banked-reset expirations, and conservative unexpected-reset detection.
 - [Commit Narrator](./plugins/mturac/commit-narrator) - Generate semantic commit message from staged diff, including the _why_.
+- [Context Guard](https://github.com/GreenLv/codex-context-guard) - Preserves authoritative requirements and verification evidence across long-running Codex tasks and context compaction.
 - [debt-ops](https://github.com/bcanfield/agentic-tech-debt) - Catches AI-introduced tech debt at write-time: hooks log every deferral to a registry in your repo and a review skill ranks paydown by file churn.
 - [Deps Doctor](./plugins/mturac/deps-doctor) - Multi-ecosystem dependency audit (npm, pip, cargo, go) in one report.
 - [Designer Skill](https://github.com/Pythoughts-labs/designer-skill) - Plug-and-play MCP that gives your agent UI superpowers. One install: design skill + MCP server, zero config.
@@ -307,6 +308,7 @@ Third-party plugins built by the community. [PRs welcome](#contributing)!
 - [Kreuzberg](https://github.com/kreuzberg-dev/plugins) - Local document extraction for 91+ formats with skills for CLI usage, OCR, table extraction, output formats, and a local MCP server.
 - [Kreuzberg Cloud](https://github.com/kreuzberg-dev/plugins) - Managed document extraction for Codex with API-key setup, presigned uploads, job tracking, webhook workflows, and usage guidance.
 - [Kreuzcrawl](https://github.com/kreuzberg-dev/plugins) - Web crawling and scraping for Codex with skills for single-page scraping, site crawls, URL mapping, and headless browser fallback.
+- [Lacuna Music](https://github.com/JOYLINK-LTD/lacuna-plugin) - Generate original instrumental music and vocal songs from Codex through the Lacuna MCP server.
 - [Langfuse Observability](https://github.com/avivsinai/langfuse-mcp) - Query traces, debug exceptions, analyze sessions, and manage prompts via MCP tools.
 - [Launch Fast](https://github.com/BlockchainHB/launchfast_codex_plugin) - Official Launch Fast plugin adapter for rapid SaaS deployment.
 - [LinkedIn Skills](https://github.com/sergebulaev/linkedin-skills) - Codex-ready LinkedIn marketing bundle with a native .codex-plugin manifest and 10 skills: post writing with 16 tested hook formulas, AI-tell humanizer, pre-publish audit, comment and reply drafting, hook extraction, content planning, profile optimization, engager analytics, and thread monitoring; also works in Claude Code.

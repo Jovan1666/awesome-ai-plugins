@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-08-09",
-  "total": 196,
+  "total": 198,
   "platforms": [
     "codex",
     "grok"
@@ -145,6 +145,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/vishal2612200/agentpack/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Agency Continuity Audit",
+      "url": "https://github.com/revertcreations/agency-continuity-audit",
+      "owner": "revertcreations",
+      "repo": "agency-continuity-audit",
+      "description": "Read-only audit that distinguishes durable agent goals, state, corrections, restart evidence, authority boundaries, scheduler claims, and commercial proof from self-reported health.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/revertcreations/agency-continuity-audit/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -467,6 +481,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/yimwoo/codex-agenteam/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Codex Full-Stack Workflow",
+      "url": "https://github.com/kevin592/codex-full-stack-workflow",
+      "owner": "kevin592",
+      "repo": "codex-full-stack-workflow",
+      "description": "Turns rough product requests into staged, reviewable full-stack delivery with persistent requirements, change control, visual evidence, and completion gates.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/kevin592/codex-full-stack-workflow/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -2307,6 +2335,20 @@
       ]
     },
     {
+      "name": "Read Image",
+      "url": "https://github.com/ZXY1240/read-image",
+      "owner": "ZXY1240",
+      "repo": "read-image",
+      "description": "Read local images, videos, web pages, and Windows screenshots through Doubao, GLM, or Qwen-compatible vision APIs.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ZXY1240/read-image/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Remotion Plugin",
       "url": "https://github.com/tim-osterhus/codex-remotion-plugin",
       "owner": "tim-osterhus",
@@ -2671,29 +2713,29 @@
       ]
     },
     {
-      "name": "Agency Continuity Audit",
-      "url": "https://github.com/revertcreations/agency-continuity-audit",
-      "owner": "revertcreations",
-      "repo": "agency-continuity-audit",
-      "description": "Read-only audit that distinguishes durable agent goals, state, corrections, restart evidence, authority boundaries, scheduler claims, and commercial proof from self-reported health",
+      "name": "Context Guard",
+      "url": "https://github.com/GreenLv/codex-context-guard",
+      "owner": "GreenLv",
+      "repo": "codex-context-guard",
+      "description": "Preserves authoritative requirements and verification evidence across long-running Codex tasks and context compaction",
       "category": "Development & Workflow",
       "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/revertcreations/agency-continuity-audit/HEAD/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/GreenLv/codex-context-guard/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
     },
     {
-      "name": "Codex Full-Stack Workflow",
-      "url": "https://github.com/kevin592/codex-full-stack-workflow",
-      "owner": "kevin592",
-      "repo": "codex-full-stack-workflow",
-      "description": "Turns rough product requests into staged, reviewable full-stack delivery with persistent requirements, change control, visual evidence, and completion gates",
-      "category": "Development & Workflow",
+      "name": "Lacuna Music",
+      "url": "https://github.com/JOYLINK-LTD/lacuna-plugin",
+      "owner": "JOYLINK-LTD",
+      "repo": "lacuna-plugin",
+      "description": "Generate original instrumental music and vocal songs from Codex through the Lacuna MCP server",
+      "category": "Tools & Integrations",
       "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/kevin592/codex-full-stack-workflow/HEAD/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/JOYLINK-LTD/lacuna-plugin/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -2708,20 +2750,6 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/jbaehova/pdf-monster/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "Read Image",
-      "url": "https://github.com/ZXY1240/read-image",
-      "owner": "ZXY1240",
-      "repo": "read-image",
-      "description": "Read local images, videos, web pages, and Windows screenshots through Doubao, GLM, or Qwen-compatible vision APIs",
-      "category": "Tools & Integrations",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/ZXY1240/read-image/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
