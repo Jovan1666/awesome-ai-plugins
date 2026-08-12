@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-08-10T16:30:52.083802+00:00",
+  "last_updated": "2026-08-12T13:02:52.428318+00:00",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -48,6 +48,21 @@
       "repo": "Aegis",
       "url": "https://github.com/GanyuanRan/Aegis",
       "install_url": "https://raw.githubusercontent.com/GanyuanRan/Aegis/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Agency Continuity Audit",
+      "displayName": "Agency Continuity Audit",
+      "description": "Read-only audit that distinguishes durable agent goals, state, corrections, restart evidence, authority boundaries, scheduler claims, and commercial proof from self-reported health.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "revertcreations",
+      "repo": "agency-continuity-audit",
+      "url": "https://github.com/revertcreations/agency-continuity-audit",
+      "install_url": "https://raw.githubusercontent.com/revertcreations/agency-continuity-audit/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Agent Deck",
@@ -153,21 +168,6 @@
       "repo": "agentpack",
       "url": "https://github.com/vishal2612200/agentpack",
       "install_url": "https://raw.githubusercontent.com/vishal2612200/agentpack/HEAD/.codex-plugin/plugin.json"
-    },
-    {
-      "name": "Agency Continuity Audit",
-      "displayName": "Agency Continuity Audit",
-      "description": "Read-only audit that distinguishes durable agent goals, state, corrections, restart evidence, authority boundaries, scheduler claims, and commercial proof from self-reported health.",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "revertcreations",
-      "repo": "agency-continuity-audit",
-      "url": "https://github.com/revertcreations/agency-continuity-audit",
-      "install_url": "https://raw.githubusercontent.com/revertcreations/agency-continuity-audit/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Agentry Observability",
@@ -1282,7 +1282,7 @@
     {
       "name": "spec-superflow",
       "displayName": "spec-superflow",
-      "description": "Spec-first workflow with nine skills, user-controlled Quick / Hotfix / Tweak / Full paths, auditable recovery commands, hardened delta-spec sync, and guarded review gates.",
+      "description": "Spec-first workflow with nine skills, lightweight Quick / Hotfix / Tweak / Full paths, bounded three-attempt repair loops, auditable recovery commands, hardened delta-spec sync, and guarded review gates.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "platform": "codex",
@@ -2928,6 +2928,21 @@
       "repo": "hol-guard-grok-plugin",
       "url": "https://github.com/hashgraph-online/hol-guard-grok-plugin",
       "install_url": "https://raw.githubusercontent.com/hashgraph-online/hol-guard-grok-plugin/HEAD/.grok-plugin/plugin.json"
+    },
+    {
+      "name": "dev-harness-kit",
+      "displayName": "dev-harness-kit",
+      "description": "Enforced development workflow skills for Codex and Claude Code covering planning, TDD, debugging, review, security, CI, and release",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "sh-ai-x",
+      "repo": "dev-harness-kit",
+      "url": "https://github.com/sh-ai-x/dev-harness-kit",
+      "install_url": "https://raw.githubusercontent.com/sh-ai-x/dev-harness-kit/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "PDF Monster",
