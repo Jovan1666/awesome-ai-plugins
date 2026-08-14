@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-08-13",
-  "total": 200,
+  "last_updated": "2026-08-14",
+  "total": 203,
   "platforms": [
     "codex",
     "grok"
@@ -2713,6 +2713,20 @@
       ]
     },
     {
+      "name": "YouTube Skills by TranscriptAPI",
+      "url": "https://github.com/ZeroPointRepo/youtube-skills",
+      "owner": "ZeroPointRepo",
+      "repo": "youtube-skills",
+      "description": "Twelve drop-in agent skills for YouTube transcripts, timestamped captions and subtitles, video and channel search, playlists and channel browsing through the TranscriptAPI service.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ZeroPointRepo/youtube-skills/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Zotero Research Tools",
       "url": "https://github.com/summer521521/Zotero_Research_plugin",
       "owner": "summer521521",
@@ -2750,6 +2764,34 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/sh-ai-x/dev-harness-kit/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Embedded Workbench",
+      "url": "https://github.com/AmethystLuna/embedded-workbench",
+      "owner": "AmethystLuna",
+      "repo": "embedded-workbench",
+      "description": "Embedded C/C++ firmware development toolbox \u2014 7 skills (FreeRTOS, Keil MDK, ARMCLANG, HardFault triage, state machines, LVGL) plus workflow gates and 4 agents for Claude Code, Codex, Cursor, Kimi, OpenCode, and ZCode",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/AmethystLuna/embedded-workbench/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Logic Probe",
+      "url": "https://github.com/AmethystLuna/logicprobe",
+      "owner": "AmethystLuna",
+      "repo": "logicprobe",
+      "description": "Design-document & plan claim verification \u2014 checks every verifiable claim against the codebase, escalates behavioral claims to executable-model verification (7 structural checks + 7 adversarial probes), and compares before/after models for refactoring regression detection",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/AmethystLuna/logicprobe/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
