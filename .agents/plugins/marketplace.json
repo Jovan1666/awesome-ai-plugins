@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-08-15T02:50:46.796315+00:00",
+  "last_updated": "2026-08-15T11:54:42.506735+00:00",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -3003,6 +3003,21 @@
       "repo": "trigger_tree",
       "url": "https://github.com/Hedde/trigger_tree",
       "install_url": "https://raw.githubusercontent.com/Hedde/trigger_tree/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Cadence Code",
+      "displayName": "Cadence Code",
+      "description": "Fully local voice conversations for Claude Code, Codex, Cursor, and Antigravity on Apple Silicon, with selectable MLX speech and transcription models",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "michael-L-i",
+      "repo": "cadence-code",
+      "url": "https://github.com/michael-L-i/cadence-code",
+      "install_url": "https://raw.githubusercontent.com/michael-L-i/cadence-code/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Cargo Skills",

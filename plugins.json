@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-08-15",
-  "total": 205,
+  "total": 206,
   "platforms": [
     "codex",
     "grok"
@@ -2806,6 +2806,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Hedde/trigger_tree/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Cadence Code",
+      "url": "https://github.com/michael-L-i/cadence-code",
+      "owner": "michael-L-i",
+      "repo": "cadence-code",
+      "description": "Fully local voice conversations for Claude Code, Codex, Cursor, and Antigravity on Apple Silicon, with selectable MLX speech and transcription models",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/michael-L-i/cadence-code/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
