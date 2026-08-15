@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-08-14",
-  "total": 203,
+  "last_updated": "2026-08-15",
+  "total": 204,
   "platforms": [
     "codex",
     "grok"
@@ -2792,6 +2792,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/AmethystLuna/logicprobe/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Cargo Skills",
+      "url": "https://github.com/getcargohq/cargo-skills",
+      "owner": "getcargohq",
+      "repo": "cargo-skills",
+      "description": "GTM engineering for coding agents \u2014 17 skills over the Cargo CLI for lead sourcing, contact enrichment and email verification, lead scoring, CRM sync, buying-signal monitoring, and workspace-as-code",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/getcargohq/cargo-skills/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

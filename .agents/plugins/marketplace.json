@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-08-14T14:20:31.713815+00:00",
+  "last_updated": "2026-08-15T02:50:05.087984+00:00",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -2988,6 +2988,21 @@
       "repo": "logicprobe",
       "url": "https://github.com/AmethystLuna/logicprobe",
       "install_url": "https://raw.githubusercontent.com/AmethystLuna/logicprobe/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Cargo Skills",
+      "displayName": "Cargo Skills",
+      "description": "GTM engineering for coding agents \u2014 17 skills over the Cargo CLI for lead sourcing, contact enrichment and email verification, lead scoring, CRM sync, buying-signal monitoring, and workspace-as-code",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "getcargohq",
+      "repo": "cargo-skills",
+      "url": "https://github.com/getcargohq/cargo-skills",
+      "install_url": "https://raw.githubusercontent.com/getcargohq/cargo-skills/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "ego-browser",
