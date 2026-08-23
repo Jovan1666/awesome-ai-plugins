@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-08-20",
-  "total": 207,
+  "last_updated": "2026-08-23",
+  "total": 208,
   "platforms": [
     "codex",
     "grok"
@@ -2766,6 +2766,20 @@
       "platform": "grok",
       "ecosystems": [
         "grok"
+      ]
+    },
+    {
+      "name": "Cover My Repo",
+      "url": "https://github.com/sjh9714/cover-my-repo",
+      "owner": "sjh9714",
+      "repo": "cover-my-repo",
+      "description": "Designs three checked GitHub social preview cards with Codex or Cursor, then renders them locally with Chrome",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/sjh9714/cover-my-repo/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
