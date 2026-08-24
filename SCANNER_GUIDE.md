@@ -37,21 +37,28 @@ plugin-scanner verify /path/to/plugin --format text
 
 ## Scoring System
 
-The scanner checks 7 categories totaling 142 points. For DeepSeek Harness
-packages, the scanner evaluates the repository and package surfaces even though
-the runtime uses Cordis and `dsh.bundle` rather than a Codex manifest:
+The scanner reports a normalized score from **0 to 100**. It evaluates security,
+operational hardening, metadata, best practices, marketplace/package surfaces,
+skill security, and code quality according to the detected ecosystem. The raw
+point budget is not a fixed denominator: checks and package surfaces can vary by
+ecosystem and scan target, and the scanner normalizes the points returned by the
+checks for that scan to the 0–100 score.
 
-| Category | Points | Key Checks |
-|----------|--------|------------|
-| Manifest | 31 | Valid plugin.json, required fields, ID format |
-| Security | 36 | No secrets, no dangerous code, HTTPS, policies |
-| Operational | 20 | CI/CD pinned, Dependabot, no overly broad permissions |
-| Best Practices | 15 | README, tests, linting, license |
-| Marketplace | 15 | Proper versioning, tags, clean history |
-| Skill Security | 15 | Hooks, env vars, validation, no hardcoded paths |
-| Code Quality | 10 | No TODOs, no debug code, consistent style |
+For DeepSeek Harness packages, the scanner evaluates the repository and package
+surfaces even though the runtime uses Cordis and `dsh.bundle` rather than a
+Codex manifest.
 
-**Passing criteria:** Score ≥ 80/142, with no critical or high severity findings.
+| Category | Key Checks |
+|----------|------------|
+| Manifest / package metadata | Valid ecosystem metadata, required fields, ID and package format |
+| Security | No secrets, no dangerous code, hardened transports, policies |
+| Operational Security | CI/CD pinned, dependency hygiene, no overly broad permissions |
+| Best Practices | README, tests, linting, license |
+| Marketplace | Proper versioning, tags, clean distribution metadata |
+| Skill Security | Hooks, env vars, validation, no hardcoded paths |
+| Code Quality | No dangerous dynamic execution or shell-injection patterns |
+
+**Passing criteria:** normalized score ≥ 80/100, with no critical or high severity findings.
 
 ### Grok plugin checks
 
