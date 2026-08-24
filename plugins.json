@@ -2,11 +2,12 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-08-23",
-  "total": 208,
+  "last_updated": "2026-08-24",
+  "total": 212,
   "platforms": [
     "codex",
-    "grok"
+    "grok",
+    "kimi"
   ],
   "plugins": [
     {
@@ -2769,6 +2770,20 @@
       ]
     },
     {
+      "name": "AI Video Transcriber",
+      "url": "https://github.com/wendy7756/AI-Video-Transcriber",
+      "owner": "wendy7756",
+      "repo": "AI-Video-Transcriber",
+      "description": "Transcribe and summarize videos, podcasts, and local media via a Codex plugin, Claude Code skill, and MCP server",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/wendy7756/AI-Video-Transcriber/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Cover My Repo",
       "url": "https://github.com/sjh9714/cover-my-repo",
       "owner": "sjh9714",
@@ -2806,6 +2821,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/AmethystLuna/embedded-workbench/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Knowl",
+      "url": "https://github.com/dat999zx/knowl",
+      "owner": "dat999zx",
+      "repo": "knowl",
+      "description": "Local-first project memory over MCP for Claude Code, Codex, Cursor and eight other hosts: a SQLite store that retires facts when they change, shares knowledge across linked repos, and retrieves it by hybrid search",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/dat999zx/knowl/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -2867,6 +2896,20 @@
       ]
     },
     {
+      "name": "CloudBase AI Toolkit",
+      "url": "https://github.com/TencentCloudBase/CloudBase-AI-Toolkit",
+      "owner": "TencentCloudBase",
+      "repo": "CloudBase-AI-Toolkit",
+      "description": "Backend for AI coding agents on Tencent CloudBase \u2014 database, auth, and functions via Plugin, Skills & MCP",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/TencentCloudBase/CloudBase-AI-Toolkit/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "ego-browser",
       "url": "https://github.com/citrolabs/ego-lite",
       "owner": "citrolabs",
@@ -2920,6 +2963,21 @@
       "install_url": "https://raw.githubusercontent.com/sitemd-cc/sitemd/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "deja",
+      "url": "https://github.com/vshulcz/deja-vu",
+      "owner": "vshulcz",
+      "repo": "deja-vu",
+      "description": "Recalls the sessions the other coding agents on the machine already wrote to disk, including work from before it was installed, through MCP tools, a `/deja:recall` command and recall on every prompt",
+      "category": "Kimi Plugins",
+      "platform": "kimi",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/vshulcz/deja-vu/HEAD/kimi.plugin.json",
+      "ecosystems": [
+        "kimi",
+        "deepseek-harness"
       ]
     }
   ]
