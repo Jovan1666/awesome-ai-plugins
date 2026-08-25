@@ -145,8 +145,12 @@ class PublishOpenPrChecksTests(unittest.TestCase):
             "https://example.test/run",
         )
         self.assertIn("Contribution check passed", comment)
-        self.assertIn("Optional: add scanner CI", comment)
+        self.assertIn("Recommended: add scanner CI for security", comment)
         self.assertIn("can merge without it", comment)
+        self.assertIn("MCP servers", comment)
+        self.assertIn("skills", comment)
+        self.assertIn("plugins", comment)
+        self.assertIn("recommend including", comment)
         self.assertIn("full trust score", comment)
         self.assertIn("10% trust-score reduction", comment)
         self.assertIn("`example/plugin`", comment)
