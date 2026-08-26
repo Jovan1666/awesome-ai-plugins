@@ -34,6 +34,7 @@
 ## Contents
 
 - [dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) - Backup, restore, export, import, migrate and sync your complete DeepSeek Harness (DSH) configuration — settings, model providers, plugins, MCP servers, skills, agent presets and workspaces — and restore your whole environment on a new machine with one click.
+- [Engramory](https://github.com/tinqiao-oss/engramory) - Curated, file-based long-term memory for DSH agents — plain markdown notes in one store shared across hosts, with the index size cap enforced as a monotonic `ctx.tools.guard()` refusal rather than a reminder. Install: `dsh plugin --profile <name> add dsh-engramory`.
 - [MCP Migration Check](https://github.com/AlpayC/mcp-migration-check) - Deterministic MCP 2026-07-28 migration checker with an agent skill, CLI, GitHub Action, and hosted web probe powered by one rule engine.
 - [Start Here](#start-here)
 - [Official Plugins](#official-plugins)
