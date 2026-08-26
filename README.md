@@ -33,6 +33,7 @@
 
 ## Contents
 
+- [MCP Migration Check](https://github.com/AlpayC/mcp-migration-check) - Deterministic MCP 2026-07-28 migration checker with an agent skill, CLI, GitHub Action, and hosted web probe powered by one rule engine.
 - [Start Here](#start-here)
 - [Official Plugins](#official-plugins)
 - [Community Plugins](#community-plugins)
