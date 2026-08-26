@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-08-26",
-  "total": 224,
+  "total": 226,
   "platforms": [
     "codex",
     "grok",
@@ -2961,6 +2961,34 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Hedde/trigger_tree/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Skill-Atlas",
+      "url": "https://github.com/danielLublinsky/Skill-Atlas",
+      "owner": "danielLublinsky",
+      "repo": "Skill-Atlas",
+      "description": "A third tier for Claude Code skills \u2014 dormant, zero tokens, still findable. Search a graph of your collection instead of preloading it",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/danielLublinsky/Skill-Atlas/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "AnyCap",
+      "url": "https://github.com/anycap-ai/anycap",
+      "owner": "anycap-ai",
+      "repo": "anycap",
+      "description": "Multimodal media generation, analysis, live web research, file sharing, and page publishing through one CLI, Agent Skill, and local MCP server",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/anycap-ai/anycap/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

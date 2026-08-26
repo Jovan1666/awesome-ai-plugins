@@ -3170,6 +3170,36 @@
       "install_url": "https://raw.githubusercontent.com/Hedde/trigger_tree/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Skill-Atlas",
+      "displayName": "Skill-Atlas",
+      "description": "A third tier for Claude Code skills \u2014 dormant, zero tokens, still findable. Search a graph of your collection instead of preloading it",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "danielLublinsky",
+      "repo": "Skill-Atlas",
+      "url": "https://github.com/danielLublinsky/Skill-Atlas",
+      "install_url": "https://raw.githubusercontent.com/danielLublinsky/Skill-Atlas/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "AnyCap",
+      "displayName": "AnyCap",
+      "description": "Multimodal media generation, analysis, live web research, file sharing, and page publishing through one CLI, Agent Skill, and local MCP server",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "anycap-ai",
+      "repo": "anycap",
+      "url": "https://github.com/anycap-ai/anycap",
+      "install_url": "https://raw.githubusercontent.com/anycap-ai/anycap/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Azure Cosmos DB Agent Kit",
       "displayName": "Azure Cosmos DB Agent Kit",
       "description": "Azure Cosmos DB best-practice skills and MCP tooling for Codex, Claude Code, Cursor, Gemini CLI, Grok Build, Kimi Code, GitHub Copilot, and other Agent Skills-compatible assistants",
