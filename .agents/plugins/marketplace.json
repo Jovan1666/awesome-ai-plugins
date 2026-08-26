@@ -2990,6 +2990,21 @@
       "install_url": "https://raw.githubusercontent.com/wendy7756/AI-Video-Transcriber/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Claude Watchdog",
+      "displayName": "Claude Watchdog",
+      "description": "Stop hook that runs a critical post-mortem on every Claude Code session, cross-checking what was asked against the actual git diff for missed goals, wasted detours, and unverified claims",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Temikus",
+      "repo": "claude-watchdog",
+      "url": "https://github.com/Temikus/claude-watchdog",
+      "install_url": "https://raw.githubusercontent.com/Temikus/claude-watchdog/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Cover My Repo",
       "displayName": "Cover My Repo",
       "description": "Designs three checked GitHub social preview cards with Codex or Cursor, then renders them locally with Chrome",

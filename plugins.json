@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-08-26",
-  "total": 221,
+  "total": 222,
   "platforms": [
     "codex",
     "grok",
@@ -2793,6 +2793,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/wendy7756/AI-Video-Transcriber/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Claude Watchdog",
+      "url": "https://github.com/Temikus/claude-watchdog",
+      "owner": "Temikus",
+      "repo": "claude-watchdog",
+      "description": "Stop hook that runs a critical post-mortem on every Claude Code session, cross-checking what was asked against the actual git diff for missed goals, wasted detours, and unverified claims",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Temikus/claude-watchdog/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
