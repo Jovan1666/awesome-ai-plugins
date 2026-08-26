@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-08-25",
+  "last_updated": "2026-08-26",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -3228,6 +3228,21 @@
       "repo": "ego-lite",
       "url": "https://github.com/citrolabs/ego-lite",
       "install_url": "https://raw.githubusercontent.com/citrolabs/ego-lite/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Nimble",
+      "displayName": "Nimble",
+      "description": "Web Search Agents that search, browse, extract, and reason across live pages and return cited, schema-enforced results, with self-learning retrieval that improves accuracy and lowers cost per task on repeat work, plus Search and Extract skills for fast raw web data in Claude Code, Codex, Cursor, and Grok Build",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Nimbleway",
+      "repo": "agent-skills",
+      "url": "https://github.com/Nimbleway/agent-skills",
+      "install_url": "https://raw.githubusercontent.com/Nimbleway/agent-skills/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "PDF Monster",
