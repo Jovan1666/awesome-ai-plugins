@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-08-26",
-  "total": 231,
+  "total": 232,
   "platforms": [
     "codex",
     "grok",
@@ -2891,6 +2891,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/AmethystLuna/logicprobe/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "kgai",
+      "url": "https://github.com/kgaidev/kgai",
+      "owner": "kgaidev",
+      "repo": "kgai",
+      "description": "Shared decision memory for AI dev teams, an immutable local log of the decisions behind your code, synced over an S3 bucket you own",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/kgaidev/kgai/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
