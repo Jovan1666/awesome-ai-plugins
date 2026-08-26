@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-08-26",
-  "total": 220,
+  "total": 221,
   "platforms": [
     "codex",
     "grok",
@@ -3017,6 +3017,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/citrolabs/ego-lite/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Miro",
+      "url": "https://github.com/miroapp/miro-ai",
+      "owner": "miroapp",
+      "repo": "miro-ai",
+      "description": "Official Miro MCP server and agent integrations for Claude Code, Codex, Gemini CLI, Cursor, and other AI tools \u2014 read and write Miro boards, create diagrams, extract context from boards, and generate code from designs",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/miroapp/miro-ai/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
