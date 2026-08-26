@@ -3170,6 +3170,21 @@
       "install_url": "https://raw.githubusercontent.com/XTSoftwareLabs/neatcontext-plugins/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "MegaLinter",
+      "displayName": "MegaLinter",
+      "description": "Set up, run and fix MegaLinter on any repository, covering 100+ linters and formatters for 69+ languages and 23+ formats, in CI or locally, with per-linter fix guides for the agent",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "oxsecurity",
+      "repo": "megalinter",
+      "url": "https://github.com/oxsecurity/megalinter",
+      "install_url": "https://raw.githubusercontent.com/oxsecurity/megalinter/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "OpenCode Orchestrator",
       "displayName": "OpenCode Orchestrator",
       "description": "Multi-agent mission control for OpenCode with Commander, Planner, Worker, and Reviewer workflows",
