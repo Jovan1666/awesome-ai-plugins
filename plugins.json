@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-08-26",
-  "total": 232,
+  "total": 233,
   "platforms": [
     "codex",
     "grok",
@@ -2975,6 +2975,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/agnusdei1207/opencode-orchestrator/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "SOTA Engineering Skills",
+      "url": "https://github.com/martinholovsky/SOTA-skills",
+      "owner": "martinholovsky",
+      "repo": "SOTA-skills",
+      "description": "Router-mapped library of 40 domain and language skills with BUILD and AUDIT modes, loading only the rules a task needs and ending every rules file in an audit checklist",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/martinholovsky/SOTA-skills/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
