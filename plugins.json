@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-08-27",
-  "total": 240,
+  "total": 241,
   "platforms": [
     "codex",
     "grok",
@@ -2767,6 +2767,20 @@
       "platform": "grok",
       "ecosystems": [
         "grok"
+      ]
+    },
+    {
+      "name": "2718lab DevKit",
+      "url": "https://github.com/2718labs/2718lab-devkit",
+      "owner": "2718labs",
+      "repo": "2718lab-devkit",
+      "description": "Codex-first local MCP server and skill bundle for deterministic project intelligence, durable workflow orchestration, and reusable engineering tools",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/2718labs/2718lab-devkit/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {

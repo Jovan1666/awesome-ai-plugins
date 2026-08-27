@@ -2960,6 +2960,21 @@
       "install_url": "https://raw.githubusercontent.com/hashgraph-online/hol-guard-grok-plugin/HEAD/.grok-plugin/plugin.json"
     },
     {
+      "name": "2718lab DevKit",
+      "displayName": "2718lab DevKit",
+      "description": "Codex-first local MCP server and skill bundle for deterministic project intelligence, durable workflow orchestration, and reusable engineering tools",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "2718labs",
+      "repo": "2718lab-devkit",
+      "url": "https://github.com/2718labs/2718lab-devkit",
+      "install_url": "https://raw.githubusercontent.com/2718labs/2718lab-devkit/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Agentic Ship",
       "displayName": "Agentic Ship",
       "description": "Cross-host product-development toolkit for Claude Code, Codex, Cursor, Hermes, and OpenClaw with shared rules, specialist roles, service connections, and machine-checked UI, backend, security, and launch gates",
