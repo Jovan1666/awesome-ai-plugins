@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-08-26",
+  "last_updated": "2026-08-27",
   "total": 236,
   "platforms": [
     "codex",
@@ -2896,6 +2896,20 @@
       ]
     },
     {
+      "name": "kgai",
+      "url": "https://github.com/kgaidev/kgai",
+      "owner": "kgaidev",
+      "repo": "kgai",
+      "description": "Shared decision memory for AI dev teams, an immutable local log of the decisions behind your code, synced over an S3 bucket you own",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/kgaidev/kgai/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Knowl",
       "url": "https://github.com/dat999zx/knowl",
       "owner": "dat999zx",
@@ -2919,20 +2933,6 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/AmethystLuna/logicprobe/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "kgai",
-      "url": "https://github.com/kgaidev/kgai",
-      "owner": "kgaidev",
-      "repo": "kgai",
-      "description": "Shared decision memory for AI dev teams, an immutable local log of the decisions behind your code, synced over an S3 bucket you own",
-      "category": "Development & Workflow",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/kgaidev/kgai/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -2966,6 +2966,20 @@
       ]
     },
     {
+      "name": "MegaLinter",
+      "url": "https://github.com/oxsecurity/megalinter",
+      "owner": "oxsecurity",
+      "repo": "megalinter",
+      "description": "Set up, run and fix MegaLinter on any repository, covering 100+ linters and formatters for 69+ languages and 23+ formats, in CI or locally, with per-linter fix guides for the agent",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/oxsecurity/megalinter/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "MeMesh",
       "url": "https://github.com/PCIRCLE-AI/memesh",
       "owner": "PCIRCLE-AI",
@@ -2989,20 +3003,6 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/XTSoftwareLabs/neatcontext-plugins/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "MegaLinter",
-      "url": "https://github.com/oxsecurity/megalinter",
-      "owner": "oxsecurity",
-      "repo": "megalinter",
-      "description": "Set up, run and fix MegaLinter on any repository, covering 100+ linters and formatters for 69+ languages and 23+ formats, in CI or locally, with per-linter fix guides for the agent",
-      "category": "Development & Workflow",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/oxsecurity/megalinter/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -3073,20 +3073,6 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Hedde/trigger_tree/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "Skill-Atlas",
-      "url": "https://github.com/danielLublinsky/Skill-Atlas",
-      "owner": "danielLublinsky",
-      "repo": "Skill-Atlas",
-      "description": "A third tier for Claude Code skills \u2014 dormant, zero tokens, still findable. Search a graph of your collection instead of preloading it",
-      "category": "Tools & Integrations",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/danielLublinsky/Skill-Atlas/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -3283,6 +3269,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/sitemd-cc/sitemd/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Skill-Atlas",
+      "url": "https://github.com/danielLublinsky/Skill-Atlas",
+      "owner": "danielLublinsky",
+      "repo": "Skill-Atlas",
+      "description": "A third tier for Claude Code skills \u2014 dormant, zero tokens, still findable. Search a graph of your collection instead of preloading it",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/danielLublinsky/Skill-Atlas/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
