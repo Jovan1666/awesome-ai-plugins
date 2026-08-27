@@ -3200,6 +3200,21 @@
       "install_url": "https://raw.githubusercontent.com/PCIRCLE-AI/memesh/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "metabrain",
+      "displayName": "metabrain",
+      "description": "MCP server for agent memory: SQLite, zero dependencies, tools learn/recall/verdict/hypotheses/start_brief/stats/capture_error, patterns graduating to hypotheses then preferences; `pip install \"metabrain[mcp]\"` then `metabrain-mcp --db PATH`",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ariaxhan",
+      "repo": "metabrain",
+      "url": "https://github.com/ariaxhan/metabrain",
+      "install_url": "https://raw.githubusercontent.com/ariaxhan/metabrain/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "NeatContext",
       "displayName": "NeatContext",
       "description": "Saves the durable knowledge from Claude Code, Codex, GitHub Copilot, Kimi Code, and pi conversations as structured, reusable contexts you can reconnect in later sessions or share with your team",
@@ -3288,6 +3303,21 @@
       "repo": "trigger_tree",
       "url": "https://github.com/Hedde/trigger_tree",
       "install_url": "https://raw.githubusercontent.com/Hedde/trigger_tree/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "agentmailkit",
+      "displayName": "agentmailkit",
+      "description": "MCP server for scheduled LLM-written email digests from RSS, web and local sources: tools list_jobs/run_job/preview_job/list_plugins, local-first, run_job dry-run by default; `pip install \"agentmailkit[mcp]\"` then `agentmailkit mcp`",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ariaxhan",
+      "repo": "agentmailkit",
+      "url": "https://github.com/ariaxhan/agentmailkit",
+      "install_url": "https://raw.githubusercontent.com/ariaxhan/agentmailkit/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "AnyCap",
@@ -3483,6 +3513,21 @@
       "repo": "seo-dungeon",
       "url": "https://github.com/avalonreset/seo-dungeon",
       "install_url": "https://raw.githubusercontent.com/avalonreset/seo-dungeon/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "site-spec",
+      "displayName": "site-spec",
+      "description": "MCP server for website audit and auto-fix: 40 checks across SEO, accessibility, privacy, structured data and AI searchability, tools audit_site/fix_issue/compile_spec/list_checks; `npx -y site-spec-mcp`",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ariaxhan",
+      "repo": "site-spec",
+      "url": "https://github.com/ariaxhan/site-spec",
+      "install_url": "https://raw.githubusercontent.com/ariaxhan/site-spec/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "sitemd",
