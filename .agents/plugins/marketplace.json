@@ -3590,6 +3590,21 @@
       "install_url": "https://raw.githubusercontent.com/danielLublinsky/Skill-Atlas/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Telnyx",
+      "displayName": "Telnyx",
+      "description": "Telnyx toolkit for AI agents bundling Claude Code, Cursor, Gemini CLI, and OpenCode plugins, an agent toolkit for OpenAI/LangChain/CrewAI/Vercel AI SDK, a hosted MCP server, and a one-command CLI for messaging, voice, numbers, and account management",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "team-telnyx",
+      "repo": "ai",
+      "url": "https://github.com/team-telnyx/ai",
+      "install_url": "https://raw.githubusercontent.com/team-telnyx/ai/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Grok Imagine Cinematic Studio",
       "displayName": "Grok Imagine Cinematic Studio",
       "description": "Independent multi-agent cinematic production suite (25 Role-Card agents, 64 skills, Production Bible workflow, Character DNA locking, native Grok Imagine Video 1.5 support) for Grok Build",
