@@ -290,6 +290,21 @@
       "install_url": "https://raw.githubusercontent.com/armoriq/armorCodex/HEAD/plugins/armorcodex/.codex-plugin/plugin.json"
     },
     {
+      "name": "AtomLane",
+      "displayName": "AtomLane",
+      "description": "Parallelizes only work proven safe by compiling resource-aware atomic plans for builds, tests, Make/Compose workflows, and long-running jobs with live progress and measured savings.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "cloudguo123",
+      "repo": "atomlane",
+      "url": "https://github.com/cloudguo123/atomlane",
+      "install_url": "https://raw.githubusercontent.com/cloudguo123/atomlane/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "BABOK Analyst",
       "displayName": "BABOK Analyst",
       "description": "BABOK v3 business analysis agent with 16 MCP tools, a 9-stage pipeline, and human-in-the-loop approval gates.",
@@ -455,6 +470,21 @@
       "install_url": "https://raw.githubusercontent.com/nyldn/claude-octopus/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Claudemon",
+      "displayName": "Claudemon",
+      "description": "Turns your coding agents into pixel creatures you can watch work and collect, with a built-in Clawland .io brawler for breaks.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "OriginalName457",
+      "repo": "claudemon",
+      "url": "https://github.com/OriginalName457/claudemon",
+      "install_url": "https://raw.githubusercontent.com/OriginalName457/claudemon/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Clean Room",
       "displayName": "Clean Room",
       "description": "Spec-first clean-room workflow for authorized source analysis, behavioral specs, role separation, and verification without replacement code.",
@@ -468,6 +498,21 @@
       "repo": "clean-room-skill",
       "url": "https://github.com/whit3rabbit/clean-room-skill",
       "install_url": "https://raw.githubusercontent.com/whit3rabbit/clean-room-skill/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Click",
+      "displayName": "Click",
+      "description": "Turn software intent into one approved contract, then let AI build and verify in one shot\u2014with traceable evidence for each requirement.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "grapefruit0205",
+      "repo": "click",
+      "url": "https://github.com/grapefruit0205/click",
+      "install_url": "https://raw.githubusercontent.com/grapefruit0205/click/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Codebase Recon",
@@ -558,6 +603,21 @@
       "repo": "codex-process-jobs",
       "url": "https://github.com/joelfarthing/codex-process-jobs",
       "install_url": "https://raw.githubusercontent.com/joelfarthing/codex-process-jobs/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Codex Quota Title",
+      "displayName": "Codex Quota Title",
+      "description": "Shows live Codex quota usage and reset time directly in the Codex Desktop window title on Windows.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "nokisenpai",
+      "repo": "CodexQuotaTitle",
+      "url": "https://github.com/nokisenpai/CodexQuotaTitle",
+      "install_url": "https://raw.githubusercontent.com/nokisenpai/CodexQuotaTitle/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Codex Reviewer",
@@ -678,6 +738,21 @@
       "repo": "codex-deepseek-mini-router",
       "url": "https://github.com/hccccc01333/codex-deepseek-mini-router",
       "install_url": "https://raw.githubusercontent.com/hccccc01333/codex-deepseek-mini-router/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Delx Recovery",
+      "displayName": "Delx Recovery",
+      "description": "Free recovery and continuity plugin for AI agents: resume prior sessions, capture state, process failures into a recovery plan, and remember across sessions through a hosted MCP server (works in Codex, Claude Code, Cursor, and VS Code).",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "davidmosiah",
+      "repo": "delx-plugins",
+      "url": "https://github.com/davidmosiah/delx-plugins",
+      "install_url": "https://raw.githubusercontent.com/davidmosiah/delx-plugins/HEAD/delx-recovery/.codex-plugin/plugin.json"
     },
     {
       "name": "Designer Skill",
@@ -950,6 +1025,21 @@
       "install_url": "https://raw.githubusercontent.com/yimwoo/hotl-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Kernel",
+      "displayName": "Kernel",
+      "description": "Hook-enforced guardrails for Codex and Claude Code with blocked destructive commands, one-time human tokens for irreversible operations, context-blind verification agents, and SQLite agent memory recalled at session start.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ariaxhan",
+      "repo": "kernel-claude",
+      "url": "https://github.com/ariaxhan/kernel-claude",
+      "install_url": "https://raw.githubusercontent.com/ariaxhan/kernel-claude/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Krypton",
       "displayName": "Krypton",
       "description": "Goal-based planning and proof gate for Codex and Claude Code that turns requests into ownership, cutover, review-gate, and acceptance-evidence plans.",
@@ -1025,6 +1115,21 @@
       "install_url": "https://raw.githubusercontent.com/Alex0nder/MailAgent/HEAD/examples/codex/plugin/.codex-plugin/plugin.json"
     },
     {
+      "name": "Markdown Reader",
+      "displayName": "Markdown Reader",
+      "description": "Navigate Markdown structure and retrieve only the relevant section through a portable Codex MCP plugin.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "JoseEstevez520",
+      "repo": "mcp-md-reader",
+      "url": "https://github.com/JoseEstevez520/mcp-md-reader",
+      "install_url": "https://raw.githubusercontent.com/JoseEstevez520/mcp-md-reader/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "memi",
       "displayName": "memi",
       "description": "Interface understanding and design-system memory for Codex, Claude Code, Cursor, and MCP agents with UI audits, Tailwind token extraction, shadcn registry workflows, and a bundled Codex plugin.",
@@ -1038,6 +1143,51 @@
       "repo": "memi",
       "url": "https://github.com/sarveshsea/memi",
       "install_url": "https://raw.githubusercontent.com/sarveshsea/memi/HEAD/plugins/memoire/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "ML Pipeline",
+      "displayName": "ML Pipeline",
+      "description": "Enforces a strict 16-step data-first ML workflow \u2014 data inspection, EDA, and problem definition before any model training \u2014 with explicit user-permission gates, marimo notebooks, and matplotlib figures at every step; also works in Claude Code and Kimi.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "jananthan30",
+      "repo": "ml-pipeline",
+      "url": "https://github.com/jananthan30/ml-pipeline",
+      "install_url": "https://raw.githubusercontent.com/jananthan30/ml-pipeline/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Nightshift",
+      "displayName": "Nightshift",
+      "description": "Accountable, time-bounded Codex shifts with a persistent punch list, parked decisions, and reviewable run history.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "orwa-mahmoud",
+      "repo": "nightshift",
+      "url": "https://github.com/orwa-mahmoud/nightshift",
+      "install_url": "https://raw.githubusercontent.com/orwa-mahmoud/nightshift/HEAD/plugins/nightshift/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Oh My Cassette",
+      "displayName": "Oh My Cassette",
+      "description": "Turn raw local clips into a finished cut by chatting: beat-synced edits, auto-matched music, subtitles, and transitions through a local stdio MCP server, with a timeline delta and contact-sheet preview every turn before anything renders.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Cassette-Editor",
+      "repo": "oh-my-cassette",
+      "url": "https://github.com/Cassette-Editor/oh-my-cassette",
+      "install_url": "https://raw.githubusercontent.com/Cassette-Editor/oh-my-cassette/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Ontoly",
@@ -1430,6 +1580,36 @@
       "install_url": "https://raw.githubusercontent.com/Colin4k1024/tsp/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "TMCRA Local Memory",
+      "displayName": "TMCRA Local Memory",
+      "description": "Owner-local memory for Codex that recalls user and project evidence before each answer and carries source-attributed project context across sessions and supported agent tools.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "reshuibuduo",
+      "repo": "TMCRA-Codex-Memory",
+      "url": "https://github.com/reshuibuduo/TMCRA-Codex-Memory",
+      "install_url": "https://raw.githubusercontent.com/reshuibuduo/TMCRA-Codex-Memory/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "TNT House Risk-Data API",
+      "displayName": "TNT House Risk-Data API",
+      "description": "Solana token risk scoring for AI trading agents via MCP: safety score, insider wallet cluster detection, mint/freeze authority, honeypot risk, and LP-lock status in one call.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "menantonio83-hue",
+      "repo": "codex-plugin-tnt-risk-api",
+      "url": "https://github.com/menantonio83-hue/codex-plugin-tnt-risk-api",
+      "install_url": "https://raw.githubusercontent.com/menantonio83-hue/codex-plugin-tnt-risk-api/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "token-optimizer",
       "displayName": "token-optimizer",
       "description": "Cut token usage 60-90% with caching, compression, and smart file tools \u2014 diff-only re-reads, paths-only search, out-of-context stashing, and a per-tool savings report for Codex and Claude Code.",
@@ -1548,6 +1728,21 @@
       "repo": "Velith",
       "url": "https://github.com/epicsagas/Velith",
       "install_url": "https://raw.githubusercontent.com/epicsagas/Velith/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Vibe Prospecting",
+      "displayName": "Vibe Prospecting",
+      "description": "Live B2B company and contact intelligence for building lead lists, researching prospects, enriching contacts, and personalizing outreach.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "explorium-ai",
+      "repo": "vibeprospecting-plugin",
+      "url": "https://github.com/explorium-ai/vibeprospecting-plugin",
+      "install_url": "https://raw.githubusercontent.com/explorium-ai/vibeprospecting-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "VibePortrait",
@@ -3245,21 +3440,6 @@
       "install_url": "https://raw.githubusercontent.com/sjh9714/cover-my-repo/HEAD/.codex-plugin/plugin.json"
     },
     {
-      "name": "Delx Recovery",
-      "displayName": "Delx Recovery",
-      "description": "Free recovery and continuity plugin for AI agents: resume prior sessions, capture state, process failures into a recovery plan, and remember across sessions through a hosted MCP server (works in Codex, Claude Code, Cursor, and VS Code)",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "davidmosiah",
-      "repo": "delx-plugins",
-      "url": "https://github.com/davidmosiah/delx-plugins",
-      "install_url": "https://raw.githubusercontent.com/davidmosiah/delx-plugins/HEAD/.codex-plugin/plugin.json"
-    },
-    {
       "name": "Dely",
       "displayName": "Dely",
       "description": "Multi-harness control protocol that turns requests into approved design contracts, orchestrating isolated worker sessions for sequential implementation and independent code reviews under Orca supervision for Claude Code, Codex, Cursor, Antigravity, and other AI coding agents",
@@ -3783,21 +3963,6 @@
       "repo": "vastlint",
       "url": "https://github.com/aleksUIX/vastlint",
       "install_url": "https://raw.githubusercontent.com/aleksUIX/vastlint/HEAD/.codex-plugin/plugin.json"
-    },
-    {
-      "name": "Vibe Prospecting",
-      "displayName": "Vibe Prospecting",
-      "description": "Live B2B company and contact intelligence for building lead lists, researching prospects, enriching contacts, and personalizing outreach",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "explorium-ai",
-      "repo": "vibeprospecting-plugin",
-      "url": "https://github.com/explorium-ai/vibeprospecting-plugin",
-      "install_url": "https://raw.githubusercontent.com/explorium-ai/vibeprospecting-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Web Search MCP",
