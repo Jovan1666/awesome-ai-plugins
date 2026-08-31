@@ -3485,6 +3485,21 @@
       "install_url": "https://raw.githubusercontent.com/AlpayC/mcp-migration-check/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "mcp-local-memory",
+      "displayName": "mcp-local-memory",
+      "description": "A lightweight, powerful local memory server for AI agents supporting text, entities, relations, and time-based recall",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Beledarian",
+      "repo": "mcp-local-memory",
+      "url": "https://github.com/Beledarian/mcp-local-memory",
+      "install_url": "https://raw.githubusercontent.com/Beledarian/mcp-local-memory/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "MegaLinter",
       "displayName": "MegaLinter",
       "description": "Set up, run and fix MegaLinter on any repository, covering 100+ linters and formatters for 69+ languages and 23+ formats, in CI or locally, with per-linter fix guides for the agent",

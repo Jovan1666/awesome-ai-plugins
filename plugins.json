@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-08-31",
-  "total": 274,
+  "total": 275,
   "platforms": [
     "codex",
     "grok",
@@ -3256,6 +3256,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/AlpayC/mcp-migration-check/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "mcp-local-memory",
+      "url": "https://github.com/Beledarian/mcp-local-memory",
+      "owner": "Beledarian",
+      "repo": "mcp-local-memory",
+      "description": "A lightweight, powerful local memory server for AI agents supporting text, entities, relations, and time-based recall",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Beledarian/mcp-local-memory/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
