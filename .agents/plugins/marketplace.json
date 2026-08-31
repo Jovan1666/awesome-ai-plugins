@@ -3155,6 +3155,21 @@
       "install_url": "https://raw.githubusercontent.com/pawelkwaczynski/coffee-paladin/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Contexo",
+      "displayName": "Contexo",
+      "description": "Portable AI context and cost control across every AI coding harness",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "maheedhar132",
+      "repo": "Contexo",
+      "url": "https://github.com/maheedhar132/Contexo",
+      "install_url": "https://raw.githubusercontent.com/maheedhar132/Contexo/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Coordinate Agents",
       "displayName": "Coordinate Agents",
       "description": "Plugin-first multi-agent coordination tool with a local-first, recoverable Agent Bus and human-gated planning, implementation, review, and release workflows",
