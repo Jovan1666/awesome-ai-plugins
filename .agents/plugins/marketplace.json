@@ -2975,6 +2975,21 @@
       "install_url": "https://raw.githubusercontent.com/2718labs/2718lab-devkit/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "agent-talk",
+      "displayName": "agent-talk",
+      "description": "Skills-based plugin built on the retalk CLI that gives coding agents end-to-end encrypted messaging with other agents, including agents run by other people, across Claude Code, Codex, Antigravity, pi, opencode, and GitHub Copilot CLI",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "xhluca",
+      "repo": "agent-talk",
+      "url": "https://github.com/xhluca/agent-talk",
+      "install_url": "https://raw.githubusercontent.com/xhluca/agent-talk/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Agentic Ship",
       "displayName": "Agentic Ship",
       "description": "Cross-host product-development toolkit for Claude Code, Codex, Cursor, Hermes, and OpenClaw with shared rules, specialist roles, service connections, and machine-checked UI, backend, security, and launch gates",
@@ -3048,6 +3063,36 @@
       "repo": "antigravity-context-meter",
       "url": "https://github.com/Dunphil692/antigravity-context-meter",
       "install_url": "https://raw.githubusercontent.com/Dunphil692/antigravity-context-meter/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Audio Plugin Coder",
+      "displayName": "Audio Plugin Coder",
+      "description": "Agent-agnostic JUCE workflow for building VST3/AU plugins from idea through design, implementation, test, and installer packaging",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Noizefield",
+      "repo": "audio-plugin-coder",
+      "url": "https://github.com/Noizefield/audio-plugin-coder",
+      "install_url": "https://raw.githubusercontent.com/Noizefield/audio-plugin-coder/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Better Harness",
+      "displayName": "Better Harness",
+      "description": "Evidence-backed workflow analysis for coding agents that turns project and session signals into prioritized, verifiable improvements across supported hosts",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "QoderAI",
+      "repo": "better-harness",
+      "url": "https://github.com/QoderAI/better-harness",
+      "install_url": "https://raw.githubusercontent.com/QoderAI/better-harness/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Claude Watchdog",
@@ -3200,6 +3245,21 @@
       "install_url": "https://raw.githubusercontent.com/sjh9714/cover-my-repo/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Delx Recovery",
+      "displayName": "Delx Recovery",
+      "description": "Free recovery and continuity plugin for AI agents: resume prior sessions, capture state, process failures into a recovery plan, and remember across sessions through a hosted MCP server (works in Codex, Claude Code, Cursor, and VS Code)",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "davidmosiah",
+      "repo": "delx-plugins",
+      "url": "https://github.com/davidmosiah/delx-plugins",
+      "install_url": "https://raw.githubusercontent.com/davidmosiah/delx-plugins/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Dely",
       "displayName": "Dely",
       "description": "Multi-harness control protocol that turns requests into approved design contracts, orchestrating isolated worker sessions for sequential implementation and independent code reviews under Orca supervision for Claude Code, Codex, Cursor, Antigravity, and other AI coding agents",
@@ -3348,6 +3408,21 @@
       "repo": "labtasker",
       "url": "https://github.com/luocfprime/labtasker",
       "install_url": "https://raw.githubusercontent.com/luocfprime/labtasker/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "LinkedIn Animated Infographics",
+      "displayName": "LinkedIn Animated Infographics",
+      "description": "Evidence-safe animated infographic generator with multi-agent design pipeline for LinkedIn",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "imMamdouhaboammar",
+      "repo": "linkedin-animated-infographics",
+      "url": "https://github.com/imMamdouhaboammar/linkedin-animated-infographics",
+      "install_url": "https://raw.githubusercontent.com/imMamdouhaboammar/linkedin-animated-infographics/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Logic Probe",
