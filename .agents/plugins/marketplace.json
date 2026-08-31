@@ -3530,6 +3530,21 @@
       "install_url": "https://raw.githubusercontent.com/PCIRCLE-AI/memesh/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Mermail Skills",
+      "displayName": "Mermail Skills",
+      "description": "Official Mermail Agent Skills and Codex plugin that connect AI assistants to hosted Mermail MCP for inbox, scheduling, GTM, support, and x402 wallet workflows",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Nudgen-Marketing",
+      "repo": "mermail-skills",
+      "url": "https://github.com/Nudgen-Marketing/mermail-skills",
+      "install_url": "https://raw.githubusercontent.com/Nudgen-Marketing/mermail-skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "metabrain",
       "displayName": "metabrain",
       "description": "MCP server for agent memory: SQLite, zero dependencies, tools learn/recall/verdict/hypotheses/start_brief/stats/capture_error, patterns graduating to hypotheses then preferences; `pip install \"metabrain[mcp]\"` then `metabrain-mcp --db PATH`",

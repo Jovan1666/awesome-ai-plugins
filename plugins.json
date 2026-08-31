@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-08-31",
-  "total": 275,
+  "total": 276,
   "platforms": [
     "codex",
     "grok",
@@ -3298,6 +3298,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/PCIRCLE-AI/memesh/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Mermail Skills",
+      "url": "https://github.com/Nudgen-Marketing/mermail-skills",
+      "owner": "Nudgen-Marketing",
+      "repo": "mermail-skills",
+      "description": "Official Mermail Agent Skills and Codex plugin that connect AI assistants to hosted Mermail MCP for inbox, scheduling, GTM, support, and x402 wallet workflows",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Nudgen-Marketing/mermail-skills/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
