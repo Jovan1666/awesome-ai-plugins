@@ -3470,6 +3470,21 @@
       "install_url": "https://raw.githubusercontent.com/labyrinth-analytics/loredocs/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "MARGINAL",
+      "displayName": "MARGINAL",
+      "description": "Local-first runtime governor for AI coding agents that detects proven no-progress repetition, records decision evidence, starts in Shadow Mode, and earns narrow enforcement only after repository-local evidence",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "SignalLayerLabs",
+      "repo": "Marginal",
+      "url": "https://github.com/SignalLayerLabs/Marginal",
+      "install_url": "https://raw.githubusercontent.com/SignalLayerLabs/Marginal/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "MCP Migration Check",
       "displayName": "MCP Migration Check",
       "description": "Deterministic MCP 2026-07-28 migration checker with an agent skill, CLI, GitHub Action, and hosted web probe powered by one rule engine",
