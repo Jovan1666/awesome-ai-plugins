@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-08-31",
-  "total": 253,
+  "total": 260,
   "platforms": [
     "codex",
     "grok",
@@ -2883,6 +2883,20 @@
       ]
     },
     {
+      "name": "coffee-paladin",
+      "url": "https://github.com/pawelkwaczynski/coffee-paladin",
+      "owner": "pawelkwaczynski",
+      "repo": "coffee-paladin",
+      "description": "Thermal guard for Apple Silicon: pauses hot jobs before the Mac throttles and gates Claude Code, Codex and Gemini CLI before heavy commands",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/pawelkwaczynski/coffee-paladin/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Cover My Repo",
       "url": "https://github.com/sjh9714/cover-my-repo",
       "owner": "sjh9714",
@@ -2948,6 +2962,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Globalping",
+      "url": "https://github.com/jsdelivr/globalping-mcp-server",
+      "owner": "jsdelivr",
+      "repo": "globalping-mcp-server",
+      "description": "Access thousands of probes around the world to run network tests such as ping, traceroute, http, dns and mtr",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/jsdelivr/globalping-mcp-server/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -3149,6 +3177,48 @@
       ]
     },
     {
+      "name": "pstack for Codex",
+      "url": "https://github.com/Aqua-123/pstack-for-codex",
+      "owner": "Aqua-123",
+      "repo": "pstack-for-codex",
+      "description": "Codex-native engineering workflows derived from pstack, with 45 explicit skills and 23 Poteto Mode playbooks",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Aqua-123/pstack-for-codex/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Rel.AI MCP",
+      "url": "https://github.com/Kyne0328/rel-ai-mcp",
+      "owner": "Kyne0328",
+      "repo": "rel-ai-mcp",
+      "description": "Brings Codex-style coding workflows to ChatGPT Web, connecting it to local development workspaces through MCP while using ChatGPT Web quota instead of Codex quota",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Kyne0328/rel-ai-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Rootly MCP Server",
+      "url": "https://github.com/rootlyhq/rootly-mcp-server",
+      "owner": "rootlyhq",
+      "repo": "rootly-mcp-server",
+      "description": "Manage and resolve production incidents from MCP-compatible AI assistants through dynamically generated, access-controlled Rootly API tools",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/rootlyhq/rootly-mcp-server/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "skillsaw",
       "url": "https://github.com/stbenjam/skillsaw",
       "owner": "stbenjam",
@@ -3205,6 +3275,20 @@
       ]
     },
     {
+      "name": "trace-mcp",
+      "url": "https://github.com/nikolai-vysotskyi/trace-mcp",
+      "owner": "nikolai-vysotskyi",
+      "repo": "trace-mcp",
+      "description": "Precomputed code-intelligence graph served over MCP \u2014 symbol search, call graphs, change impact, and test mapping as structured answers instead of whole-file reads",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/nikolai-vysotskyi/trace-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "trigger-tree",
       "url": "https://github.com/Hedde/trigger_tree",
       "owner": "Hedde",
@@ -3228,6 +3312,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/aleksUIX/vastlint/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Web Search MCP",
+      "url": "https://github.com/sydasif/web-search-mcp",
+      "owner": "sydasif",
+      "repo": "web-search-mcp",
+      "description": "Comprehensive FastMCP server giving LLMs real-time web access across search engines (DuckDuckGo, Exa), social platforms (Reddit, Hacker News, GitHub, X, LinkedIn), and academic tools (arXiv, Wikipedia), with SSRF-protected URL fetching",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/sydasif/web-search-mcp/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

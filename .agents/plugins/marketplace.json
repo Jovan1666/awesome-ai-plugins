@@ -3080,6 +3080,21 @@
       "install_url": "https://raw.githubusercontent.com/kevin592/codex-full-stack-workflow/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "coffee-paladin",
+      "displayName": "coffee-paladin",
+      "description": "Thermal guard for Apple Silicon: pauses hot jobs before the Mac throttles and gates Claude Code, Codex and Gemini CLI before heavy commands",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "pawelkwaczynski",
+      "repo": "coffee-paladin",
+      "url": "https://github.com/pawelkwaczynski/coffee-paladin",
+      "install_url": "https://raw.githubusercontent.com/pawelkwaczynski/coffee-paladin/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Cover My Repo",
       "displayName": "Cover My Repo",
       "description": "Designs three checked GitHub social preview cards with Codex or Cursor, then renders them locally with Chrome",
@@ -3153,6 +3168,21 @@
       "repo": "flexviz",
       "url": "https://github.com/flex-analytics/flexviz",
       "install_url": "https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Globalping",
+      "displayName": "Globalping",
+      "description": "Access thousands of probes around the world to run network tests such as ping, traceroute, http, dns and mtr",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "jsdelivr",
+      "repo": "globalping-mcp-server",
+      "url": "https://github.com/jsdelivr/globalping-mcp-server",
+      "install_url": "https://raw.githubusercontent.com/jsdelivr/globalping-mcp-server/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "harness-eval",
@@ -3365,6 +3395,51 @@
       "install_url": "https://raw.githubusercontent.com/agnusdei1207/opencode-orchestrator/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "pstack for Codex",
+      "displayName": "pstack for Codex",
+      "description": "Codex-native engineering workflows derived from pstack, with 45 explicit skills and 23 Poteto Mode playbooks",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Aqua-123",
+      "repo": "pstack-for-codex",
+      "url": "https://github.com/Aqua-123/pstack-for-codex",
+      "install_url": "https://raw.githubusercontent.com/Aqua-123/pstack-for-codex/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Rel.AI MCP",
+      "displayName": "Rel.AI MCP",
+      "description": "Brings Codex-style coding workflows to ChatGPT Web, connecting it to local development workspaces through MCP while using ChatGPT Web quota instead of Codex quota",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Kyne0328",
+      "repo": "rel-ai-mcp",
+      "url": "https://github.com/Kyne0328/rel-ai-mcp",
+      "install_url": "https://raw.githubusercontent.com/Kyne0328/rel-ai-mcp/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Rootly MCP Server",
+      "displayName": "Rootly MCP Server",
+      "description": "Manage and resolve production incidents from MCP-compatible AI assistants through dynamically generated, access-controlled Rootly API tools",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "rootlyhq",
+      "repo": "rootly-mcp-server",
+      "url": "https://github.com/rootlyhq/rootly-mcp-server",
+      "install_url": "https://raw.githubusercontent.com/rootlyhq/rootly-mcp-server/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "skillsaw",
       "displayName": "skillsaw",
       "description": "A configurable linter for agent skills, plugins, and AI coding assistant context",
@@ -3425,6 +3500,21 @@
       "install_url": "https://raw.githubusercontent.com/datit309/supergraph/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "trace-mcp",
+      "displayName": "trace-mcp",
+      "description": "Precomputed code-intelligence graph served over MCP \u2014 symbol search, call graphs, change impact, and test mapping as structured answers instead of whole-file reads",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "nikolai-vysotskyi",
+      "repo": "trace-mcp",
+      "url": "https://github.com/nikolai-vysotskyi/trace-mcp",
+      "install_url": "https://raw.githubusercontent.com/nikolai-vysotskyi/trace-mcp/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "trigger-tree",
       "displayName": "trigger-tree",
       "description": "Local documentation telemetry for Claude Code and Codex: see which docs your agent actually reads, gate discoverability in CI, and measure instruction adherence",
@@ -3453,6 +3543,21 @@
       "repo": "vastlint",
       "url": "https://github.com/aleksUIX/vastlint",
       "install_url": "https://raw.githubusercontent.com/aleksUIX/vastlint/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Web Search MCP",
+      "displayName": "Web Search MCP",
+      "description": "Comprehensive FastMCP server giving LLMs real-time web access across search engines (DuckDuckGo, Exa), social platforms (Reddit, Hacker News, GitHub, X, LinkedIn), and academic tools (arXiv, Wikipedia), with SSRF-protected URL fetching",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "sydasif",
+      "repo": "web-search-mcp",
+      "url": "https://github.com/sydasif/web-search-mcp",
+      "install_url": "https://raw.githubusercontent.com/sydasif/web-search-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "agentmailkit",
