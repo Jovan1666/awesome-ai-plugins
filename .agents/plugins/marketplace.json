@@ -3680,6 +3680,21 @@
       "install_url": "https://raw.githubusercontent.com/team-telnyx/ai/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Zero Slop",
+      "displayName": "Zero Slop",
+      "description": "Say no to AI slop: a human-in-the-loop learning agentic workflow skill that scores text 0-100 for AI slop and rewrites it tastefully, with a standard-library Python scorer that has zero dependencies and runs offline",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "manavmishra",
+      "repo": "ZeroSlop",
+      "url": "https://github.com/manavmishra/ZeroSlop",
+      "install_url": "https://raw.githubusercontent.com/manavmishra/ZeroSlop/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Grok Imagine Cinematic Studio",
       "displayName": "Grok Imagine Cinematic Studio",
       "description": "Independent multi-agent cinematic production suite (25 Role-Card agents, 64 skills, Production Bible workflow, Character DNA locking, native Grok Imagine Video 1.5 support) for Grok Build",

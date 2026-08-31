@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-08-31",
-  "total": 249,
+  "total": 250,
   "platforms": [
     "codex",
     "grok",
@@ -3438,6 +3438,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/team-telnyx/ai/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Zero Slop",
+      "url": "https://github.com/manavmishra/ZeroSlop",
+      "owner": "manavmishra",
+      "repo": "ZeroSlop",
+      "description": "Say no to AI slop: a human-in-the-loop learning agentic workflow skill that scores text 0-100 for AI slop and rewrites it tastefully, with a standard-library Python scorer that has zero dependencies and runs offline",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/manavmishra/ZeroSlop/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
