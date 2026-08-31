@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-08-31",
-  "total": 260,
+  "total": 267,
   "platforms": [
     "codex",
     "grok",
@@ -2827,6 +2827,20 @@
       ]
     },
     {
+      "name": "aide",
+      "url": "https://github.com/jmylchreest/aide",
+      "owner": "jmylchreest",
+      "repo": "aide",
+      "description": "Persistent memory, code intelligence, and multi-agent orchestration for Claude Code, OpenCode, and Codex CLI via skills, hooks, and an MCP server",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/jmylchreest/aide/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Antigravity Context Meter",
       "url": "https://github.com/Dunphil692/antigravity-context-meter",
       "owner": "Dunphil692",
@@ -2864,6 +2878,48 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/guinacio/claude-image-gen/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "claude-jit-context",
+      "url": "https://github.com/Digital-Process-Tools/claude-jit-context",
+      "owner": "Digital-Process-Tools",
+      "repo": "claude-jit-context",
+      "description": "Project knowledge that loads only when it is needed, matched against the prompt, the file being touched, or the tool being run instead of sitting in context all session",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Digital-Process-Tools/claude-jit-context/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "claude-remember",
+      "url": "https://github.com/Digital-Process-Tools/claude-remember",
+      "owner": "Digital-Process-Tools",
+      "repo": "claude-remember",
+      "description": "Persistent memory for Claude Code with identity, context, and continuity carried across sessions",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Digital-Process-Tools/claude-remember/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "claude-supertool",
+      "url": "https://github.com/Digital-Process-Tools/claude-supertool",
+      "owner": "Digital-Process-Tools",
+      "repo": "claude-supertool",
+      "description": "Batches file, git and tracker operations into one round-trip, collapsing many reads, greps and globs into a single call for fewer output tokens and less wall time",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Digital-Process-Tools/claude-supertool/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -3219,6 +3275,34 @@
       ]
     },
     {
+      "name": "SEO Skills AI",
+      "url": "https://github.com/seoskillsai/seo-skills-ai",
+      "owner": "seoskillsai",
+      "repo": "seo-skills-ai",
+      "description": "Universal SEO skill suite and technical audit engine for Claude Code, Cursor, Codex, and other agents, with first-party Python adapters and HOL plugin-scanner CI",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/seoskillsai/seo-skills-ai/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "site-risk-check",
+      "url": "https://github.com/kobimantzur/agent-skills",
+      "owner": "kobimantzur",
+      "repo": "agent-skills",
+      "description": "Zero-dependency skill that scans a live URL for the conditions behind accessibility and privacy demand letters \u2014 trackers firing before consent, missing policies, and machine-checkable WCAG gaps \u2014 mapped to the jurisdictions the site actually sells to",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/kobimantzur/agent-skills/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "skillsaw",
       "url": "https://github.com/stbenjam/skillsaw",
       "owner": "stbenjam",
@@ -3312,6 +3396,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/aleksUIX/vastlint/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Vibe Prospecting",
+      "url": "https://github.com/explorium-ai/vibeprospecting-plugin",
+      "owner": "explorium-ai",
+      "repo": "vibeprospecting-plugin",
+      "description": "Live B2B company and contact intelligence for building lead lists, researching prospects, enriching contacts, and personalizing outreach",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/explorium-ai/vibeprospecting-plugin/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
