@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-08-31",
-  "total": 267,
+  "total": 268,
   "platforms": [
     "codex",
     "grok",
@@ -2948,6 +2948,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/pawelkwaczynski/coffee-paladin/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Coordinate Agents",
+      "url": "https://github.com/hogancv/coordinate-agents",
+      "owner": "hogancv",
+      "repo": "coordinate-agents",
+      "description": "Plugin-first multi-agent coordination tool with a local-first, recoverable Agent Bus and human-gated planning, implementation, review, and release workflows",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/hogancv/coordinate-agents/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

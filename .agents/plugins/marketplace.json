@@ -3155,6 +3155,21 @@
       "install_url": "https://raw.githubusercontent.com/pawelkwaczynski/coffee-paladin/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Coordinate Agents",
+      "displayName": "Coordinate Agents",
+      "description": "Plugin-first multi-agent coordination tool with a local-first, recoverable Agent Bus and human-gated planning, implementation, review, and release workflows",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "hogancv",
+      "repo": "coordinate-agents",
+      "url": "https://github.com/hogancv/coordinate-agents",
+      "install_url": "https://raw.githubusercontent.com/hogancv/coordinate-agents/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Cover My Repo",
       "displayName": "Cover My Repo",
       "description": "Designs three checked GitHub social preview cards with Codex or Cursor, then renders them locally with Chrome",
