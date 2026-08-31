@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-08-31",
-  "total": 251,
+  "total": 253,
   "platforms": [
     "codex",
     "grok",
@@ -3009,6 +3009,20 @@
       ]
     },
     {
+      "name": "Labtasker",
+      "url": "https://github.com/luocfprime/labtasker",
+      "owner": "luocfprime",
+      "repo": "labtasker",
+      "description": "Queue and run independent ML inference, evaluation, and experiment tasks across long-lived Python or command workers with a Claude Code plugin and cross-agent skill",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/luocfprime/labtasker/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Logic Probe",
       "url": "https://github.com/AmethystLuna/logicprobe",
       "owner": "AmethystLuna",
@@ -3130,6 +3144,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/agnusdei1207/opencode-orchestrator/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "skillsaw",
+      "url": "https://github.com/stbenjam/skillsaw",
+      "owner": "stbenjam",
+      "repo": "skillsaw",
+      "description": "A configurable linter for agent skills, plugins, and AI coding assistant context",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/stbenjam/skillsaw/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
