@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-08-30",
-  "total": 245,
+  "last_updated": "2026-08-31",
+  "total": 248,
   "platforms": [
     "codex",
     "grok",
@@ -2897,6 +2897,20 @@
       ]
     },
     {
+      "name": "Dely",
+      "url": "https://github.com/hieuphung97/dely",
+      "owner": "hieuphung97",
+      "repo": "dely",
+      "description": "Multi-harness control protocol that turns requests into approved design contracts, orchestrating isolated worker sessions for sequential implementation and independent code reviews under Orca supervision for Claude Code, Codex, Cursor, Antigravity, and other AI coding agents",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/hieuphung97/dely/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "dev-harness-kit",
       "url": "https://github.com/sh-ai-x/dev-harness-kit",
       "owner": "sh-ai-x",
@@ -2920,6 +2934,34 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/AmethystLuna/embedded-workbench/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "FlexViz",
+      "url": "https://github.com/flex-analytics/flexviz",
+      "owner": "flex-analytics",
+      "repo": "flexviz",
+      "description": "Interactive cross-filter dashboards for large datasets with a Claude Code skill for agent-driven data exploration",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/flex-analytics/flexviz/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "harness-eval",
+      "url": "https://github.com/redhat-community-ai-tools/harness-eval",
+      "owner": "redhat-community-ai-tools",
+      "repo": "harness-eval",
+      "description": "Linter tool (static analysis rules) and LLM reviewer for AI agent harness files that runs quality and security health checks, catching cross-component security chains, redundancy, and config drift, and vets individual skills before install, across Claude Code, Cursor, Codex, Copilot, Gemini, and OpenCode",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/redhat-community-ai-tools/harness-eval/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
