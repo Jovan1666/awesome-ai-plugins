@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-08-31",
-  "total": 288,
+  "last_updated": "2026-09-02",
+  "total": 304,
   "platforms": [
     "codex",
     "grok",
@@ -1155,6 +1155,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/AltByteSG/personal-data-protection-skill/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "PMC",
+      "url": "https://github.com/DuncanMain/project-memory-core",
+      "owner": "DuncanMain",
+      "repo": "project-memory-core",
+      "description": "Give Codex lasting project context in an Obsidian vault you control.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/DuncanMain/project-memory-core/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -2981,6 +2995,20 @@
       ]
     },
     {
+      "name": "AgentBridge",
+      "url": "https://github.com/raysonmeng/agent-bridge",
+      "owner": "raysonmeng",
+      "repo": "agent-bridge",
+      "description": "Local bidirectional bridge that keeps Claude Code and Codex live as peers in one session, with mid-turn injection and quota-window handoff",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/raysonmeng/agent-bridge/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Agentic Ship",
       "url": "https://github.com/moasq/agentic-ship",
       "owner": "moasq",
@@ -3247,6 +3275,34 @@
       ]
     },
     {
+      "name": "dsh-product-subagent-console",
+      "url": "https://github.com/Jokasa7/dsh-product-subagent-console",
+      "owner": "Jokasa7",
+      "repo": "dsh-product-subagent-console",
+      "description": "Designs multi-Agent plans, observes real child-session trees, compares approved tasks with runtime attempts, and prepares evidence-backed recovery inside DeepSeek Harness conversations",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Jokasa7/dsh-product-subagent-console/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "dsh-whale-musume",
+      "url": "https://github.com/Sutera-Diffusus/dsh-whale-musume",
+      "owner": "Sutera-Diffusus",
+      "repo": "dsh-whale-musume",
+      "description": "Whale-girl desktop pet for the DSH Web UI with pat-to-raise growth, work-state poses, 494 dialogue lines, 30 achievements and a built-in settings panel; local-first, zero telemetry",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Sutera-Diffusus/dsh-whale-musume/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Embedded Workbench",
       "url": "https://github.com/AmethystLuna/embedded-workbench",
       "owner": "AmethystLuna",
@@ -3256,6 +3312,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/AmethystLuna/embedded-workbench/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "FinBridge",
+      "url": "https://github.com/Jakechj/finbridge-mcp",
+      "owner": "Jakechj",
+      "repo": "finbridge-mcp",
+      "description": "Remote MCP server for Korean and US market data with filings, screeners, insider activity, and portfolio backtests",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Jakechj/finbridge-mcp/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -3303,6 +3373,90 @@
       ]
     },
     {
+      "name": "ictcontact-mcp",
+      "url": "https://github.com/ictinnovations/ictcontact-mcp",
+      "owner": "ictinnovations",
+      "repo": "ictcontact-mcp",
+      "description": "MCP server for the ICTContact contact center. Monitor outbound campaigns, with opt-in tools to start and stop them",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ictinnovations/ictcontact-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "ictcrm-mcp",
+      "url": "https://github.com/ictinnovations/ictcrm-mcp",
+      "owner": "ictinnovations",
+      "repo": "ictcrm-mcp",
+      "description": "MCP server for the ICTCRM contact database. Read contact groups, with opt-in tools to create contacts and add them to campaigns",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ictinnovations/ictcrm-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "ictdialer-mcp",
+      "url": "https://github.com/ictinnovations/ictdialer-mcp",
+      "owner": "ictinnovations",
+      "repo": "ictdialer-mcp",
+      "description": "MCP server for the ICTDialer cloud auto-dialer. Monitor outbound campaigns, with opt-in start and stop controls",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ictinnovations/ictdialer-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "ictexam-mcp",
+      "url": "https://github.com/ictinnovations/ictexam-mcp",
+      "owner": "ictinnovations",
+      "repo": "ictexam-mcp",
+      "description": "MCP server for reading exams, gradebooks, and item analysis, with opt-in tools for AI question-paper parsing and exam publishing",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ictinnovations/ictexam-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "ictfax-mcp",
+      "url": "https://github.com/ictinnovations/ictfax-mcp",
+      "owner": "ictinnovations",
+      "repo": "ictfax-mcp",
+      "description": "MCP server for ICTFax. List and track fax transmissions, with opt-in tools to upload documents and send faxes",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ictinnovations/ictfax-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "ictpbx-mcp",
+      "url": "https://github.com/ictinnovations/ictpbx-mcp",
+      "owner": "ictinnovations",
+      "repo": "ictpbx-mcp",
+      "description": "Read-only MCP server for ICTPBX. Inspect extensions, DID numbers, SIP trunks, tenants, and live PBX statistics",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ictinnovations/ictpbx-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "iris-agentic-dev",
       "url": "https://github.com/intersystems-community/iris-agentic-dev",
       "owner": "intersystems-community",
@@ -3340,6 +3494,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/dat999zx/knowl/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Knowledge Manager",
+      "url": "https://github.com/treylom/knowledge-manager",
+      "owner": "treylom",
+      "repo": "knowledge-manager",
+      "description": "Extracts and organizes content from web pages, files, Notion, and images into an Obsidian knowledge vault with GraphRAG-backed search, exporting to Notion, Markdown, and PDF",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/treylom/knowledge-manager/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -3541,6 +3709,20 @@
       ]
     },
     {
+      "name": "pbx-mcp",
+      "url": "https://github.com/ictinnovations/pbx-mcp",
+      "owner": "ictinnovations",
+      "repo": "pbx-mcp",
+      "description": "MCP server for Asterisk (AMI) and FreeSWITCH (ESL). Inspect channels, SIP registrations, trunks, and dialplan on a live PBX",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ictinnovations/pbx-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "pstack for Codex",
       "url": "https://github.com/Aqua-123/pstack-for-codex",
       "owner": "Aqua-123",
@@ -3667,6 +3849,34 @@
       ]
     },
     {
+      "name": "taskflow",
+      "url": "https://github.com/heggria/taskflow",
+      "owner": "heggria",
+      "repo": "taskflow",
+      "description": "Declarative, verifiable DAG orchestration for Grok Build subagents \u2014 fan-out, gates, loops, tournaments, approvals, and resumable runs via MCP tools, with intermediate transcripts kept out of context",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/heggria/taskflow/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "TermaGITchi",
+      "url": "https://github.com/TevvvB/termagitchi",
+      "owner": "TevvvB",
+      "repo": "termagitchi",
+      "description": "Stable per-worktree identity for parallel Claude Code, Codex, and tmux sessions; mood reads repository hygiene, not what the agent is doing",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/TevvvB/termagitchi/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "trace-mcp",
       "url": "https://github.com/nikolai-vysotskyi/trace-mcp",
       "owner": "nikolai-vysotskyi",
@@ -3718,6 +3928,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/sydasif/web-search-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "AgentCall",
+      "url": "https://github.com/pattern-ai-labs/agentcall",
+      "owner": "pattern-ai-labs",
+      "repo": "agentcall",
+      "description": "Lets Claude Code, Codex, Cursor, Gemini CLI, and 30+ other agents join Google Meet, Zoom, or Microsoft Teams as a speaking, listening, presenting participant with text-to-speech, live transcripts, screenshare, and an avatar camera feed",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/pattern-ai-labs/agentcall/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
