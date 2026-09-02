@@ -3875,6 +3875,21 @@
       "install_url": "https://raw.githubusercontent.com/Beledarian/mcp-local-memory/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "mcp-zuul",
+      "displayName": "mcp-zuul",
+      "description": "MCP server for Zuul CI with 48 tools for build analysis, failure diagnosis, log search, flaky job detection, pipeline status, and live console streaming",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "imatza-rh",
+      "repo": "mcp-zuul",
+      "url": "https://github.com/imatza-rh/mcp-zuul",
+      "install_url": "https://raw.githubusercontent.com/imatza-rh/mcp-zuul/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "MegaLinter",
       "displayName": "MegaLinter",
       "description": "Set up, run and fix MegaLinter on any repository, covering 100+ linters and formatters for 69+ languages and 23+ formats, in CI or locally, with per-linter fix guides for the agent",
@@ -3963,6 +3978,21 @@
       "repo": "opencode-orchestrator",
       "url": "https://github.com/agnusdei1207/opencode-orchestrator",
       "install_url": "https://raw.githubusercontent.com/agnusdei1207/opencode-orchestrator/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "OpenCode Power Pack",
+      "displayName": "OpenCode Power Pack",
+      "description": "Fifty-four portable development and security workflows for Codex, Claude Code, OpenCode, and Pi, with opt-in native sandbox profiles for safer command execution",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "waybarrios",
+      "repo": "opencode-power-pack",
+      "url": "https://github.com/waybarrios/opencode-power-pack",
+      "install_url": "https://raw.githubusercontent.com/waybarrios/opencode-power-pack/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "pbx-mcp",

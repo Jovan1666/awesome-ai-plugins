@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-02",
-  "total": 304,
+  "total": 306,
   "platforms": [
     "codex",
     "grok",
@@ -3625,6 +3625,20 @@
       ]
     },
     {
+      "name": "mcp-zuul",
+      "url": "https://github.com/imatza-rh/mcp-zuul",
+      "owner": "imatza-rh",
+      "repo": "mcp-zuul",
+      "description": "MCP server for Zuul CI with 48 tools for build analysis, failure diagnosis, log search, flaky job detection, pipeline status, and live console streaming",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/imatza-rh/mcp-zuul/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "MegaLinter",
       "url": "https://github.com/oxsecurity/megalinter",
       "owner": "oxsecurity",
@@ -3704,6 +3718,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/agnusdei1207/opencode-orchestrator/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "OpenCode Power Pack",
+      "url": "https://github.com/waybarrios/opencode-power-pack",
+      "owner": "waybarrios",
+      "repo": "opencode-power-pack",
+      "description": "Fifty-four portable development and security workflows for Codex, Claude Code, OpenCode, and Pi, with opt-in native sandbox profiles for safer command execution",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/waybarrios/opencode-power-pack/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
