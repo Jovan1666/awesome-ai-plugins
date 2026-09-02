@@ -170,6 +170,7 @@ Third-party plugins built by the community. [PRs welcome](#contributing)!
 - [coffee-paladin](https://github.com/pawelkwaczynski/coffee-paladin) - Thermal guard for Apple Silicon: pauses hot jobs before the Mac throttles and gates Claude Code, Codex and Gemini CLI before heavy commands.
 - [Contexo](https://github.com/maheedhar132/Contexo) - Portable AI context and cost control across every AI coding harness.
 - [Context Guard](https://github.com/GreenLv/codex-context-guard) - Preserves authoritative requirements and verification evidence across long-running Codex tasks and context compaction.
+- [Contorium](https://github.com/ContoriumLabs/contorium) - Runtime continuity layer for AI coding agents, providing persistent workspace state, Git-aware sessions, and MCP-based context retrieval across tools and agent runs.
 - [Coordinate Agents](https://github.com/hogancv/coordinate-agents) - Plugin-first multi-agent coordination tool with a local-first, recoverable Agent Bus and human-gated planning, implementation, review, and release workflows.
 - [Cover My Repo](https://github.com/sjh9714/cover-my-repo) - Designs three checked GitHub social preview cards with Codex or Cursor, then renders them locally with Chrome.
 - [debt-ops](https://github.com/bcanfield/agentic-tech-debt) - Catches AI-introduced tech debt at write-time: hooks log every deferral to a registry in your repo and a review skill ranks paydown by file churn.
