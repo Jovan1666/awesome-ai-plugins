@@ -3410,6 +3410,21 @@
       "install_url": "https://raw.githubusercontent.com/kevin592/codex-full-stack-workflow/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "codex-profiles",
+      "displayName": "codex-profiles",
+      "description": "Switch Codex CLI and Desktop accounts with isolated `CODEX_HOME` profile directories instead of copying token files",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Ducksss",
+      "repo": "codex-profiles",
+      "url": "https://github.com/Ducksss/codex-profiles",
+      "install_url": "https://raw.githubusercontent.com/Ducksss/codex-profiles/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "coffee-paladin",
       "displayName": "coffee-paladin",
       "description": "Thermal guard for Apple Silicon: pauses hot jobs before the Mac throttles and gates Claude Code, Codex and Gemini CLI before heavy commands",
@@ -3438,6 +3453,21 @@
       "repo": "Contexo",
       "url": "https://github.com/maheedhar132/Contexo",
       "install_url": "https://raw.githubusercontent.com/maheedhar132/Contexo/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Contorium",
+      "displayName": "Contorium",
+      "description": "Runtime continuity layer for AI coding agents, providing persistent workspace state, Git-aware sessions, and MCP-based context retrieval across tools and agent runs",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ContoriumLabs",
+      "repo": "contorium",
+      "url": "https://github.com/ContoriumLabs/contorium",
+      "install_url": "https://raw.githubusercontent.com/ContoriumLabs/contorium/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Coordinate Agents",
@@ -3545,6 +3575,21 @@
       "install_url": "https://raw.githubusercontent.com/AmethystLuna/embedded-workbench/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Encore Lite",
+      "displayName": "Encore Lite",
+      "description": "Free end-of-week surprise builder for Claude Code and Codex - the night before your weekly usage cap resets, it reads your recent work and builds one bonus deliverable, delivered as a reveal with an optional weekly scheduled run",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "keegan-dotcom",
+      "repo": "encore-lite",
+      "url": "https://github.com/keegan-dotcom/encore-lite",
+      "install_url": "https://raw.githubusercontent.com/keegan-dotcom/encore-lite/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "FinBridge",
       "displayName": "FinBridge",
       "description": "Remote MCP server for Korean and US market data with filings, screeners, insider activity, and portfolio backtests",
@@ -3588,6 +3633,36 @@
       "repo": "globalping-mcp-server",
       "url": "https://github.com/jsdelivr/globalping-mcp-server",
       "install_url": "https://raw.githubusercontent.com/jsdelivr/globalping-mcp-server/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "go-ultimate",
+      "displayName": "go-ultimate",
+      "description": "Opinionated Go skill that routes any Go task (CLI, library, backend service, MCP server, AI agent) to the right architecture, conventions, and review checklist across Claude Code, Codex, Cursor, Grok Build, Copilot CLI, and OpenCode",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Djarvur",
+      "repo": "go-ultimate",
+      "url": "https://github.com/Djarvur/go-ultimate",
+      "install_url": "https://raw.githubusercontent.com/Djarvur/go-ultimate/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Grafana Dashboards-as-Code",
+      "displayName": "Grafana Dashboards-as-Code",
+      "description": "Typed Grafana dashboard and panel builders, structural linting, semantic dashboard diff, and scaffold/audit/review recipes exposed over MCP",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "jburgess",
+      "repo": "mcp-grafana",
+      "url": "https://github.com/jburgess/mcp-grafana",
+      "install_url": "https://raw.githubusercontent.com/jburgess/mcp-grafana/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "harness-eval",

@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-02",
-  "total": 306,
+  "total": 311,
   "platforms": [
     "codex",
     "grok",
@@ -3191,6 +3191,20 @@
       ]
     },
     {
+      "name": "codex-profiles",
+      "url": "https://github.com/Ducksss/codex-profiles",
+      "owner": "Ducksss",
+      "repo": "codex-profiles",
+      "description": "Switch Codex CLI and Desktop accounts with isolated `CODEX_HOME` profile directories instead of copying token files",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Ducksss/codex-profiles/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "coffee-paladin",
       "url": "https://github.com/pawelkwaczynski/coffee-paladin",
       "owner": "pawelkwaczynski",
@@ -3214,6 +3228,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/maheedhar132/Contexo/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Contorium",
+      "url": "https://github.com/ContoriumLabs/contorium",
+      "owner": "ContoriumLabs",
+      "repo": "contorium",
+      "description": "Runtime continuity layer for AI coding agents, providing persistent workspace state, Git-aware sessions, and MCP-based context retrieval across tools and agent runs",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ContoriumLabs/contorium/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -3317,6 +3345,20 @@
       ]
     },
     {
+      "name": "Encore Lite",
+      "url": "https://github.com/keegan-dotcom/encore-lite",
+      "owner": "keegan-dotcom",
+      "repo": "encore-lite",
+      "description": "Free end-of-week surprise builder for Claude Code and Codex - the night before your weekly usage cap resets, it reads your recent work and builds one bonus deliverable, delivered as a reveal with an optional weekly scheduled run",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/keegan-dotcom/encore-lite/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "FinBridge",
       "url": "https://github.com/Jakechj/finbridge-mcp",
       "owner": "Jakechj",
@@ -3354,6 +3396,34 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/jsdelivr/globalping-mcp-server/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "go-ultimate",
+      "url": "https://github.com/Djarvur/go-ultimate",
+      "owner": "Djarvur",
+      "repo": "go-ultimate",
+      "description": "Opinionated Go skill that routes any Go task (CLI, library, backend service, MCP server, AI agent) to the right architecture, conventions, and review checklist across Claude Code, Codex, Cursor, Grok Build, Copilot CLI, and OpenCode",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Djarvur/go-ultimate/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Grafana Dashboards-as-Code",
+      "url": "https://github.com/jburgess/mcp-grafana",
+      "owner": "jburgess",
+      "repo": "mcp-grafana",
+      "description": "Typed Grafana dashboard and panel builders, structural linting, semantic dashboard diff, and scaffold/audit/review recipes exposed over MCP",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/jburgess/mcp-grafana/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
