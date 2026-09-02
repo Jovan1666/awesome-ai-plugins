@@ -1310,6 +1310,21 @@
       "install_url": "https://raw.githubusercontent.com/mimfort/rag_for_git/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Red-Green Proof",
+      "displayName": "Red-Green Proof",
+      "description": "Prove suspected bugs with a red-green-red test loop: verify the cause, watch the test fail, apply the fix, and confirm the test fails again when the fix is reverted.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "RooAGI",
+      "repo": "red-green-proof",
+      "url": "https://github.com/RooAGI/red-green-proof",
+      "install_url": "https://raw.githubusercontent.com/RooAGI/red-green-proof/HEAD/plugins/red-green-proof/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Reviewable HTML Workbench",
       "displayName": "Reviewable HTML Workbench",
       "description": "Generate reviewable HTML documents, serve previews, collect inline review comments, and feed review outcomes back into agent workflows.",
@@ -2825,6 +2840,21 @@
       "install_url": "https://raw.githubusercontent.com/ScrapeGraphAI/just-scrape/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "SEO Dungeon",
+      "displayName": "SEO Dungeon",
+      "description": "Gamified local SEO audits that turn website issues into 16-bit dungeon battles for Codex, Claude, and Gemini CLI workflows.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "avalonreset",
+      "repo": "seo-dungeon",
+      "url": "https://github.com/avalonreset/seo-dungeon",
+      "install_url": "https://raw.githubusercontent.com/avalonreset/seo-dungeon/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Shots",
       "displayName": "Shots",
       "description": "Agent-native App Store screenshot, app icon, ASO, and localization workflows through the hosted Shots MCP server.",
@@ -3183,6 +3213,21 @@
       "repo": "2718lab-devkit",
       "url": "https://github.com/2718labs/2718lab-devkit",
       "install_url": "https://raw.githubusercontent.com/2718labs/2718lab-devkit/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Agent Guild",
+      "displayName": "Agent Guild",
+      "description": "Vet autonomous agents before delegating work or money, verify portable passports, use escrow, and record signed outcomes across Claude Code, Codex, MCP, A2A, and OpenClaw",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "AgentTanuki",
+      "repo": "agent-guild-plugin",
+      "url": "https://github.com/AgentTanuki/agent-guild-plugin",
+      "install_url": "https://raw.githubusercontent.com/AgentTanuki/agent-guild-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "agent-talk",
@@ -4653,21 +4698,6 @@
       "repo": "pdf-monster",
       "url": "https://github.com/jbaehova/pdf-monster",
       "install_url": "https://raw.githubusercontent.com/jbaehova/pdf-monster/HEAD/.codex-plugin/plugin.json"
-    },
-    {
-      "name": "SEO Dungeon",
-      "displayName": "SEO Dungeon",
-      "description": "Gamified local SEO audits that turn website issues into 16-bit dungeon battles for Codex, Claude, and Gemini CLI workflows",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "avalonreset",
-      "repo": "seo-dungeon",
-      "url": "https://github.com/avalonreset/seo-dungeon",
-      "install_url": "https://raw.githubusercontent.com/avalonreset/seo-dungeon/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "site-spec",
