@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-02",
-  "total": 311,
+  "total": 319,
   "platforms": [
     "codex",
     "grok",
@@ -1225,6 +1225,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/mimfort/rag_for_git/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Red-Green Proof",
+      "url": "https://github.com/RooAGI/red-green-proof",
+      "owner": "RooAGI",
+      "repo": "red-green-proof",
+      "description": "Prove suspected bugs with a red-green-red test loop: verify the cause, watch the test fail, apply the fix, and confirm the test fails again when the fix is reverted.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/RooAGI/red-green-proof/HEAD/plugins/red-green-proof/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -2645,6 +2659,20 @@
       ]
     },
     {
+      "name": "SEO Dungeon",
+      "url": "https://github.com/avalonreset/seo-dungeon",
+      "owner": "avalonreset",
+      "repo": "seo-dungeon",
+      "description": "Gamified local SEO audits that turn website issues into 16-bit dungeon battles for Codex, Claude, and Gemini CLI workflows.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/avalonreset/seo-dungeon/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Shots",
       "url": "https://github.com/hitSlop/shots",
       "owner": "hitSlop",
@@ -3102,6 +3130,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/QoderAI/better-harness/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Browser Harness",
+      "url": "https://github.com/browser-use/browser-harness",
+      "owner": "browser-use",
+      "repo": "browser-harness",
+      "description": "MCP server and agent skill that connect an AI agent to a real browser through one editable CDP WebSocket",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/browser-use/browser-harness/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -3681,6 +3723,20 @@
       ]
     },
     {
+      "name": "MCP Video Analyzer",
+      "url": "https://github.com/guimatheus92/mcp-video-analyzer",
+      "owner": "guimatheus92",
+      "repo": "mcp-video-analyzer",
+      "description": "Gives agents video input: transcript, key frames, OCR text, metadata, and an annotated timeline from Loom, YouTube, Instagram, TikTok, direct URLs, or a local file, over MCP, a one-shot CLI, or the /video skill",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/guimatheus92/mcp-video-analyzer/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "mcp-local-memory",
       "url": "https://github.com/Beledarian/mcp-local-memory",
       "owner": "Beledarian",
@@ -3765,6 +3821,34 @@
       ]
     },
     {
+      "name": "Metis",
+      "url": "https://github.com/gkrtjd99/Metis",
+      "owner": "gkrtjd99",
+      "repo": "Metis",
+      "description": "Repository-level engineering orchestrator that delegates bounded discovery, planning, implementation, review, and verification to fresh subagents, isolates mutable tasks in Git worktrees with declared path ownership, and requires evidence-gated completion",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/gkrtjd99/Metis/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Mycelium",
+      "url": "https://github.com/arjunrajlaboratory/mycelium",
+      "owner": "arjunrajlaboratory",
+      "repo": "mycelium",
+      "description": "Gives Claude Code and Codex analytical repositories durable memory for decisions, findings, provenance, reusable conventions, and analysis workflows",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/arjunrajlaboratory/mycelium/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "NeatContext",
       "url": "https://github.com/XTSoftwareLabs/neatcontext-plugins",
       "owner": "XTSoftwareLabs",
@@ -3774,6 +3858,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/XTSoftwareLabs/neatcontext-plugins/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Open PR",
+      "url": "https://github.com/TOMOSIA-VIETNAM/open-pr",
+      "owner": "TOMOSIA-VIETNAM",
+      "repo": "open-pr",
+      "description": "AI code review that lands on the pull request itself across GitHub, GitLab, and Bitbucket, learning each repo's conventions to post one review, one fix commit, and in-thread replies from Claude Code, Cursor, Codex, Gemini CLI, or Antigravity",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/TOMOSIA-VIETNAM/open-pr/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -3816,6 +3914,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/ictinnovations/pbx-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Planning with Files",
+      "url": "https://github.com/OthmanAdi/planning-with-files",
+      "owner": "OthmanAdi",
+      "repo": "planning-with-files",
+      "description": "Persistent file-based planning for Claude Code, Codex, and other AI coding agents, preserving task plans, findings, and progress across context loss, crashes, and compaction",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/OthmanAdi/planning-with-files/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -3872,6 +3984,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/seoskillsai/seo-skills-ai/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "silica",
+      "url": "https://github.com/kiycoh/silica-harness",
+      "owner": "kiycoh",
+      "repo": "silica-harness",
+      "description": "Serves an Obsidian vault as the agent's memory over MCP: semantic and literal recall, gated note writing, and hooks that open each session already knowing its vault",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/kiycoh/silica-harness/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -4222,20 +4348,6 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/jbaehova/pdf-monster/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "SEO Dungeon",
-      "url": "https://github.com/avalonreset/seo-dungeon",
-      "owner": "avalonreset",
-      "repo": "seo-dungeon",
-      "description": "Gamified local SEO audits that turn website issues into 16-bit dungeon battles for Codex, Claude, and Gemini CLI workflows",
-      "category": "Tools & Integrations",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/avalonreset/seo-dungeon/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
