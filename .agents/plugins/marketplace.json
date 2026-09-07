@@ -2045,6 +2045,21 @@
       "install_url": "https://raw.githubusercontent.com/avivsinai/bitbucket-cli/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "BurpSuite MCP Bridge",
+      "displayName": "BurpSuite MCP Bridge",
+      "description": "Bridge Burp Suite traffic, replay, rewrite rules, and evidence export into Codex through MCP for WSL, Windows, and macOS workflows.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "6jeffr3y",
+      "repo": "burpsuite-mcp-bridge",
+      "url": "https://github.com/6jeffr3y/burpsuite-mcp-bridge",
+      "install_url": "https://raw.githubusercontent.com/6jeffr3y/burpsuite-mcp-bridge/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Call-E",
       "displayName": "Call-E",
       "description": "Plan, run, and inspect Call-E phone call workflows from Codex through the calle CLI.",
@@ -2283,6 +2298,23 @@
       "repo": "dataproduct-builder-dbt",
       "url": "https://github.com/entropy-data/dataproduct-builder-dbt",
       "install_url": "https://raw.githubusercontent.com/entropy-data/dataproduct-builder-dbt/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "deja",
+      "displayName": "deja",
+      "description": "Search the coding sessions already on your disk \u2014 Codex, Claude Code, Cursor, opencode and nineteen more \u2014 including work from before it was installed, indexed locally with no model in the loop.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex",
+        "kimi",
+        "deepseek-harness"
+      ],
+      "owner": "vshulcz",
+      "repo": "deja-vu",
+      "url": "https://github.com/vshulcz/deja-vu",
+      "install_url": "https://raw.githubusercontent.com/vshulcz/deja-vu/HEAD/codex-plugin/.codex-plugin/plugin.json"
     },
     {
       "name": "Digital Marketing Pro",
@@ -5074,22 +5106,6 @@
       "repo": "Grok-Imagine-Cinematic-Studio",
       "url": "https://github.com/FineComputer14451/Grok-Imagine-Cinematic-Studio",
       "install_url": "https://raw.githubusercontent.com/FineComputer14451/Grok-Imagine-Cinematic-Studio/HEAD/.grok-plugin/plugin.json"
-    },
-    {
-      "name": "deja",
-      "displayName": "deja",
-      "description": "Recalls the sessions the other coding agents on the machine already wrote to disk, including work from before it was installed, through MCP tools, a `/deja:recall` command and recall on every prompt",
-      "category": "Kimi Plugins",
-      "source": "awesome-ai-plugins",
-      "platform": "kimi",
-      "ecosystems": [
-        "kimi",
-        "deepseek-harness"
-      ],
-      "owner": "vshulcz",
-      "repo": "deja-vu",
-      "url": "https://github.com/vshulcz/deja-vu",
-      "install_url": "https://raw.githubusercontent.com/vshulcz/deja-vu/HEAD/kimi.plugin.json"
     },
     {
       "name": "dsh-config-manager",
