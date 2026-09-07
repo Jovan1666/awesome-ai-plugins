@@ -4477,6 +4477,21 @@
       "install_url": "https://raw.githubusercontent.com/Kyne0328/rel-ai-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Repo Audit",
+      "displayName": "Repo Audit",
+      "description": "Agent Skill that checks whether a repository's README matches its code and whether stated rules are actually enforced, with an opt-in open-source launch workflow",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "conorbronsdon",
+      "repo": "repo-audit",
+      "url": "https://github.com/conorbronsdon/repo-audit",
+      "install_url": "https://raw.githubusercontent.com/conorbronsdon/repo-audit/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Rootly MCP Server",
       "displayName": "Rootly MCP Server",
       "description": "Manage and resolve production incidents from MCP-compatible AI assistants through dynamically generated, access-controlled Rootly API tools",
