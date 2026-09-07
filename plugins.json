@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-07",
-  "total": 342,
+  "total": 343,
   "platforms": [
     "codex",
     "grok",
@@ -632,7 +632,7 @@
       "url": "https://github.com/martinille/codex-tasklist",
       "owner": "martinille",
       "repo": "codex-tasklist",
-      "description": "A persistent per-session task list for Codex CLI with a live, scrollable panel in WezTerm.",
+      "description": "A persistent per-session task list for Codex CLI with a live, scrollable panel across terminals through native integrations or a launcher with tmux fallback.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/martinille/codex-tasklist/HEAD/plugins/codex-tasklist/.codex-plugin/plugin.json",
@@ -4742,6 +4742,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/team-telnyx/ai/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "ThoughtProof MCP",
+      "url": "https://github.com/ThoughtProof/thoughtproof-mcp",
+      "owner": "ThoughtProof",
+      "repo": "thoughtproof-mcp",
+      "description": "Local MCP pre-action verification for agents: mandate + proposed action \u2192 ALLOW/BLOCK/UNCERTAIN; execute only on ALLOW",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ThoughtProof/thoughtproof-mcp/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
