@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-07",
-  "total": 336,
+  "total": 337,
   "platforms": [
     "codex",
     "grok",
@@ -4208,6 +4208,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/JasonColapietro/suede-creator-skills/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "super-token-saver",
+      "url": "https://github.com/ww-w-ai/super-token-saver",
+      "owner": "ww-w-ai",
+      "repo": "super-token-saver",
+      "description": "Cuts Claude Code and Codex token spend with prompt-cache expiry warnings, zero-cost session restore after compaction, and per-model usage and cost reports",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ww-w-ai/super-token-saver/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

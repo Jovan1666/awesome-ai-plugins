@@ -4505,6 +4505,21 @@
       "install_url": "https://raw.githubusercontent.com/JasonColapietro/suede-creator-skills/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "super-token-saver",
+      "displayName": "super-token-saver",
+      "description": "Cuts Claude Code and Codex token spend with prompt-cache expiry warnings, zero-cost session restore after compaction, and per-model usage and cost reports",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ww-w-ai",
+      "repo": "super-token-saver",
+      "url": "https://github.com/ww-w-ai/super-token-saver",
+      "install_url": "https://raw.githubusercontent.com/ww-w-ai/super-token-saver/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Supergraph",
       "displayName": "Supergraph",
       "description": "Engineering workflow system for AI coding agents that enforces planning, TDD, verification, review, and architecture-aware decisions with local codebase graph intelligence across Claude Code, Codex CLI, Antigravity, and OpenCode,",
