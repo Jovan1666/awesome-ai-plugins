@@ -82,7 +82,7 @@
     {
       "name": "Agent Guard",
       "displayName": "Agent Guard",
-      "description": "Real-time secret-leak guardrails for AI coding agents (Claude Code, Codex), Git hooks, and CI.",
+      "description": "Local-by-default, no-telemetry hooks block or mask secret leaks in Claude Code and Codex, with opt-in PII filtering and Git/CI backstops.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "platform": "codex",
@@ -663,6 +663,21 @@
       "repo": "codex-skin-packs",
       "url": "https://github.com/ChannelerH/codex-skin-packs",
       "install_url": "https://raw.githubusercontent.com/ChannelerH/codex-skin-packs/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Codex Tasklist",
+      "displayName": "Codex Tasklist",
+      "description": "A persistent per-session task list for Codex CLI with a live, scrollable panel in WezTerm.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "martinille",
+      "repo": "codex-tasklist",
+      "url": "https://github.com/martinille/codex-tasklist",
+      "install_url": "https://raw.githubusercontent.com/martinille/codex-tasklist/HEAD/plugins/codex-tasklist/.codex-plugin/plugin.json"
     },
     {
       "name": "Codex TUI Proof",
@@ -1462,7 +1477,7 @@
     {
       "name": "spec-superflow",
       "displayName": "spec-superflow",
-      "description": "Spec-first workflow with nine skills, lightweight Quick / Hotfix / Tweak / Full paths, bounded three-attempt repair loops, auditable recovery commands, hardened delta-spec sync, and guarded review gates.",
+      "description": "Spec-first workflow with nine skills, lightweight Quick / Hotfix / Tweak / Full paths, bounded three-attempt repair loops with auditable adjudication recovery, hardened delta-spec sync, and guarded review gates.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "platform": "codex",
@@ -1620,9 +1635,9 @@
         "codex"
       ],
       "owner": "reshuibuduo",
-      "repo": "TMCRA-Codex-Memory",
-      "url": "https://github.com/reshuibuduo/TMCRA-Codex-Memory",
-      "install_url": "https://raw.githubusercontent.com/reshuibuduo/TMCRA-Codex-Memory/HEAD/.codex-plugin/plugin.json"
+      "repo": "tmcra-plugin-codex",
+      "url": "https://github.com/reshuibuduo/tmcra-plugin-codex",
+      "install_url": "https://raw.githubusercontent.com/reshuibuduo/tmcra-plugin-codex/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "TNT House Risk-Data API",
@@ -2073,6 +2088,21 @@
       "repo": "carsxe-codex-plugin",
       "url": "https://github.com/carsxe/carsxe-codex-plugin",
       "install_url": "https://raw.githubusercontent.com/carsxe/carsxe-codex-plugin/HEAD/plugins/carsxe/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "CentricMem",
+      "displayName": "CentricMem",
+      "description": "Hosted librarian for agent Markdown memory via host MCP.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "zeyu-j",
+      "repo": "centricmem-skill",
+      "url": "https://github.com/zeyu-j/centricmem-skill",
+      "install_url": "https://raw.githubusercontent.com/zeyu-j/centricmem-skill/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Chrome DevTools",
@@ -2707,7 +2737,7 @@
     {
       "name": "plori",
       "displayName": "plori",
-      "description": "Create and drive plori cloud agents (each an AI agent on its own cloud computer) over plori's remote MCP server, with OAuth auto-discovery.",
+      "description": "Create and drive plori AI agents in persistent cloud environments over remote MCP, with OAuth auto-discovery and a bundled Agent Skill.",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "platform": "codex",
@@ -3108,6 +3138,21 @@
       "repo": "wakewire",
       "url": "https://github.com/glenncalleja/wakewire",
       "install_url": "https://raw.githubusercontent.com/glenncalleja/wakewire/HEAD/plugin/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "WaveSpeed",
+      "displayName": "WaveSpeed",
+      "description": "Generate and edit AI images, video, audio, and 3D on the WaveSpeed platform with a bundled MCP server and CLI skill, including live catalog search, local-file upload, and price quotes before running.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "WaveSpeedAI",
+      "repo": "codex-plugin-wavespeed-cli",
+      "url": "https://github.com/WaveSpeedAI/codex-plugin-wavespeed-cli",
+      "install_url": "https://raw.githubusercontent.com/WaveSpeedAI/codex-plugin-wavespeed-cli/HEAD/plugins/wavespeed-cli/.codex-plugin/plugin.json"
     },
     {
       "name": "X (Twitter) Skills",
