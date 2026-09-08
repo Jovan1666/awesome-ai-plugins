@@ -4612,6 +4612,21 @@
       "install_url": "https://raw.githubusercontent.com/martinholovsky/SOTA-skills/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "ssot-check",
+      "displayName": "ssot-check",
+      "description": "Agent Skill and dependency-free Python CLI that discovers repeated facts in documentation and checks declared copies against canonical values",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "conorbronsdon",
+      "repo": "ssot-check",
+      "url": "https://github.com/conorbronsdon/ssot-check",
+      "install_url": "https://raw.githubusercontent.com/conorbronsdon/ssot-check/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Suede Creator Skills",
       "displayName": "Suede Creator Skills",
       "description": "An open-source Agent Skills pack for Claude Code and Codex covering multi-agent workflows, code review, design, copy, SEO, app shipping, creator-rights workflows, and local read-only MCP discovery",

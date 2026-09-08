@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-07",
-  "total": 346,
+  "total": 347,
   "platforms": [
     "codex",
     "grok",
@@ -4307,6 +4307,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/martinholovsky/SOTA-skills/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "ssot-check",
+      "url": "https://github.com/conorbronsdon/ssot-check",
+      "owner": "conorbronsdon",
+      "repo": "ssot-check",
+      "description": "Agent Skill and dependency-free Python CLI that discovers repeated facts in documentation and checks declared copies against canonical values",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/conorbronsdon/ssot-check/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
