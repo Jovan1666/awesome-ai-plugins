@@ -3727,6 +3727,21 @@
       "install_url": "https://raw.githubusercontent.com/hieuphung97/dely/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Demo GIF",
+      "displayName": "Demo GIF",
+      "description": "Agent Skill that scripts, renders, optimizes, and embeds reproducible demo GIFs for CLI, TUI, web, and library projects using VHS or Playwright plus ffmpeg",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "conorbronsdon",
+      "repo": "demo-gif-skill",
+      "url": "https://github.com/conorbronsdon/demo-gif-skill",
+      "install_url": "https://raw.githubusercontent.com/conorbronsdon/demo-gif-skill/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "dev-harness-kit",
       "displayName": "dev-harness-kit",
       "description": "Enforced development workflow skills for Codex and Claude Code covering planning, TDD, debugging, review, security, CI, and release",
