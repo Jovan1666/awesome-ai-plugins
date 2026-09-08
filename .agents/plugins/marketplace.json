@@ -1432,7 +1432,7 @@
     {
       "name": "Simple Man",
       "displayName": "Simple Man",
-      "description": "High-compression communication mode for Codex agents that removes filler while preserving search, validation, and implementation effort.",
+      "description": "Strips praise, recaps and filler from agent answers while keeping every fact you act on \u2014 findings carry location and one-line fix, refusals carry the safe procedure, tutorials stay long-form \u2014 benchmarked on 2,479 preregistered live calls, 266 of them real Claude Code sessions, with all raw records committed.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "platform": "codex",
