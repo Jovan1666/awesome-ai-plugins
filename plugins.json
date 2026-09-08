@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-08",
-  "total": 347,
+  "total": 348,
   "platforms": [
     "codex",
     "grok",
@@ -3607,6 +3607,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/etr/groundwork/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "harmonyos-skills",
+      "url": "https://github.com/liasica/harmonyos-skills",
+      "owner": "liasica",
+      "repo": "harmonyos-skills",
+      "description": "Offline mirror of 16,800+ HarmonyOS NEXT official docs packaged as a Codex / Claude Code skill and MCP server, so AI coding assistants answer ArkTS / ArkUI / API questions with cited sources",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/liasica/harmonyos-skills/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
